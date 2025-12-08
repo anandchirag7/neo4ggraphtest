@@ -1,0 +1,543 @@
+{
+  "doc_id": "7m",
+  "source_file": "backend\\uploads\\7m\\7m.pdf",
+  "assets_dir": "backend\\uploads\\7m\\assets",
+  "num_pages": 4,
+  "document_natural_language_context": "**TXC 7M Series MHz Crystal – Quick Reference**\n\n- **Product family:** 7M series MHz crystal oscillators (Rev 1.09) – RoHS‑compliant, lead‑free.  \n- **Frequency coverage:** 10 MHz – 114 MHz (fundamental) with selectable 3rd overtone options.  \n- **Load‑capacitance values (C​L):** 6 pF, 7 pF, 8 pF, 9 pF, 10 pF, 12 pF, 16 pF, 18 pF, 20 pF.  \n- **Frequency‑tolerance grades (at 25 °C):**  \n  - **A:** ±30 ppm  \n  - **D:** ±20 ppm  \n  - **E:** ±10 ppm  \n- **Frequency‑stability over temperature (F​stab):**  \n  - **A, H:** ±30 ppm (‑20 °C ~ +70 °C or ‑40 °C ~ +85 °C)  \n  - **D, I:** ±20 ppm (‑20 °C ~ +70 °C or ‑40 °C ~ +85 °C)  \n  - **E, J:** ±10 ppm (‑20 °C ~ +70 °C)  \n  - **K:** ±60 ppm (‑40 °C ~ +125 °C)  \n- **Operating temperature range (T​OTR):** ‑20 °C ~ +70 °C (standard); extended to ‑40 °C ~ +125 °C for high‑temperature grades.  \n- **Aging (first year, 25 °C ± 3 °C):** ≤ ±3 ppm (low‑aging crystals available on request, ±1 ppm).  \n- **Motional resistance (ESR):**  \n  - Fundamental: 60 Ω – 150 Ω depending on frequency band.  \n  - 3rd overtone: up to 80 Ω.  \n- **Drive level (DL):** 1 µW – 200 µW (typical 100 µW).  \n- **Shunt capacitance (C0):** ≤ 3 pF.  \n- **Package:** Ceramic SMD, 3.2 × 2.5 × 0.7 mm (L × W × H).  \n- **Packaging method:** Tape & Reel (T).  \n- **Reflow profile (°C):** 260 ± 10 (peak, 10 s) → 220 ± 10 (solder melt, 60 s) → 150 °C (cool).  \n- **Typical applications:** Bluetooth, Wi‑LAN, cellular phones, pagers, DSC, consumer electronics (TV, display), computer peripherals, etc.  \n\n**Ordering example (part‑number format):**  \n`7M-<frequency>MAAJ-T` (e.g., `7M-12.000MAAJ-T`) for 12 MHz, grade A, 10 pF load, tape‑and‑reel.  \nOther suffixes (`MAHV‑T`, `MAKV‑T`, etc.) denote different tolerance/temperature grades.\n\n**Key notes**  \n- Low‑aging crystals (±1 ppm) available on request.  \n- Storage temperature range: ‑40 °C ~ +85 °C (‑40 °C ~ +125 °C for high‑temp parts).  \n- For a full list of available frequencies and part numbers, contact TXC or an authorized distributor (e.g., Mouser Electronics).  \n\nThis summary captures the essential electrical specifications, mechanical dimensions, packaging, and typical uses of the TXC 7M MHz crystal series.",
+  "pages": [
+    {
+      "page_number": 1,
+      "natural_language_context": "**7M MHz Crystal – Rev 1.09 – Summary**\n\n**General**\n- Frequency range: **10 MHz – 114 MHz** (fundamental and 3rd overtone modes)\n- RoHS‑compliant, lead‑free ceramic SMD package\n- External size (L × W × H): **3.2 mm × 2.5 mm × 0.7 mm**\n- Typical applications: Bluetooth, Wi‑LAN, cellular phones, pagers, DSC, consumer electronics, displays, TVs, computer peripherals\n\n**Electrical Characteristics**\n| Parameter | Typical / Limits |\n|-----------|------------------|\n| **Load capacitance (C L)** | 6 pF – 20 pF (selectable) |\n| **Shunt capacitance (C₀)** | ≤ 3 pF |\n| **Drive level (D L)** | 1 µW – 200 µW (100 µW typical) |\n| **Motional resistance (ESR)** | • 16 ~ 20 MHz: ≤ 60 Ω  <br>• 20 ~ 64 MHz: ≤ 50 Ω  <br>• 12 ~ 16 MHz: ≤ 80 Ω  <br>• 80 ~ 114 MHz: ≤ 60 Ω  <br>• 10 ~ 12 MHz: ≤ 150 Ω |\n| **Frequency tolerance (Ftol, 25 °C)** | ±30 ppm, ±20 ppm, ±10 ppm (depending on grade) |\n| **Frequency stability over operating temp. (Fstab)** | ±30 ppm (‑20 °C ~ +70 °C), ±20 ppm (‑20 °C ~ +70 °C), ±10 ppm (‑30 °C ~ +85 °C) |\n| **Aging (first year, 25 °C ± 3 °C)** | ±3 ppm (max) |\n| **Operating temperature range (TOTR)** | –20 °C ~ +70 °C (standard) ; –40 °C ~ +125 °C (extended) |\n| **Storage temperature range (TSTR)** | –40 °C ~ +85 °C |\n\n**Special Notes**\n- Low‑aging crystals (±1 ppm/yr) are available on request (grade “+‑1 ppm”).\n- All specifications are given for the listed temperature ranges; performance may differ outside those limits.\n\n**Key Take‑aways**\n- The 7M crystal family covers a wide span of RF frequencies (10‑114 MHz) with multiple load‑capacitance options.\n- It provides low ESR, modest drive power, and good temperature stability suitable for wireless communications and consumer electronics.\n- The compact SMD package and RoHS compliance make it easy to integrate into modern handheld and embedded devices.",
+      "raw_text": "7M\nMHz Crystal \nRev. 1.09\nPage 1\nwww.txccrystal.com\n16 ~ 20  MHz\n60Ω  Max.\n20 ~ 64  MHz\n50Ω  Max.\n80Ω  Max.\n12 ~ 16  MHz\n80Ω  Max.\n80 ~ 114  MHz\n60Ω  Max.\n10 ~ 12  MHz\n150Ω  Max.\n60 ~ 80  MHz\nNotes:\n[1] Please contact us for low aging +/-1ppm grade crystals.\nMotional Resistance (ESR)\nFundamental\n3rd Overtone\nAging (at 25°C ± 3°C, first year)\nFaging\n ±3ppm Max.\nNote [1]\nStorage Temperature Range\nTSTR\n-40°C ~ +85°C\nDrive Level\nDL\n1 ~ 200μW (100μW Typ.)\nLoad Capacitance\nCL\n6pF, 7pF, 8pF, 9pF, 10pF\n12pF, 16pF, 18pF, 20pF\n-40°C ~ +85°C\n-40°C ~ +125°C\nShunt Capacitance\nC0\n3pF Max.\n-40°C ~ +85°C\n±20 ppm\n±15 ppm\n±60 ppm\n-40°C ~ +125°C\nOperating Temperature Range\nTOTR\n-20°C ~ +70°C\nFrequency Stability over\nOperating Temperature Range\n(refer to 25°C)\nFstab\n±30 ppm\n-20°C ~ +70°C\n±20 ppm\n±10 ppm\n±10 ppm\n-30°C ~ +85°C\n±30 ppm\nFrequency Tolerance\nFtol\n±30ppm, ±20ppm, ±10ppm\nat 25°C\nElectrical Characteristics\nItem\n7M\nConditions\nFrequency Range\nF0\n10MHz ~ 114MHz\n\u001f\nRoHS compliant & Pb free\n\u001f\nExternal dimensions (mm)\n\u001f\nComputer peripherals\nL : 3.2 x W : 2.5 x H : 0.7\n\u001f\nConsumer products\n\u001f\nCeramic SMD package\n\u001f\nCellular phone, Pager, DSC\n\u001f\nSeam sealing\n\u001f\nDisplay, TV\nFeatures\nApplications\n\u001f\nFrequency range : 10MHz to 114MHz\n\u001f\nBluetooth, Wireless LAN\n",
+      "text_blocks": [
+        {
+          "id": "p1_text_block_1",
+          "type": "text_block",
+          "title": null,
+          "summary": "**7M MHz Crystal – Rev. 1.09 (www.txccrystal.com)**  \n\n- **Frequency coverage:** 10 MHz – 114 MHz (fundamental & 3rd overtone).  \n- **Load capacitance options:** 6 – 20 pF (6, 7, 8, 9, 10, 12, 16, 18, 20 pF).  \n- **Motional resistance (ESR):**  \n  - 16‑20 MHz → ≤ 60 Ω (max)  \n  - 20‑64 MHz → ≤ 50 Ω (max)  \n  - 12‑16 MHz → ≤ 80 Ω (max)  \n  - 80‑114 MHz → ≤ 60 Ω (max)  \n  - 10‑12 MHz → ≤ 150 Ω (max)  \n  - 60‑80 MHz → ≤ 80 Ω (max)  \n- **Aging (first year, 25 °C ± 3 °C):** ≤ ±3 ppm (low‑aging versions available on request).  \n- **Drive level:** 1 – 200 µW (typ. 100 µW).  \n- **Shunt capacitance (C₀):** ≤ 3 pF.  \n- **Temperature ranges:**  \n  - Storage: –40 °C – +85 °C (or –40 °C – +125 °C for some versions).  \n  - Operating: –20 °C – +70 °C (or –30 °C – +85 °C).  \n- **Frequency stability over operating range (relative to 25 °C):** ±10 – ±30 ppm depending on band.  \n- **Frequency tolerance at 25 °C:** ±10 ppm, ±20 ppm, or ±30 ppm.  \n- **Package:** Ceramic SMD, 3.2 mm × 2.5 mm × 0.7 mm; RoHS‑compliant, lead‑free, seam‑sealed.  \n- **Typical applications:** Bluetooth, WLAN, cellular phones, pagers, DSC, displays, TVs, and other computer‑peripheral or consumer‑product designs.  \n\nThe crystal offers a broad 10‑114 MHz range with selectable load caps, low ESR, tight aging and stability specs, and a compact SMD form factor suitable for wireless and consumer electronics."
+        }
+      ],
+      "figures": [
+        {
+          "figure_id": "7m_p1_img1",
+          "page": 1,
+          "type": "unknown",
+          "title": "Figure 1 (auto)",
+          "natural_language_context": "Figure 1 (auto). Page 1. **7M MHz Crystal – Rev 1.09 – Summary**\n\n**General**\n- Frequency range: **10 MHz – 114 MHz** (fundamental and 3rd overtone modes)\n- RoHS‑compliant, lead‑free ceramic SMD package\n- External size (L × W × H): **3.2 mm × 2.5 mm × 0.7 mm**\n- Typical applications: Bluetooth, Wi‑LAN, cellular phones, pagers, DSC, consumer electronics, displays, TVs, computer peripherals\n\n**Electrical Characteristics**\n| Parameter | Typical / Limits |\n|-----------|------------------|\n| **Load capacitance (C L)** | 6 pF – 20 pF (selectable) |\n| **Shunt capacitance (C₀)** | ≤ 3 pF |\n| **Drive level (D L)** | 1 µW – 200 µW (100 µW typical) |\n| **Motional resistance (ESR)** | • 16 ~ 20 MHz: ≤ 60 Ω  <br>• 20 ~ 64 MHz: ≤ 50 Ω  <br>• 12 ~ 16 MHz: ≤ 80 Ω  <br>• 80 ~ 114 MHz: ≤ 60 Ω  <br>• 10 ~ 12 MHz: ≤ 150 Ω |\n| **Frequency tolerance (Ftol, 25 °C)** | ±30 ppm, ±20 ppm, ±10 ppm (depending on grade) |\n| **Frequency stability over operating temp. (Fstab)** | ±30 ppm (‑20 °C ~ +70 °C), ±20 ppm (‑20 °C ~ +70 °C), ±10 ppm (‑30 °C ~ +85 °C) |\n| **Aging (first year, 25 °C ± 3 °C)** | ±3 ppm (max) |\n| **Operating temperature range (TOTR)** | –20 °C ~ +70 °C (standard) ; –40 °C ~ +125 °C (extended) |\n| **Storage temperature range (TSTR)** | –40 °C ~ +85 °C |\n\n**Special Notes**\n- Low‑aging crystals (±1 ppm/yr) are available on request (grade “+‑1 ppm”).\n- All specifications are given for the listed temperature ranges; performance may differ outside those limits.\n\n**Key Take‑aways**\n- The 7M crystal family covers a wide span of RF frequencies (10‑114 MHz) with multiple load‑capacitance options.\n- It provides low ESR, modest drive power, and good temperature stability suitable for wireless communications and consumer electronics.\n- The compact SMD package and RoHS compliance make it easy to integrate into modern handheld and embedded devices. Image analysis: The image features a blueprint style of a circuit diagram with six capacitors arranged in two parallel lines on either side by three resistors. The text \"TXC\" is superimposed over the diagram.\n\nKey components:\n- 6 capacitors (c)\n- 3 resistors (R)\n\nThe arrangement of the capacitors and resistors suggests a filter circuit, possibly used for signal processing or power conditioning. The TXC text might indicate the model name or manufacturer's code for this specific design. Overall, the image represents an electronic circuit schematic with clear labels and measurements for each component.",
+          "vision_description": "The image features a blueprint style of a circuit diagram with six capacitors arranged in two parallel lines on either side by three resistors. The text \"TXC\" is superimposed over the diagram.\n\nKey components:\n- 6 capacitors (c)\n- 3 resistors (R)\n\nThe arrangement of the capacitors and resistors suggests a filter circuit, possibly used for signal processing or power conditioning. The TXC text might indicate the model name or manufacturer's code for this specific design. Overall, the image represents an electronic circuit schematic with clear labels and measurements for each component.",
+          "image_meta": {
+            "image_id": "7m_p1_img1",
+            "page_number": 1,
+            "path": "backend\\uploads\\7m\\assets\\images\\7m_p1_img1.png",
+            "width": 265,
+            "height": 90,
+            "ext": "png",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "7m_p1_img1_qa1",
+              "class": "QA_Triple",
+              "question": "What frequency range does the 7M crystal family support and which modes does it include?",
+              "answer": "It covers 10 MHz to 114 MHz, encompassing both the fundamental mode and the 3rd overtone mode."
+            },
+            {
+              "id": "7m_p1_img1_qa2",
+              "class": "QA_Triple",
+              "question": "What are the selectable load‑capacitance values for these crystals, and why is this important?",
+              "answer": "The load capacitance (C L) can be selected between 6 pF and 20 pF. Selecting the proper C L ensures the crystal oscillates at its nominal frequency when connected to the circuit’s external load network."
+            },
+            {
+              "id": "7m_p1_img1_qa3",
+              "class": "QA_Triple",
+              "question": "How does the motional resistance (ESR) vary across different frequency bands?",
+              "answer": "ESR limits are: 10‑12 MHz ≤ 150 Ω; 12‑16 MHz ≤ 80 Ω; 16‑20 MHz ≤ 60 Ω; 20‑64 MHz ≤ 50 Ω; 80‑114 MHz ≤ 60 Ω. Lower ESR generally means lower power loss and better start‑up performance."
+            },
+            {
+              "id": "7m_p1_img1_qa4",
+              "class": "QA_Triple",
+              "question": "What temperature ranges are guaranteed for operation and storage, and what are the typical stability specifications within those ranges?",
+              "answer": "Operating temperature (TOTR) is –20 °C to +70 °C (standard) or –40 °C to +125 °C (extended). Frequency stability over –20 °C to +70 °C is ±30 ppm, ±20 ppm, or ±10 ppm depending on grade. Storage temperature (TSTR) is –40 °C to +85 °C."
+            },
+            {
+              "id": "7m_p1_img1_qa5",
+              "class": "QA_Triple",
+              "question": "What special aging options are available, and how does aging affect crystal performance?",
+              "answer": "Standard crystals age up to ±3 ppm in the first year at 25 °C ± 3 °C. A low‑aging option (grade “±1 ppm”) is available on request, offering only ±1 ppm drift per year, which is beneficial for applications that require long‑term frequency accuracy."
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "7m_p1_table1",
+          "page": 1,
+          "path": "backend\\uploads\\7m\\assets\\tables\\7m_p1_table1.csv",
+          "rows": 19,
+          "cols": 4,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary of Table 1 (Document 7M, p. 1):**\n\n- **Frequency range (F₀):** 10 MHz – 114 MHz.  \n- **Frequency tolerance (Fₜₒₗ) at 25 °C:** selectable limits of ±30 ppm, ±20 ppm, or ±10 ppm.  \n- **Frequency stability over the operating temperature range (referencing the 25 °C tolerance):**  \n  - ±30 ppm across –20 °C to +70 °C,  \n  - ±20 ppm (presumably over a narrower temperature span),  \n  - ±10 ppm (the tightest stability spec).  \n\nThese values define the allowable deviation and temperature‑dependent stability for the 7M device.",
+          "qa_triples": [
+            {
+              "id": "7m_p1_table1_qa1",
+              "class": "QA_Triple",
+              "question": "What is the specified operating frequency range for the 7M item?",
+              "answer": "10 MHz to 114 MHz."
+            },
+            {
+              "id": "7m_p1_table1_qa2",
+              "class": "QA_Triple",
+              "question": "At what temperature are the frequency tolerance values defined?",
+              "answer": "At 25 °C."
+            },
+            {
+              "id": "7m_p1_table1_qa3",
+              "class": "QA_Triple",
+              "question": "What are the three allowable frequency tolerance values listed for the 7M item?",
+              "answer": "±30 ppm, ±20 ppm, and ±10 ppm."
+            },
+            {
+              "id": "7m_p1_table1_qa4",
+              "class": "QA_Triple",
+              "question": "Over what temperature range must the frequency stability be maintained?",
+              "answer": "From –20 °C to +70 °C."
+            },
+            {
+              "id": "7m_p1_table1_qa5",
+              "class": "QA_Triple",
+              "question": "What is the maximum frequency stability deviation specified across the operating temperature range?",
+              "answer": "The frequency stability must remain within ±30 ppm over –20 °C to +70 °C (with tighter limits of ±20 ppm and ±10 ppm also available)."
+            }
+          ]
+        },
+        {
+          "table_id": "7m_p1_table2",
+          "page": 1,
+          "path": "backend\\uploads\\7m\\assets\\tables\\7m_p1_table2.csv",
+          "rows": 5,
+          "cols": 2,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary:**  \n\nThe table lists the maximum allowable impedance for a “Fundamental, Unnamed 1” across four frequency ranges:\n\n| Frequency range | Max impedance |\n|-----------------|----------------|\n| 10 – 12 MHz     | 150 Ω |\n| 12 – 16 MHz     | 80 Ω |\n| 16 – 20 MHz     | 60 Ω |\n| 20 – 64 MHz     | 50 Ω |\n\nIn short, as the frequency increases from 10 MHz to 64 MHz, the permissible maximum impedance decreases from 150 Ω to 50 Ω.",
+          "qa_triples": [
+            {
+              "id": "7m_p1_table2_qa1",
+              "class": "QA_Triple",
+              "question": "What is the maximum impedance specified for the 10 ~ 12 MHz frequency range?",
+              "answer": "150 Ω"
+            },
+            {
+              "id": "7m_p1_table2_qa2",
+              "class": "QA_Triple",
+              "question": "Which frequency range has a maximum impedance of 80 Ω?",
+              "answer": "12 ~ 16 MHz"
+            },
+            {
+              "id": "7m_p1_table2_qa3",
+              "class": "QA_Triple",
+              "question": "At what frequency range does the maximum impedance decrease to 60 Ω?",
+              "answer": "16 ~ 20 MHz"
+            },
+            {
+              "id": "7m_p1_table2_qa4",
+              "class": "QA_Triple",
+              "question": "What is the maximum impedance for the highest frequency range listed in the table?",
+              "answer": "50 Ω for the 20 ~ 64 MHz range"
+            },
+            {
+              "id": "7m_p1_table2_qa5",
+              "class": "QA_Triple",
+              "question": "What is the overall frequency span covered by the table?",
+              "answer": "From 10 MHz up to 64 MHz"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "natural_language_context": "**7 MHz Crystal – Specification Summary (Rev 1.09)**  \n\n- **Product code:** 7M  \n- **Typical package:** Tape & Reel (code T)  \n\n### Frequency Tolerance (at 25 °C)  \n| Code | Tolerance |\n|------|-----------|\n| A    | ±30 ppm |\n| D    | ±20 ppm |\n| E    | ±10 ppm |\n\n### Frequency Stability (over temperature)  \n\n| Code | Stability | Temp. range |\n|------|-----------|-------------|\n| A    | ±30 ppm | –20 °C ~ +70 °C |\n| D    | ±20 ppm | –20 °C ~ +70 °C |\n| E    | ±10 ppm | –20 °C ~ +70 °C |\n| T    | ±10 ppm | –30 °C ~ +85 °C |\n| H    | ±30 ppm | –40 °C ~ +85 °C |\n| I    | ±20 ppm | –40 °C ~ +85 °C |\n| J    | ±15 ppm | –40 °C ~ +85 °C |\n| K    | ±60 ppm | –40 °C ~ +125 °C |\n\n### Load Capacitance Options  \n\n| Code | Capacitance |\n|------|-------------|\n| B    | 6 pF |\n| Y    | 7 pF |\n| V    | 8 pF |\n| C    | 9 pF |\n| Q    | 10 pF |\n| E    | 12 pF |\n| I    | 16 pF |\n| J    | 18 pF |\n| K    | 20 pF |\n\n### Ordering & Additional Info  \n- **Dimensions:** as per standard 7 MHz crystal package (see datasheet).  \n- **Frequency range:** contact TXC (www.txccrystal.com) for the list of available frequencies.  \n\nThis sheet provides the key parameters needed to select the appropriate 7 MHz crystal based on tolerance, temperature stability, load capacitance, and packaging.",
+      "raw_text": "7M\nMHz Crystal \nRev. 1.09\nPage 2\nwww.txccrystal.com\n-\nT\n7M\n-\n20.000M A H E\nDimensions\nOrdering Information\nFrequency Tolerance (at 25°C)\nA\n± 30 ppm\nD\n± 20 ppm\nE\n± 10 ppm\nFrequency Stability (over Temp.)\nA\n± 30 ppm  ( -20°C ~ +70°C )\nD\n± 20 ppm  ( -20°C ~ +70°C )\nE\n± 10 ppm  ( -20°C ~ +70°C )\nT\n± 10 ppm  ( -30°C ~ +85°C )\nH\n± 30 ppm  ( -40°C ~ +85°C )\nI\n± 20 ppm  ( -40°C ~ +85°C )\nJ\n± 15 ppm  ( -40°C ~ +85°C )\nK\n± 60 ppm  ( -40°C ~ +125°C )\nLoad Capacitance\nB\n6 pF\nY\n7 pF\nV\n8 pF\nC\n9 pF\nQ\n10 pF\nE\n12 pF\nI\n16 pF\nJ\n18 pF\nK\n20 pF\nPackaging Method\nT\nTape & Reel\nFrequency in Hz\nPlease contact us for \navailable frequencies\n",
+      "text_blocks": [
+        {
+          "id": "p2_text_block_1",
+          "type": "text_block",
+          "title": null,
+          "summary": "**7M MHz Crystal – Rev 1.09 (TXC)**  \n\n- **Frequency tolerance (25 °C)** – grades:  \n  - A ±30 ppm, D ±20 ppm, E ±10 ppm.  \n\n- **Frequency stability over temperature** – typical ranges:  \n  - A ±30 ppm (‑20 °C ~ +70 °C)  \n  - D ±20 ppm (‑20 °C ~ +70 °C)  \n  - E ±10 ppm (‑20 °C ~ +70 °C)  \n  - T ±10 ppm (‑30 °C ~ +85 °C)  \n  - H ±30 ppm (‑40 °C ~ +85 °C)  \n  - I ±20 ppm (‑40 °C ~ +85 °C)  \n  - J ±15 ppm (‑40 °C ~ +85 °C)  \n  - K ±60 ppm (‑40 °C ~ +125 °C)  \n\n- **Load capacitance options** (per grade):  \n  - B 6 pF, Y 7 pF, V 8 pF, C 9 pF, Q 10 pF, E 12 pF, I 16 pF, J 18 pF, K 20 pF.  \n\n- **Packaging** – Tape & Reel (code T).  \n\n- **Dimensions & ordering info** – provided in datasheet (see page 2).  \n\n- **Frequency selection** – contact TXC for the list of available frequencies."
+        }
+      ],
+      "figures": [
+        {
+          "figure_id": "7m_p2_img1",
+          "page": 2,
+          "type": "unknown",
+          "title": "Figure 1 (auto)",
+          "natural_language_context": "Figure 1 (auto). Page 2. **7 MHz Crystal – Specification Summary (Rev 1.09)**  \n\n- **Product code:** 7M  \n- **Typical package:** Tape & Reel (code T)  \n\n### Frequency Tolerance (at 25 °C)  \n| Code | Tolerance |\n|------|-----------|\n| A    | ±30 ppm |\n| D    | ±20 ppm |\n| E    | ±10 ppm |\n\n### Frequency Stability (over temperature)  \n\n| Code | Stability | Temp. range |\n|------|-----------|-------------|\n| A    | ±30 ppm | –20 °C ~ +70 °C |\n| D    | ±20 ppm | –20 °C ~ +70 °C |\n| E    | ±10 ppm | –20 °C ~ +70 °C |\n| T    | ±10 ppm | –30 °C ~ +85 °C |\n| H    | ±30 ppm | –40 °C ~ +85 °C |\n| I    | ±20 ppm | –40 °C ~ +85 °C |\n| J    | ±15 ppm | –40 °C ~ +85 °C |\n| K    | ±60 ppm | –40 °C ~ +125 °C |\n\n### Load Capacitance Options  \n\n| Code | Capacitance |\n|------|-------------|\n| B    | 6 pF |\n| Y    | 7 pF |\n| V    | 8 pF |\n| C    | 9 pF |\n| Q    | 10 pF |\n| E    | 12 pF |\n| I    | 16 pF |\n| J    | 18 pF |\n| K    | 20 pF |\n\n### Ordering & Additional Info  \n- **Dimensions:** as per standard 7 MHz crystal package (see datasheet).  \n- **Frequency range:** contact TXC (www.txccrystal.com) for the list of available frequencies.  \n\nThis sheet provides the key parameters needed to select the appropriate 7 MHz crystal based on tolerance, temperature stability, load capacitance, and packaging. Image analysis: The image you've shared is a black and white circuit diagram of an electronic device. It features various labeled blocks representing different components such as \"Top View\", \"Bottom View\", \"Side View\", \"GND\", \"Crystal Connection\", \"Unit No.\", and more. These labels appear to be measurements in millimeters, suggesting that the diagram provides a detailed layout or blueprint of the device's internal structure.\n\nThe circuit diagram appears to be a block diagram with different blocks representing various components. The \"GND\" block is connected to the \"Top View\" and \"Bottom View\" blocks, indicating a ground connection in the device. The \"Crystal Connection\" block is also visible, suggesting that this device may incorporate a crystal oscillator for timing purposes.\n\nThe overall purpose of this diagram seems to be providing an organized representation of the electronic device's internal structure and connections. This type of diagram can be useful in understanding how different components are interconnected within the device and can aid in troubleshooting or making modifications to the circuitry.",
+          "vision_description": "The image you've shared is a black and white circuit diagram of an electronic device. It features various labeled blocks representing different components such as \"Top View\", \"Bottom View\", \"Side View\", \"GND\", \"Crystal Connection\", \"Unit No.\", and more. These labels appear to be measurements in millimeters, suggesting that the diagram provides a detailed layout or blueprint of the device's internal structure.\n\nThe circuit diagram appears to be a block diagram with different blocks representing various components. The \"GND\" block is connected to the \"Top View\" and \"Bottom View\" blocks, indicating a ground connection in the device. The \"Crystal Connection\" block is also visible, suggesting that this device may incorporate a crystal oscillator for timing purposes.\n\nThe overall purpose of this diagram seems to be providing an organized representation of the electronic device's internal structure and connections. This type of diagram can be useful in understanding how different components are interconnected within the device and can aid in troubleshooting or making modifications to the circuitry.",
+          "image_meta": {
+            "image_id": "7m_p2_img1",
+            "page_number": 2,
+            "path": "backend\\uploads\\7m\\assets\\images\\7m_p2_img1.png",
+            "width": 905,
+            "height": 538,
+            "ext": "png",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "7m_p2_img1_qa1",
+              "class": "QA_Triple",
+              "question": "What do the tolerance codes (A, D, E) represent for the 7 MHz crystal?",
+              "answer": "They indicate the frequency tolerance at 25 °C: Code A = ±30 ppm, Code D = ±20 ppm, Code E = ±10 ppm."
+            },
+            {
+              "id": "7m_p2_img1_qa2",
+              "class": "QA_Triple",
+              "question": "How does the temperature stability differ between the standard codes (A, D, E) and the extended‑range codes (T, H, I, J, K)?",
+              "answer": "Standard codes A, D, and E are rated for –20 °C to +70 °C with ±30, ±20, and ±10 ppm stability respectively. Extended‑range codes cover broader temperature ranges, e.g., T (–30 °C to +85 °C, ±10 ppm), H (–40 °C to +85 °C, ±30 ppm), I (–40 °C to +85 °C, ±20 ppm), J (–40 °C to +85 °C, ±15 ppm), and K (–40 °C to +125 °C, ±60 ppm)."
+            },
+            {
+              "id": "7m_p2_img1_qa3",
+              "class": "QA_Triple",
+              "question": "Which load capacitance options are available and how are they identified?",
+              "answer": "Load capacitance is specified by a letter code: B = 6 pF, Y = 7 pF, V = 8 pF, C = 9 pF, Q = 10 pF, E = 12 pF, I = 16 pF, J = 18 pF, K = 20 pF."
+            },
+            {
+              "id": "7m_p2_img1_qa4",
+              "class": "QA_Triple",
+              "question": "What is the typical packaging for the 7 MHz crystal and where can I find the full list of available frequencies?",
+              "answer": "The typical package is Tape & Reel (code T). For the complete range of available frequencies, you should contact TXC at www.txccrystal.com."
+            }
+          ]
+        },
+        {
+          "figure_id": "7m_p2_img2",
+          "page": 2,
+          "type": "unknown",
+          "title": "Figure 2 (auto)",
+          "natural_language_context": "Figure 2 (auto). Page 2. **7 MHz Crystal – Specification Summary (Rev 1.09)**  \n\n- **Product code:** 7M  \n- **Typical package:** Tape & Reel (code T)  \n\n### Frequency Tolerance (at 25 °C)  \n| Code | Tolerance |\n|------|-----------|\n| A    | ±30 ppm |\n| D    | ±20 ppm |\n| E    | ±10 ppm |\n\n### Frequency Stability (over temperature)  \n\n| Code | Stability | Temp. range |\n|------|-----------|-------------|\n| A    | ±30 ppm | –20 °C ~ +70 °C |\n| D    | ±20 ppm | –20 °C ~ +70 °C |\n| E    | ±10 ppm | –20 °C ~ +70 °C |\n| T    | ±10 ppm | –30 °C ~ +85 °C |\n| H    | ±30 ppm | –40 °C ~ +85 °C |\n| I    | ±20 ppm | –40 °C ~ +85 °C |\n| J    | ±15 ppm | –40 °C ~ +85 °C |\n| K    | ±60 ppm | –40 °C ~ +125 °C |\n\n### Load Capacitance Options  \n\n| Code | Capacitance |\n|------|-------------|\n| B    | 6 pF |\n| Y    | 7 pF |\n| V    | 8 pF |\n| C    | 9 pF |\n| Q    | 10 pF |\n| E    | 12 pF |\n| I    | 16 pF |\n| J    | 18 pF |\n| K    | 20 pF |\n\n### Ordering & Additional Info  \n- **Dimensions:** as per standard 7 MHz crystal package (see datasheet).  \n- **Frequency range:** contact TXC (www.txccrystal.com) for the list of available frequencies.  \n\nThis sheet provides the key parameters needed to select the appropriate 7 MHz crystal based on tolerance, temperature stability, load capacitance, and packaging. Image analysis: The image features a **blue and white striped waveform** on a white background. The waveform appears to be a signal with varying voltage over time. It has a smooth, sinusoidal shape, suggesting that it could represent an AC (alternating current) or a DC (direct current) signal after being passed through a rectifier.\n\nThe main elements visible in the diagram are:\n- A horizontal line representing the timeline\n- Peaks and valleys of the waveform indicating changes in voltage\n\nThere are no labels, values, or measurements shown on this particular image. It is primarily illustrative rather than informational. The purpose of this image could be to demonstrate a concept in electronics or signal processing, such as the behavior of an electronic component or system when subjected to different input signals.",
+          "vision_description": "The image features a **blue and white striped waveform** on a white background. The waveform appears to be a signal with varying voltage over time. It has a smooth, sinusoidal shape, suggesting that it could represent an AC (alternating current) or a DC (direct current) signal after being passed through a rectifier.\n\nThe main elements visible in the diagram are:\n- A horizontal line representing the timeline\n- Peaks and valleys of the waveform indicating changes in voltage\n\nThere are no labels, values, or measurements shown on this particular image. It is primarily illustrative rather than informational. The purpose of this image could be to demonstrate a concept in electronics or signal processing, such as the behavior of an electronic component or system when subjected to different input signals.",
+          "image_meta": {
+            "image_id": "7m_p2_img2",
+            "page_number": 2,
+            "path": "backend\\uploads\\7m\\assets\\images\\7m_p2_img2.png",
+            "width": 265,
+            "height": 90,
+            "ext": "png",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "7m_p2_img2_qa1",
+              "class": "QA_Triple",
+              "question": "What do the frequency tolerance codes (A, D, E) mean and how do they differ?",
+              "answer": "The tolerance code indicates how much the crystal’s frequency can deviate from the nominal 7 MHz at 25 °C. Code A allows ±30 ppm, code D allows ±20 ppm, and code E is the tightest with ±10 ppm. Smaller ppm values mean tighter tolerance."
+            },
+            {
+              "id": "7m_p2_img2_qa2",
+              "class": "QA_Triple",
+              "question": "How is frequency stability different from frequency tolerance, and which stability codes cover the widest temperature range?",
+              "answer": "Frequency stability describes how much the crystal’s frequency can change as temperature varies, while tolerance is the deviation at a single reference temperature (25 °C). Stability codes are paired with a temperature range. The codes T, H, I, J, and K cover the widest range (‑40 °C ~ +85 °C or even up to +125 °C), with code K offering ±60 ppm over –40 °C ~ +125 °C."
+            },
+            {
+              "id": "7m_p2_img2_qa3",
+              "class": "QA_Triple",
+              "question": "Which load‑capacitance code should be selected for a circuit that requires a 12 pF load capacitance?",
+              "answer": "The load‑capacitance code “E” corresponds to 12 pF. Choose a crystal marked with code E to match a 12 pF load."
+            },
+            {
+              "id": "7m_p2_img2_qa4",
+              "class": "QA_Triple",
+              "question": "For an application that must operate from –40 °C to +85 °C with a stability of ±20 ppm, which stability code(s) are suitable?",
+              "answer": "Codes I and D both provide ±20 ppm stability, but only code I covers the –40 °C ~ +85 °C temperature range. Therefore, code I is the appropriate choice."
+            },
+            {
+              "id": "7m_p2_img2_qa5",
+              "class": "QA_Triple",
+              "question": "What does the packaging information \"Typical package: Tape & Reel (code T)\" indicate?",
+              "answer": "It means the crystals are supplied in a high‑volume automated packaging format where components are placed on a continuous strip (tape) and wound onto a reel. The “T” is the industry code for this Tape & Reel packaging, which facilitates fast pick‑and‑place assembly."
+            }
+          ]
+        }
+      ],
+      "tables": []
+    },
+    {
+      "page_number": 3,
+      "natural_language_context": "**Summary – Packing Reflow Profile for 7 MHz Crystal (Rev 1.09, p. 3)**  \n\n- **Component:** 7 MHz crystal (TXC)  \n- **Document reference:** “Packing Reflow Profile” (TXC Crystal website)  \n\n| Temperature (°C) | Minimum dwell time |\n|-------------------|--------------------|\n| **Solder melting point** – 220 ± 10 °C | **≥ 60 seconds** |\n| **Peak temperature** – 260 ± 10 °C | **≥ 10 seconds** |\n| Intermediate steps (illustrated on the profile) | 150 °C for ~120 s, 180 °C for ~? (graph shows a gradual ramp) |\n\n- **Purpose:** Specifies the thermal cycle that the crystal must endure during reflow soldering to ensure reliable joint formation without damaging the device.  \n- **Key requirements:**  \n  1. Ramp up to the solder melt range (≈220 °C) and hold at least 60 s.  \n  2. Continue to a peak of ≈260 °C and maintain for at least 10 s.  \n  3. Cooling follows the plotted curve (not quantified here).  \n\n- **Units:** All dimensions are in millimetres (mm) for the crystal package; temperatures are in degrees Celsius (°C).  \n\nIn practice, when setting a reflow oven, program a profile that meets or exceeds these temperature‑time minima while staying within the ±10 °C tolerances.",
+      "raw_text": "7M\nMHz Crystal \nRev. 1.09\nPage 3\nwww.txccrystal.com\nPacking\nReflow Profile\n(°C)\n260\n220\n150\n180\nTime (sec)\n120 sec\n60 sec\n10 sec\nSolder melting point : 220°C ± 10°C, 60 sec. Min.\nPeak temperature : 260°C ± 10°C, 10 sec. Min.\n(Unit: mm)\n(Unit: mm)\n",
+      "text_blocks": [
+        {
+          "id": "p3_text_block_1",
+          "type": "text_block",
+          "title": null,
+          "summary": "**Summary:**  \nThe document (Rev 1.09, page 3) specifies the reflow soldering profile for a 7 MHz crystal (TXC). The solder must melt at **220 °C ± 10 °C** for a minimum of **60 seconds**. The peak temperature of the reflow process should reach **260 °C ± 10 °C** and be held for at least **10 seconds**. Additional data sections refer to packing and dimensions (units in mm), but no specific measurements are listed."
+        }
+      ],
+      "figures": [
+        {
+          "figure_id": "7m_p3_img1",
+          "page": 3,
+          "type": "unknown",
+          "title": "Figure 1 (auto)",
+          "natural_language_context": "Figure 1 (auto). Page 3. **Summary – Packing Reflow Profile for 7 MHz Crystal (Rev 1.09, p. 3)**  \n\n- **Component:** 7 MHz crystal (TXC)  \n- **Document reference:** “Packing Reflow Profile” (TXC Crystal website)  \n\n| Temperature (°C) | Minimum dwell time |\n|-------------------|--------------------|\n| **Solder melting point** – 220 ± 10 °C | **≥ 60 seconds** |\n| **Peak temperature** – 260 ± 10 °C | **≥ 10 seconds** |\n| Intermediate steps (illustrated on the profile) | 150 °C for ~120 s, 180 °C for ~? (graph shows a gradual ramp) |\n\n- **Purpose:** Specifies the thermal cycle that the crystal must endure during reflow soldering to ensure reliable joint formation without damaging the device.  \n- **Key requirements:**  \n  1. Ramp up to the solder melt range (≈220 °C) and hold at least 60 s.  \n  2. Continue to a peak of ≈260 °C and maintain for at least 10 s.  \n  3. Cooling follows the plotted curve (not quantified here).  \n\n- **Units:** All dimensions are in millimetres (mm) for the crystal package; temperatures are in degrees Celsius (°C).  \n\nIn practice, when setting a reflow oven, program a profile that meets or exceeds these temperature‑time minima while staying within the ±10 °C tolerances. Image analysis: Type of diagram: Block diagram\n\nKey components or elements: G, F, B, I, C, D, E\n\nLabels, values, or measurements: Frequency (Hz), voltage (V)\n\nOverall purpose/illustration: The block diagram illustrates the relationship between various parameters such as frequency and voltage. It shows that the frequency increases with an increase in voltage.",
+          "vision_description": "Type of diagram: Block diagram\n\nKey components or elements: G, F, B, I, C, D, E\n\nLabels, values, or measurements: Frequency (Hz), voltage (V)\n\nOverall purpose/illustration: The block diagram illustrates the relationship between various parameters such as frequency and voltage. It shows that the frequency increases with an increase in voltage.",
+          "image_meta": {
+            "image_id": "7m_p3_img1",
+            "page_number": 3,
+            "path": "backend\\uploads\\7m\\assets\\images\\7m_p3_img1.png",
+            "width": 767,
+            "height": 273,
+            "ext": "png",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "7m_p3_img1_qa1",
+              "class": "QA_Triple",
+              "question": "What are the minimum dwell times required at the solder melting point and at the peak temperature for the 7 MHz crystal reflow profile?",
+              "answer": "At the solder melting point (220 ± 10 °C) the crystal must be held for at least 60 seconds, and at the peak temperature (260 ± 10 °C) it must be held for at least 10 seconds."
+            },
+            {
+              "id": "7m_p3_img1_qa2",
+              "class": "QA_Triple",
+              "question": "Why is it important to stay within the ±10 °C tolerance for the temperature limits in the reflow profile?",
+              "answer": "Staying within the ±10 °C tolerance ensures the crystal is not overheated (which could damage its frequency stability) and that the solder fully melts to form a reliable joint without causing thermal stress."
+            },
+            {
+              "id": "7m_p3_img1_qa3",
+              "class": "QA_Triple",
+              "question": "What intermediate temperature steps are shown in the profile, and what is their purpose?",
+              "answer": "The profile includes a plateau at 150 °C for roughly 120 seconds and a gradual ramp through 180 °C; these steps pre‑heat the assembly to reduce thermal shock and allow the flux to activate before reaching the solder melt range."
+            },
+            {
+              "id": "7m_p3_img1_qa4",
+              "class": "QA_Triple",
+              "question": "How should a reflow oven be programmed to meet the specifications of this figure?",
+              "answer": "Program the oven to ramp up to 220 °C, hold for at least 60 seconds, then continue to 260 °C and hold for a minimum of 10 seconds, while also including the intermediate 150 °C/120 s and 180 °C ramps; ensure all temperature peaks stay within the 220 ± 10 °C and 260 ± 10 °C limits."
+            },
+            {
+              "id": "7m_p3_img1_qa5",
+              "class": "QA_Triple",
+              "question": "What is the overall purpose of the Packing Reflow Profile for the 7 MHz crystal?",
+              "answer": "The profile defines a thermal cycle that the crystal must survive during solder reflow to achieve a reliable solder joint without compromising the crystal’s performance or causing damage."
+            }
+          ]
+        },
+        {
+          "figure_id": "7m_p3_img2",
+          "page": 3,
+          "type": "unknown",
+          "title": "Figure 2 (auto)",
+          "natural_language_context": "Figure 2 (auto). Page 3. **Summary – Packing Reflow Profile for 7 MHz Crystal (Rev 1.09, p. 3)**  \n\n- **Component:** 7 MHz crystal (TXC)  \n- **Document reference:** “Packing Reflow Profile” (TXC Crystal website)  \n\n| Temperature (°C) | Minimum dwell time |\n|-------------------|--------------------|\n| **Solder melting point** – 220 ± 10 °C | **≥ 60 seconds** |\n| **Peak temperature** – 260 ± 10 °C | **≥ 10 seconds** |\n| Intermediate steps (illustrated on the profile) | 150 °C for ~120 s, 180 °C for ~? (graph shows a gradual ramp) |\n\n- **Purpose:** Specifies the thermal cycle that the crystal must endure during reflow soldering to ensure reliable joint formation without damaging the device.  \n- **Key requirements:**  \n  1. Ramp up to the solder melt range (≈220 °C) and hold at least 60 s.  \n  2. Continue to a peak of ≈260 °C and maintain for at least 10 s.  \n  3. Cooling follows the plotted curve (not quantified here).  \n\n- **Units:** All dimensions are in millimetres (mm) for the crystal package; temperatures are in degrees Celsius (°C).  \n\nIn practice, when setting a reflow oven, program a profile that meets or exceeds these temperature‑time minima while staying within the ±10 °C tolerances. Image analysis: The image presents a black and white line chart titled \"AMD CLOCKS PER MEMORY WRITE\". This is a timing diagram that displays the relationship between clock cycles (denoted by 'C') and memory write operations ('F'). The x-axis of the chart represents time in nanoseconds, while the y-axis shows the number of cycles. \n\nThe chart includes several data points corresponding to different values of 'F'. For instance, at 'F = 4', there are approximately 0.10 clock cycles per memory write operation. Similarly, when 'F = 16', it takes about 0.50 clock cycles for a single memory write operation to complete. The data points continue in this manner until reaching 'F = 20' and beyond.\n\nThe overall purpose of the chart is to illustrate how long it takes for AMD processors to perform memory write operations at different frequencies. This information can be useful for understanding processor performance and efficiency.",
+          "vision_description": "The image presents a black and white line chart titled \"AMD CLOCKS PER MEMORY WRITE\". This is a timing diagram that displays the relationship between clock cycles (denoted by 'C') and memory write operations ('F'). The x-axis of the chart represents time in nanoseconds, while the y-axis shows the number of cycles. \n\nThe chart includes several data points corresponding to different values of 'F'. For instance, at 'F = 4', there are approximately 0.10 clock cycles per memory write operation. Similarly, when 'F = 16', it takes about 0.50 clock cycles for a single memory write operation to complete. The data points continue in this manner until reaching 'F = 20' and beyond.\n\nThe overall purpose of the chart is to illustrate how long it takes for AMD processors to perform memory write operations at different frequencies. This information can be useful for understanding processor performance and efficiency.",
+          "image_meta": {
+            "image_id": "7m_p3_img2",
+            "page_number": 3,
+            "path": "backend\\uploads\\7m\\assets\\images\\7m_p3_img2.png",
+            "width": 728,
+            "height": 101,
+            "ext": "png",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "7m_p3_img2_qa1",
+              "class": "QA_Triple",
+              "question": "What are the minimum dwell times required at the solder melting point and at the peak temperature for the 7 MHz crystal?",
+              "answer": "The profile specifies ≥ 60 seconds at the solder melting point (≈220 ± 10 °C) and ≥ 10 seconds at the peak temperature (≈260 ± 10 °C)."
+            },
+            {
+              "id": "7m_p3_img2_qa2",
+              "class": "QA_Triple",
+              "question": "What temperature tolerances are allowed for the solder melt and peak temperature steps?",
+              "answer": "Both steps have a ±10 °C tolerance: the solder melt range is 220 °C ± 10 °C and the peak temperature is 260 °C ± 10 °C."
+            },
+            {
+              "id": "7m_p3_img2_qa3",
+              "class": "QA_Triple",
+              "question": "How should a reflow oven be programmed to satisfy this packing reflow profile?",
+              "answer": "Set the oven to ramp up to at least 220 °C, hold for 60 seconds (or longer), then continue rising to at least 260 °C and hold for at least 10 seconds, while respecting the ±10 °C tolerances and following the intermediate ramps (e.g., ~150 °C for 120 s, gradual rise through 180 °C). The cooling curve should follow the plotted shape but does not have strict numeric limits."
+            },
+            {
+              "id": "7m_p3_img2_qa4",
+              "class": "QA_Triple",
+              "question": "Why is a 60‑second dwell at the solder melting point important for the crystal package?",
+              "answer": "A 60‑second dwell ensures the solder fully melts and wets all pad and lead surfaces, forming a reliable joint without cold‑solder defects, while giving the crystal sufficient time to thermally equilibrate and avoid thermal shock."
+            },
+            {
+              "id": "7m_p3_img2_qa5",
+              "class": "QA_Triple",
+              "question": "What risks arise if the peak temperature exceeds the specified 260 °C ± 10 °C limit?",
+              "answer": "Exceeding the peak limit can overheat the crystal’s quartz element and internal circuitry, potentially causing frequency drift, permanent damage, or reduced reliability. It may also stress the package material, leading to cracking or delamination."
+            }
+          ]
+        },
+        {
+          "figure_id": "7m_p3_img3",
+          "page": 3,
+          "type": "unknown",
+          "title": "Figure 3 (auto)",
+          "natural_language_context": "Figure 3 (auto). Page 3. **Summary – Packing Reflow Profile for 7 MHz Crystal (Rev 1.09, p. 3)**  \n\n- **Component:** 7 MHz crystal (TXC)  \n- **Document reference:** “Packing Reflow Profile” (TXC Crystal website)  \n\n| Temperature (°C) | Minimum dwell time |\n|-------------------|--------------------|\n| **Solder melting point** – 220 ± 10 °C | **≥ 60 seconds** |\n| **Peak temperature** – 260 ± 10 °C | **≥ 10 seconds** |\n| Intermediate steps (illustrated on the profile) | 150 °C for ~120 s, 180 °C for ~? (graph shows a gradual ramp) |\n\n- **Purpose:** Specifies the thermal cycle that the crystal must endure during reflow soldering to ensure reliable joint formation without damaging the device.  \n- **Key requirements:**  \n  1. Ramp up to the solder melt range (≈220 °C) and hold at least 60 s.  \n  2. Continue to a peak of ≈260 °C and maintain for at least 10 s.  \n  3. Cooling follows the plotted curve (not quantified here).  \n\n- **Units:** All dimensions are in millimetres (mm) for the crystal package; temperatures are in degrees Celsius (°C).  \n\nIn practice, when setting a reflow oven, program a profile that meets or exceeds these temperature‑time minima while staying within the ±10 °C tolerances. Image analysis: 1. Type of diagram: Circuit Diagram\n2. Key components or elements visible: Dimensions (L), Length (W), Width (W)\n3. Labels, values, or measurements shown: 178 - +0.0, 60.2 - ~0.5, 11.5 - ~0.2, and \"D\" is not applicable in a circuit diagram context.\n4. Overall purpose or what it illustrates: The diagram likely represents the physical dimensions of electronic components within an electrical circuit, including their lengths (L) and widths (W). It may also indicate additional parameters such as height or thickness, which are represented by \"D\". This information can be used for designing, building, or analyzing an electronic system.",
+          "vision_description": "1. Type of diagram: Circuit Diagram\n2. Key components or elements visible: Dimensions (L), Length (W), Width (W)\n3. Labels, values, or measurements shown: 178 - +0.0, 60.2 - ~0.5, 11.5 - ~0.2, and \"D\" is not applicable in a circuit diagram context.\n4. Overall purpose or what it illustrates: The diagram likely represents the physical dimensions of electronic components within an electrical circuit, including their lengths (L) and widths (W). It may also indicate additional parameters such as height or thickness, which are represented by \"D\". This information can be used for designing, building, or analyzing an electronic system.",
+          "image_meta": {
+            "image_id": "7m_p3_img3",
+            "page_number": 3,
+            "path": "backend\\uploads\\7m\\assets\\images\\7m_p3_img3.png",
+            "width": 373,
+            "height": 68,
+            "ext": "png",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "7m_p3_img3_qa1",
+              "class": "QA_Triple",
+              "question": "What are the two critical temperature points defined in the packing reflow profile and their required minimum dwell times?",
+              "answer": "The profile specifies a solder‑melting‑point range of 220 ± 10 °C that must be held for at least 60 seconds, and a peak temperature of 260 ± 10 °C that must be maintained for at least 10 seconds."
+            },
+            {
+              "id": "7m_p3_img3_qa2",
+              "class": "QA_Triple",
+              "question": "Why is it important to hold the solder melting point temperature for at least 60 seconds?",
+              "answer": "Holding the solder melt range for 60 seconds ensures that the solder fully liquefies and wets the crystal leads and PCB pads, creating a reliable joint without leaving cold‑solder defects or incomplete fillets."
+            },
+            {
+              "id": "7m_p3_img3_qa3",
+              "class": "QA_Triple",
+              "question": "How does the ±10 °C tolerance affect the programming of a reflow oven for this crystal?",
+              "answer": "The oven set‑points must be chosen so that the actual temperature stays within the 10 °C window around each target. For example, if you target 220 °C, the oven should be calibrated to keep the zone between 210 °C and 230 °C; similarly, the peak should stay between 250 °C and 270 °C. This prevents overheating the crystal while still meeting the required dwell times."
+            },
+            {
+              "id": "7m_p3_img3_qa4",
+              "class": "QA_Triple",
+              "question": "What intermediate temperature steps are shown in the profile, and what is their purpose?",
+              "answer": "The diagram includes a 150 °C plateau of roughly 120 seconds and a gradual ramp through about 180 °C before reaching the solder‑melting range. These intermediate steps allow the crystal and its package to soak, reducing thermal shock and giving the epoxy or internal components time to equilibrate before the higher‑temperature reflow stages."
+            },
+            {
+              "id": "7m_p3_img3_qa5",
+              "class": "QA_Triple",
+              "question": "If a reflow oven’s peak temperature is set to 255 °C, does this satisfy the profile requirements, and what dwell time must be maintained at that peak?",
+              "answer": "Yes, 255 °C falls within the allowed peak range of 260 ± 10 °C (i.e., 250 °C–270 °C). The oven must maintain that peak temperature for at least the specified 10 seconds to meet the profile’s minimum dwell requirement."
+            }
+          ]
+        },
+        {
+          "figure_id": "7m_p3_img4",
+          "page": 3,
+          "type": "unknown",
+          "title": "Figure 4 (auto)",
+          "natural_language_context": "Figure 4 (auto). Page 3. **Summary – Packing Reflow Profile for 7 MHz Crystal (Rev 1.09, p. 3)**  \n\n- **Component:** 7 MHz crystal (TXC)  \n- **Document reference:** “Packing Reflow Profile” (TXC Crystal website)  \n\n| Temperature (°C) | Minimum dwell time |\n|-------------------|--------------------|\n| **Solder melting point** – 220 ± 10 °C | **≥ 60 seconds** |\n| **Peak temperature** – 260 ± 10 °C | **≥ 10 seconds** |\n| Intermediate steps (illustrated on the profile) | 150 °C for ~120 s, 180 °C for ~? (graph shows a gradual ramp) |\n\n- **Purpose:** Specifies the thermal cycle that the crystal must endure during reflow soldering to ensure reliable joint formation without damaging the device.  \n- **Key requirements:**  \n  1. Ramp up to the solder melt range (≈220 °C) and hold at least 60 s.  \n  2. Continue to a peak of ≈260 °C and maintain for at least 10 s.  \n  3. Cooling follows the plotted curve (not quantified here).  \n\n- **Units:** All dimensions are in millimetres (mm) for the crystal package; temperatures are in degrees Celsius (°C).  \n\nIn practice, when setting a reflow oven, program a profile that meets or exceeds these temperature‑time minima while staying within the ±10 °C tolerances. Image analysis: This is a circuit diagram that shows how to wire a transistor to obtain specific characteristics using an LTspice simulator. The key components visible in this circuit include:\n\n* A coil with two windings, labeled \"1\".\n* A capacitor with three terminals, labeled \"C\".\n* A resistor with three terminals, labeled \"R1\".\n* An inductor with four terminals, labeled \"L\".\n* A transistor with three terminals, labeled \"Q\".\n* A power supply unit with two terminals, labeled \"+\" and \"-\".\n\nThe circuit has been designed to achieve a gain of 0.5 at a frequency of 132 kHz using these components. The overall purpose of this diagram is to provide a visual representation of the wiring needed to create a specific electronic circuit with desired characteristics when simulated in LTspice.",
+          "vision_description": "This is a circuit diagram that shows how to wire a transistor to obtain specific characteristics using an LTspice simulator. The key components visible in this circuit include:\n\n* A coil with two windings, labeled \"1\".\n* A capacitor with three terminals, labeled \"C\".\n* A resistor with three terminals, labeled \"R1\".\n* An inductor with four terminals, labeled \"L\".\n* A transistor with three terminals, labeled \"Q\".\n* A power supply unit with two terminals, labeled \"+\" and \"-\".\n\nThe circuit has been designed to achieve a gain of 0.5 at a frequency of 132 kHz using these components. The overall purpose of this diagram is to provide a visual representation of the wiring needed to create a specific electronic circuit with desired characteristics when simulated in LTspice.",
+          "image_meta": {
+            "image_id": "7m_p3_img4",
+            "page_number": 3,
+            "path": "backend\\uploads\\7m\\assets\\images\\7m_p3_img4.png",
+            "width": 605,
+            "height": 535,
+            "ext": "png",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "7m_p3_img4_qa1",
+              "class": "QA_Triple",
+              "question": "What are the two critical temperature‑time minima that must be met during the reflow process for the 7 MHz TXC crystal?",
+              "answer": "1) When the profile reaches the solder melting range (≈220 °C ± 10 °C), the crystal must dwell for at least 60 seconds. 2) After the melt range, the profile must peak at about 260 °C ± 10 °C and stay there for a minimum of 10 seconds."
+            },
+            {
+              "id": "7m_p3_img4_qa2",
+              "class": "QA_Triple",
+              "question": "Why is a 60‑second dwell at the solder‑melting temperature required, and what could happen if this dwell is shorter?",
+              "answer": "The 60 s hold ensures the solder fully liquefies and wets the crystal’s metal pads, forming a reliable joint. A shorter dwell may leave solder partially solidified, leading to weak mechanical bonds, increased voids, or intermittent electrical connections."
+            },
+            {
+              "id": "7m_p3_img4_qa3",
+              "class": "QA_Triple",
+              "question": "How should an engineer set up a reflow oven profile to satisfy the ±10 °C tolerance specified in the document?",
+              "answer": "Program the oven so that the temperature window of 220 °C ± 10 °C is reached and maintained for ≥ 60 s, and the peak window of 260 °C ± 10 °C is reached and held for ≥ 10 s. The ramp rates and cooling curve can be faster or slower, but the actual temperatures must never fall outside the 210–230 °C (melt) and 250–270 °C (peak) bands during the required dwell periods."
+            },
+            {
+              "id": "7m_p3_img4_qa4",
+              "class": "QA_Triple",
+              "question": "Besides the two main dwell periods, what intermediate temperature steps are shown on the profile, and what is their purpose?",
+              "answer": "The profile includes a plateau at about 150 °C for roughly 120 seconds and a gradual ramp through ~180 °C before reaching the melt range. These lower‑temperature steps pre‑heat the assembly, reducing thermal shock, allowing volatile residues to outgass, and ensuring a uniform temperature gradient across the crystal and PCB before solder reflow."
+            }
+          ]
+        },
+        {
+          "figure_id": "7m_p3_img5",
+          "page": 3,
+          "type": "unknown",
+          "title": "Figure 5 (auto)",
+          "natural_language_context": "Figure 5 (auto). Page 3. **Summary – Packing Reflow Profile for 7 MHz Crystal (Rev 1.09, p. 3)**  \n\n- **Component:** 7 MHz crystal (TXC)  \n- **Document reference:** “Packing Reflow Profile” (TXC Crystal website)  \n\n| Temperature (°C) | Minimum dwell time |\n|-------------------|--------------------|\n| **Solder melting point** – 220 ± 10 °C | **≥ 60 seconds** |\n| **Peak temperature** – 260 ± 10 °C | **≥ 10 seconds** |\n| Intermediate steps (illustrated on the profile) | 150 °C for ~120 s, 180 °C for ~? (graph shows a gradual ramp) |\n\n- **Purpose:** Specifies the thermal cycle that the crystal must endure during reflow soldering to ensure reliable joint formation without damaging the device.  \n- **Key requirements:**  \n  1. Ramp up to the solder melt range (≈220 °C) and hold at least 60 s.  \n  2. Continue to a peak of ≈260 °C and maintain for at least 10 s.  \n  3. Cooling follows the plotted curve (not quantified here).  \n\n- **Units:** All dimensions are in millimetres (mm) for the crystal package; temperatures are in degrees Celsius (°C).  \n\nIn practice, when setting a reflow oven, program a profile that meets or exceeds these temperature‑time minima while staying within the ±10 °C tolerances. Image analysis: As an AI, I am unable to view images directly. However, based on your request, here is a sample description of a technical diagram:\n\nType of Diagram: Circuit Diagram\nKey Components or Elements Visible: Resistor, Capacitor, Inductor, Transformer, Switches, and Wires\nLabels, Values, or Measurements Shown: Resistance (Ohms), Capacitance (Farads), Inductance (Henries), Voltage (Volts)\nOverall Purpose or What It Illustrates: This circuit diagram illustrates a simple electrical circuit consisting of resistors, capacitors, inductors, and transformers. The circuit includes three switches that control the flow of current through the various components.",
+          "vision_description": "As an AI, I am unable to view images directly. However, based on your request, here is a sample description of a technical diagram:\n\nType of Diagram: Circuit Diagram\nKey Components or Elements Visible: Resistor, Capacitor, Inductor, Transformer, Switches, and Wires\nLabels, Values, or Measurements Shown: Resistance (Ohms), Capacitance (Farads), Inductance (Henries), Voltage (Volts)\nOverall Purpose or What It Illustrates: This circuit diagram illustrates a simple electrical circuit consisting of resistors, capacitors, inductors, and transformers. The circuit includes three switches that control the flow of current through the various components.",
+          "image_meta": {
+            "image_id": "7m_p3_img5",
+            "page_number": 3,
+            "path": "backend\\uploads\\7m\\assets\\images\\7m_p3_img5.png",
+            "width": 265,
+            "height": 90,
+            "ext": "png",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "7m_p3_img5_qa1",
+              "class": "QA_Triple",
+              "question": "What are the two critical temperature‑time minima specified for the 7 MHz crystal during reflow soldering?",
+              "answer": "The crystal must be held at the solder melting point (≈220 °C ± 10 °C) for at least 60 seconds, and then at the peak temperature (≈260 °C ± 10 °C) for at least 10 seconds."
+            },
+            {
+              "id": "7m_p3_img5_qa2",
+              "class": "QA_Triple",
+              "question": "Why is a minimum 60‑second dwell at the solder melt range required?",
+              "answer": "A 60 second hold ensures the solder fully melts and wets the crystal leads, forming a reliable joint without leaving cold‑solder spots that could cause intermittent connections."
+            },
+            {
+              "id": "7m_p3_img5_qa3",
+              "class": "QA_Triple",
+              "question": "What intermediate temperature steps are shown on the profile, and what is their purpose?",
+              "answer": "The profile includes a 150 °C plateau of about 120 seconds and a gradual ramp through ~180 °C before reaching the melt range. These steps allow the crystal package to acclimate, reducing thermal shock and preventing cracking of the ceramic or epoxy."
+            },
+            {
+              "id": "7m_p3_img5_qa4",
+              "class": "QA_Triple",
+              "question": "How should an engineer program a reflow oven to comply with the ±10 °C tolerances?",
+              "answer": "Set the oven so that the temperature window for the melt range stays between 210 °C and 230 °C and the peak stays between 250 °C and 270 °C. The timing for each plateau must meet or exceed the minimum dwell times (≥60 s at melt, ≥10 s at peak)."
+            },
+            {
+              "id": "7m_p3_img5_qa5",
+              "class": "QA_Triple",
+              "question": "What could happen if the peak temperature is exceeded or the dwell times are shortened?",
+              "answer": "Exceeding the peak temperature may damage the crystal’s frequency stability or cause package delamination, while shortening dwell times can lead to incomplete solder wetting, weak joints, and premature failure of the component."
+            }
+          ]
+        }
+      ],
+      "tables": []
+    },
+    {
+      "page_number": 4,
+      "natural_language_context": "**Summary**\n\nMouser Electronics, an authorized distributor, is advertising a large selection of TXC Corporation frequency‑control products. The listing enumerates dozens of crystal/oscillator part numbers, primarily the “7M‑” series, covering a wide range of frequencies (e.g., 10 MHz, 12 MHz, 12.288 MHz, 13 MHz, 13.56 MHz, 14.318 MHz, 16 MHz, 16.384 MHz, 18.432 MHz, 19.2 MHz, 20 MHz, 24 MHz, 24.576 MHz, 25 MHz, 26 MHz, 27 MHz, 27.12 MHz, 30 MHz, 32 MHz, 36 MHz, 38.4 MHz, 40 MHz, 48 MHz, 50 MHz, etc.).  \n\nThe parts are identified by different package/generation codes such as **MAAJ‑T**, **MAHV‑T**, **MAKV‑T**, and others, indicating variations in size, tolerance, or temperature stability. In addition to the frequency‑specific items, a long series of generic “7M” part numbers (e.g., 7M25070033, 7M26000028, 7M20020003, …) is also listed, likely representing related crystal or oscillator models.\n\nOverall, the text is a raw product‑code dump showing the breadth of TXC crystal oscillator inventory available through Mouser, without pricing or detailed specifications.",
+      "raw_text": "Mouser Electronics\n  \nAuthorized Distributor\n \n  \nClick to View Pricing, Inventory, Delivery & Lifecycle Information:\n \n \n \n \nTXC Corporation:\n  \n \n  7M-12.000MAAJ-T  7M-12.288MAAJ-T  7M-13.000MAAJ-T  7M-13.560MAAJ-T  7M-14.31818MAAJ-T  7M-\n16.000MAAJ-T  7M-16.384MAAJ-T  7M-16.9344MAAJ-T  7M-18.432MAAJ-T  7M-19.200MAAJ-T  7M-20.000MAAJ-T \n7M-24.000MAAJ-T  7M-24.576MAAJ-T  7M-25.000MAAJ-T  7M-26.000MAAJ-T  7M-27.000MAAJ-T  7M-27.120MAAJ-T\n  7M-30.000MAAJ-T  7M-32.000MAAJ-T  7M-36.000MAAJ-T  7M-38.400MAAJ-T  7M-40.000MAAJ-T  7M-48.000MAAJ-\nT  7M-10.000MAAJ-T  7M-50.000MAAJ-T  7M-36.000MAHV-T  7M-16.000MAHV-T  7M-24.000MAHV-T  7M-\n10.000MAHV-T  7M-13.000MAHV-T  7M-32.000MAHV-T  7M-38.400MAHV-T  7M-50.000MAHV-T  7M-26.000MAKV-T \n7M-26.000MAHV-T  7M-27.120MAHV-T  7M-19.200MAHV-T  7M-25.000MAKV-T  7M-27.000MAKV-T  7M-\n37.400MAHV-T  7M-25.000MAHV-T  7M-40.000MAKV-T  7M-40.000MAHV-T  7M-27.000MAHV-T  7M-24.000MAKV-T \n7M-20.000MAHV-T  7M-12.288MAHV-T  7M-30.000MAHV-T  7M-48.000MAHV-T  7M-12.000MAHV-T  7M25070033 \n7M26000028  7M20020003  7M25000196  7M24070019  7M24085001  7M24000218  7M25030004  7M12270003 \n7M25000055  7M26070013  7M40000129  7M40000002  7M27000050  7M25070010  7M12000048  7M25000080 \n7M40000009  7M25070060  7M25000003  7M25070018  7M16000099  7M25000013  7M25070025  7M48020003 \n7M12070021  7M48000003  7M25000019  7M27100001  7M12070015  7M25070063  7M31270003  7M32030001 \n7M50070014  7M24070016  7M12070005  7M12020002  7M38400010  7M24000174  7M25000018  7M24000138 \n7M18470004  7M25000041  7M25000016  7M48070001  7M24077005  7M25070006  7M16090001  7M12000039 \n7M27170001\n",
+      "text_blocks": [
+        {
+          "id": "p4_text_block_1",
+          "type": "text_block",
+          "title": null,
+          "summary": "Mouser Electronics, an authorized distributor, provides a catalog of TXC Corporation crystal/oscillator parts. The listing enumerates dozens of specific SKUs—including the “7M‑12.000MAAJ‑T”, “7M‑12.288MAAJ‑T”, “7M‑13.000MAAJ‑T”, “7M‑16.384MAAJ‑T”, “7M‑24.576MAAJ‑T”, “7M‑36.000MAHV‑T”, “7M‑50.000MAHV‑T”, “7M‑26.000MAKV‑T”, etc.—covering a range of frequencies from 10 MHz up to 50 MHz and multiple series (MAAJ‑T, MAHV‑T, MAKV‑T). The page is essentially a raw part‑number list for reference, pricing, inventory and lifecycle information."
+        }
+      ],
+      "figures": [],
+      "tables": []
+    }
+  ]
+}

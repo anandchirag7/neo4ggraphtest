@@ -1,0 +1,1157 @@
+{
+  "doc_id": "B220A",
+  "source_file": "backend\\uploads\\B220A\\B220A.pdf",
+  "assets_dir": "backend\\uploads\\B220A\\assets",
+  "num_pages": 5,
+  "document_natural_language_context": "**Diodes Incorporated – B220 – B260 A Series (SMA/SMB) Surface‑Mount Schottky Barrier Rectifiers**\n\n**Core Features**\n- 2 A, low‑loss Schottky diodes with high efficiency.\n- Guard‑ring die for transient protection; rated for 50 A peak surge.\n- Designed for automated SMT assembly; high‑temperature solderability (+260 °C for 10 s).\n- Suitable for low‑voltage, high‑frequency inverter, free‑wheeling, and polarity‑protection circuits.\n- RoHS‑compliant, lead‑free, halogen‑ and antimony‑free (“green”) devices.\n- Automotive‑grade (AEC‑Q101) and PPAP‑capable; same electrical/thermal performance as standard parts.\n\n**Mechanical / Package Data**\n| Parameter | SMA (plastic case) | SMB (plastic case) |\n|-----------|-------------------|--------------------|\n| Case material | Molded plastic, UL 94‑V0 | Same |\n| Moisture sensitivity | Level 1 (J‑STD‑020) | Level 1 |\n| Termination finish | Matte tin, lead‑free, MIL‑STD‑202 Method 208 | Same |\n| Cathode indicator | Band or notch | Same |\n| Approx. weight | 0.064 g | 0.093 g |\n| Thermal resistance (RθJL) | 25 °C/W | 20 °C/W |\n| Operating/storage temp. | –65 °C to +150 °C | Same |\n\n**Part Numbers & Packaging**\n- **Standard (non‑automotive)**:  \n  - SMA: B2xxA‑13‑F – 5 k units on tape & reel.  \n  - SMB: B2xx‑13‑F – 3 k units on tape & reel.  \n- **Automotive (AEC‑Q101)**:  \n  - SMA: B240AQ‑13‑F – 5 k units.  \n  - SMB: B250Q‑13 – 3 k units.  \n\n(“xx” denotes the voltage rating: 20 V → B220, 30 V → B230, …, 60 V → B260.)\n\n**Electrical Ratings (TA = +25 °C)**\n- **Peak Repetitive Reverse Voltage (VRRM)**: 20 V (B220) … 60 V (B260).  \n- **Working Reverse Voltage (VRWM)**: 14 V … 42 V (same series).  \n- **Maximum forward current (IO)**: 2 A continuous.  \n- **Non‑repetitive forward surge (IFSM)**: 50 A (8.3 ms half‑sine).  \n- **Forward voltage drop (VF)**: ≤ 0.50 V (B220‑B240) / ≤ 0.70 V (B250‑B260) at IF = 2 A.  \n- **Leakage current (IR)**: ≤ 0.5 mA at 25 °C; ≤ 20 mA at 100 °C (rated reverse voltage).\n\n**Thermal & Derating**\n- Junction‑to‑lead thermal resistance: 25 °C/W (SMA) / 20 °C/W (SMB).  \n- For capacitive loads, reduce rated current by 20 %.  \n\n**Marking / Date Code**\n- Top view: “B2X0A” (e.g., B220A) for SMA; “B2X0” for SMB.  \n- Bottom view includes manufacturer code and date code “YWW” (Y = last digit of year, WW = week).\n\n**Compliance & Environmental Notes**\n- RoHS 2 compliant (2002/95/EC & 2011/65/EU); all applicable exemptions applied.  \n- “Green” definition: < 900 ppm Br, < 900 ppm Cl (≤ 1500 ppm total), < 1000 ppm Sb.  \n- Automotive parts meet AEC‑Q101; standard and automotive versions are electrically identical unless otherwise noted.\n\n**Useful Links (refer to Diodes website)**\n- Lead‑free definitions and “green” policy.  \n- Package details & ordering information.  \n- Product compliance definitions and AEC‑Q101 certification.\n\n*In short, the B220–B260 A series offers robust 2 A surface‑mount Schottky diodes across 20‑60 V ratings, with high surge capability, low forward drop, and environmentally‑friendly, RoHS‑compliant construction, available in both standard and automotive‑qualified SMA/SMB packages.*",
+  "pages": [
+    {
+      "page_number": 1,
+      "natural_language_context": "**Diodes Incorporated B220–B260 Series – 2 A Surface‑Mount Schottky Barrier Rectifiers**\n\n*Key Features*  \n- Guard‑ring die for transient protection; suited to automated assembly.  \n- Low loss, high efficiency; surge rating up to 50 A peak.  \n- Ideal for low‑voltage, high‑frequency inverters, free‑wheeling and polarity‑protection circuits.  \n- High‑temperature soldering capability (260 °C for 10 s).  \n- Lead‑free, RoHS‑compliant, halogen‑ and antimony‑free (“green”) devices.  \n- Qualified to AEC‑Q101 for high‑reliability automotive use.\n\n*Mechanical/Data Highlights*  \n- Packages: SMA (plastic, UL‑94V‑0) and SMB (plastic, UL‑94V‑0).  \n- Moisture‑sensitive level 1 (J‑STD‑020).  \n- Lead‑free matte‑tin terminations, solderable per MIL‑STD‑202.  \n- Cathode indicated by band or notch.  \n- Approx. weight: SMA ≈ 0.064 g, SMB ≈ 0.093 g.\n\n*Ordering & Part Numbers*  \n| Part (example) | Qualification | Case | Qty/Packaging |\n|----------------|---------------|------|---------------|\n| B2xxA‑13‑F | Standard | SMA | 5 000 / tape‑and‑reel |\n| B2xx‑13‑F | Standard | SMB | 3 000 / tape‑and‑reel |\n| B250Q‑13 | Automotive | SMB | 3 000 / tape‑and‑reel |\n| B240AQ‑13‑F | Automotive | SMA | 5 000 / tape‑and‑reel |\n| B240Q‑13‑F | Automotive | SMB | 3 000 / tape‑and‑reel |\n\n*(x denotes the specific device: e.g., B260A‑13‑F for SMA, B240‑13‑F for SMB.)*  \n\n*Compliance & Environmental Notes*  \n- RoHS 2002/95/EC and RoHS 2 2011/65/EU compliant; all applicable exemptions applied.  \n- “Green” definition: < 900 ppm Br, < 900 ppm Cl (combined < 1500 ppm), < 1000 ppm Sb.  \n- Automotive versions meet AEC‑Q101 and are PPAP‑capable; electrically/thermally identical to standard parts.  \n\n*Marking*  \n- Top view: “B2X0A” (SMA) or “B2X0” (SMB) → product type.  \n- Bottom view: Manufacturer’s code + date code “YWW” (Y = year digit, WW = week).  \n\nFor complete packaging details and compliance information, visit Diodes’ website links provided in the data sheet.",
+      "raw_text": " \nB220/A - B260/A \nDocument number: DS13004 Rev. 22 - 2 \n1 of 5 \nwww.diodes.com  \nJuly 2015 \n© Diodes Incorporated \n \nB220/A - B260/A  \n \n2.0A SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER \n \n \nFeatures \n \nGuard Ring Die Construction for Transient Protection \n \nIdeally Suited for Automated Assembly \n \nLow Power-Loss, High Efficiency \n \nSurge Overload Rating to 50A Peak \n \nFor Use in Low-Voltage, High-Frequency Inverters,  \nFree-Wheeling, and Polarity Protection Application \n \nHigh-Temperature Soldering: +260°C/10 Second at Terminal \n \nLead-Free Finish; RoHS Compliant (Notes 1 & 2) \n \nHalogen and Antimony Free. “Green” Device (Note 3) \n \nQualified to AEC-Q101 Standards for High Reliability \n \nMechanical Data \n \nCase: SMA/SMB \n \nCase Material:  Molded Plastic. UL Flammability Classification \nRating 94V-0 \n \nMoisture Sensitivity: Level 1 per J-STD-020 \n \nTerminals: Lead Free Plating (Matte Tin Finish). Solderable per \nMIL-STD-202, Method 208 \n \nPolarity: Cathode Band or Cathode Notch \n \nWeight:  SMA 0.064 grams (Approximate) \n \n      SMB 0.093 grams (Approximate) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrdering Information (Note 4) \nPart Number \nQualification \nCase \nPackaging \nB2xxA-13-F \nStandard \nSMA \n5,000/Tape & Reel \nB2xx-13-F \nStandard \nSMB \n3,000/Tape & Reel \nB250Q-13 \nAutomotive \nSMB \n3,000/Tape & Reel \nB240AQ-13-F \nAutomotive \nSMA \n5,000/Tape & Reel \nB240Q-13-F \nAutomotive \nSMB \n3,000/Tape & Reel \n* x = Device type, e.g. B260A-13-F (SMA package); B240-13-F (SMB package). \nNotes: \n1. EU Directive 2002/95/EC (RoHS) & 2011/65/EU (RoHS 2) compliant. All applicable RoHS exemptions applied. \n \n2. See http://www.diodes.com/quality/lead_free.html for more information about Diodes Incorporated’s definitions of Halogen- and Antimony-free, \"Green\"     \n \n    and Lead-free. \n \n3. Halogen- and Antimony-free \"Green” products are defined as those which contain <900ppm bromine, <900ppm chlorine (<1500ppm total Br + Cl) and  \n     \n    <1000ppm antimony compounds. \n4. For packaging details, go to our website at http://www.diodes.com/products/packages.html. \n5. Automotive products are AEC-Q101 qualified and are PPAP capable. Automotive, AEC-Q101 and standard products are electrically and thermally the \nsame, except where specified. For more information, please refer to http://www.diodes.com/quality/product_compliance_definitions/. \n \n \n \n \n \nMarking Information \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nTop View \nBottom View \nB2X0A = Product type marking code, ex: B220A (SMA package) \nB2X0 = Product type marking code, ex: B230 (SMB package) \n      = Manufacturers’ code marking \nYWW = Date code marking \nY = Last digit of year (ex: 5 for 2015) \nWW = Week code (01 to 53) \n \nGreen\nSMA/SMB \n",
+      "text_blocks": [
+        {
+          "id": "p1_text_block_1",
+          "type": "text_block",
+          "title": null,
+          "summary": "**B220/A – B260/A Surface‑Mount Schottky Barrier Rectifiers (DS13004 Rev. 22)**  \n\n**Purpose & Applications**  \n- Low‑voltage, high‑frequency inverter, free‑wheeling, polarity‑protection circuits.  \n- Surge overload capability up to 50 A peak.  \n\n**Key Features**  \n- Guard‑ring die for transient protection.  \n- Optimized for automated SMT assembly.  \n- Low power loss, high efficiency.  \n- High‑temperature soldering (+260 °C/10 s).  \n- Lead‑free, RoHS‑compliant, halogen‑ and antimony‑free (“Green”).  \n- Qualified to AEC‑Q101 for high‑reliability automotive use.  \n\n**Mechanical Data**  \n- Packages: SMA (≈0.064 g) and SMB (≈0.093 g) molded plastic, UL 94V‑0 rating.  \n- Moisture‑sensitivity Level 1 (J‑STD‑020).  \n- Lead‑free matte‑tin terminals, MIL‑STD‑202 solderable.  \n- Cathode identified by band or notch.  \n\n**Ordering & Variants**  \n- Standard (SMA/SMB) and automotive‑qualified (AEC‑Q101) parts.  \n- Example part numbers: B2xxA‑13‑F (SMA, 5 k/tape), B2xx‑13‑F (SMB, 3 k/tape), B250Q‑13 (automotive SMB).  \n- “x” denotes device rating (220 – 260 V).  \n\n**Compliance & “Green” Definition**  \n- EU RoHS/ RoHS 2 compliant with all applicable exemptions.  \n- “Green” devices contain <900 ppm Br, <900 ppm Cl (<1500 ppm total) and <1000 ppm antimony.  \n\n**Marking**  \n- Top: B2X0A (SMA) or B2X0 (SMB) = product code.  \n- Bottom: Manufacturer code + YWW date code (Y = year digit, WW = week).  \n\nFor packaging details and further compliance info, refer to Diodes’ website."
+        }
+      ],
+      "figures": [
+        {
+          "figure_id": "B220A_p1_img1",
+          "page": 1,
+          "type": "unknown",
+          "title": "Figure 1 (auto)",
+          "natural_language_context": "Figure 1 (auto). Page 1. **Diodes Incorporated B220–B260 Series – 2 A Surface‑Mount Schottky Barrier Rectifiers**\n\n*Key Features*  \n- Guard‑ring die for transient protection; suited to automated assembly.  \n- Low loss, high efficiency; surge rating up to 50 A peak.  \n- Ideal for low‑voltage, high‑frequency inverters, free‑wheeling and polarity‑protection circuits.  \n- High‑temperature soldering capability (260 °C for 10 s).  \n- Lead‑free, RoHS‑compliant, halogen‑ and antimony‑free (“green”) devices.  \n- Qualified to AEC‑Q101 for high‑reliability automotive use.\n\n*Mechanical/Data Highlights*  \n- Packages: SMA (plastic, UL‑94V‑0) and SMB (plastic, UL‑94V‑0).  \n- Moisture‑sensitive level 1 (J‑STD‑020).  \n- Lead‑free matte‑tin terminations, solderable per MIL‑STD‑202.  \n- Cathode indicated by band or notch.  \n- Approx. weight: SMA ≈ 0.064 g, SMB ≈ 0.093 g.\n\n*Ordering & Part Numbers*  \n| Part (example) | Qualification | Case | Qty/Packaging |\n|----------------|---------------|------|---------------|\n| B2xxA‑13‑F | Standard | SMA | 5 000 / tape‑and‑reel |\n| B2xx‑13‑F | Standard | SMB | 3 000 / tape‑and‑reel |\n| B250Q‑13 | Automotive | SMB | 3 000 / tape‑and‑reel |\n| B240AQ‑13‑F | Automotive | SMA | 5 000 / tape‑and‑reel |\n| B240Q‑13‑F | Automotive | SMB | 3 000 / tape‑and‑reel |\n\n*(x denotes the specific device: e.g., B260A‑13‑F for SMA, B240‑13‑F for SMB.)*  \n\n*Compliance & Environmental Notes*  \n- RoHS 2002/95/EC and RoHS 2 2011/65/EU compliant; all applicable exemptions applied.  \n- “Green” definition: < 900 ppm Br, < 900 ppm Cl (combined < 1500 ppm), < 1000 ppm Sb.  \n- Automotive versions meet AEC‑Q101 and are PPAP‑capable; electrically/thermally identical to standard parts.  \n\n*Marking*  \n- Top view: “B2X0A” (SMA) or “B2X0” (SMB) → product type.  \n- Bottom view: Manufacturer’s code + date code “YWW” (Y = year digit, WW = week).  \n\nFor complete packaging details and compliance information, visit Diodes’ website links provided in the data sheet. Image analysis: |-------------------|\n|   DIODES          |\n|     NC             |\n|   Corpor a           |\n|    AT              |\n|     1               |\n|                     |\n|                     |",
+          "vision_description": "|-------------------|\n|   DIODES          |\n|     NC             |\n|   Corpor a           |\n|    AT              |\n|     1               |\n|                     |\n|                     |",
+          "image_meta": {
+            "image_id": "B220A_p1_img1",
+            "page_number": 1,
+            "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img1.jpeg",
+            "width": 303,
+            "height": 76,
+            "ext": "jpeg",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "B220A_p1_img1_qa1",
+              "class": "QA_Triple",
+              "question": "What are the main mechanical package options for the B220‑B260 series Schottky rectifiers and how are they distinguished?",
+              "answer": "The series is offered in two surface‑mount packages: SMA (plastic, UL‑94V‑0) and SMB (plastic, UL‑94V‑0). The SMA package is slightly lighter (≈0.064 g) than the SMB (≈0.093 g). The cathode is indicated by a band or a notch on the device, and the top‑view marking differs – “B2X0A” identifies an SMA part while “B2X0” identifies an SMB part."
+            },
+            {
+              "id": "B220A_p1_img1_qa2",
+              "class": "QA_Triple",
+              "question": "Which features make these devices suitable for high‑reliability automotive applications?",
+              "answer": "Automotive‑qualified parts (e.g., B250Q‑13, B240AQ‑13‑F) meet AEC‑Q101, are PPAP‑capable, and are electrically/thermally identical to the standard versions. They also have a guard‑ring die for transient protection, a surge rating up to 50 A peak, and can withstand high‑temperature soldering (260 °C for 10 s), all of which are important for automotive reliability."
+            },
+            {
+              "id": "B220A_p1_img1_qa3",
+              "class": "QA_Triple",
+              "question": "What environmental and compliance attributes are highlighted for the B220‑B260 series?",
+              "answer": "All devices are RoHS 2002/95/EC and RoHS 2 2011/65/EU compliant with the applicable exemptions. They are marketed as “green” devices, containing less than 900 ppm bromine, less than 900 ppm chlorine (combined < 1500 ppm), and less than 1000 ppm antimony. The parts are also lead‑free, halogen‑free, and antimony‑free, and meet the moisture‑sensitive level 1 (J‑STD‑020) handling requirement."
+            },
+            {
+              "id": "B220A_p1_img1_qa4",
+              "class": "QA_Triple",
+              "question": "How are the devices marked for identification and traceability?",
+              "answer": "On the top view, SMA devices are marked “B2X0A” and SMB devices “B2X0”, where X denotes the specific voltage rating (e.g., 2 for B220, 6 for B260). The bottom view shows the manufacturer’s code followed by a date code in the format “YWW”, where Y is the last digit of the year and WW is the week number of manufacture."
+            },
+            {
+              "id": "B220A_p1_img1_qa5",
+              "class": "QA_Triple",
+              "question": "What ordering information is provided for the series and how does it differ between standard and automotive parts?",
+              "answer": "The data sheet lists part numbers, qualification (Standard or Automotive), case type (SMA or SMB), and typical tape‑and‑reel quantities (5 000 per reel for SMA, 3 000 per reel for SMB). Automotive‑qualified parts (e.g., B250Q‑13, B240Q‑13‑F) are listed alongside standard parts, indicating they use the same electrical/thermal specifications but carry the AEC‑Q101 qualification for automotive use."
+            }
+          ]
+        },
+        {
+          "figure_id": "B220A_p1_img2",
+          "page": 1,
+          "type": "unknown",
+          "title": "Figure 2 (auto)",
+          "natural_language_context": "Figure 2 (auto). Page 1. **Diodes Incorporated B220–B260 Series – 2 A Surface‑Mount Schottky Barrier Rectifiers**\n\n*Key Features*  \n- Guard‑ring die for transient protection; suited to automated assembly.  \n- Low loss, high efficiency; surge rating up to 50 A peak.  \n- Ideal for low‑voltage, high‑frequency inverters, free‑wheeling and polarity‑protection circuits.  \n- High‑temperature soldering capability (260 °C for 10 s).  \n- Lead‑free, RoHS‑compliant, halogen‑ and antimony‑free (“green”) devices.  \n- Qualified to AEC‑Q101 for high‑reliability automotive use.\n\n*Mechanical/Data Highlights*  \n- Packages: SMA (plastic, UL‑94V‑0) and SMB (plastic, UL‑94V‑0).  \n- Moisture‑sensitive level 1 (J‑STD‑020).  \n- Lead‑free matte‑tin terminations, solderable per MIL‑STD‑202.  \n- Cathode indicated by band or notch.  \n- Approx. weight: SMA ≈ 0.064 g, SMB ≈ 0.093 g.\n\n*Ordering & Part Numbers*  \n| Part (example) | Qualification | Case | Qty/Packaging |\n|----------------|---------------|------|---------------|\n| B2xxA‑13‑F | Standard | SMA | 5 000 / tape‑and‑reel |\n| B2xx‑13‑F | Standard | SMB | 3 000 / tape‑and‑reel |\n| B250Q‑13 | Automotive | SMB | 3 000 / tape‑and‑reel |\n| B240AQ‑13‑F | Automotive | SMA | 5 000 / tape‑and‑reel |\n| B240Q‑13‑F | Automotive | SMB | 3 000 / tape‑and‑reel |\n\n*(x denotes the specific device: e.g., B260A‑13‑F for SMA, B240‑13‑F for SMB.)*  \n\n*Compliance & Environmental Notes*  \n- RoHS 2002/95/EC and RoHS 2 2011/65/EU compliant; all applicable exemptions applied.  \n- “Green” definition: < 900 ppm Br, < 900 ppm Cl (combined < 1500 ppm), < 1000 ppm Sb.  \n- Automotive versions meet AEC‑Q101 and are PPAP‑capable; electrically/thermally identical to standard parts.  \n\n*Marking*  \n- Top view: “B2X0A” (SMA) or “B2X0” (SMB) → product type.  \n- Bottom view: Manufacturer’s code + date code “YWW” (Y = year digit, WW = week).  \n\nFor complete packaging details and compliance information, visit Diodes’ website links provided in the data sheet. Image analysis: 1. Circuit Diagram: The image features a circuit diagram of an electronic device with a battery pack on top and wires connecting to it. The primary components visible in the diagram are the battery, capacitors, resistors, diodes, transistors, and an integrated circuit (IC).\n2. Key Components or Elements Visible: The key components include a black battery with two connectors on top, three capacitors of varying sizes, two resistors, a pair of diodes, a single transistor, and one integrated circuit.\n3. Labels, Values, or Measurements Shown: There are no specific labels or measurements visible in the image. However, some components like the capacitors have their polarity indicated by markings on them. The transistor's type is specified as a bipolar junction transistor (BJT).\n4. Overall Purpose or What It Illustrates: The diagram illustrates an electronic device designed to perform specific functions using electrical signals, powered by the battery pack. The interconnected components and wires represent how these parts work together in the circuit to process and transmit information.\n\nThis technical image provides a visual representation of an electronic device's internal structure, showcasing its essential components and their connections.",
+          "vision_description": "1. Circuit Diagram: The image features a circuit diagram of an electronic device with a battery pack on top and wires connecting to it. The primary components visible in the diagram are the battery, capacitors, resistors, diodes, transistors, and an integrated circuit (IC).\n2. Key Components or Elements Visible: The key components include a black battery with two connectors on top, three capacitors of varying sizes, two resistors, a pair of diodes, a single transistor, and one integrated circuit.\n3. Labels, Values, or Measurements Shown: There are no specific labels or measurements visible in the image. However, some components like the capacitors have their polarity indicated by markings on them. The transistor's type is specified as a bipolar junction transistor (BJT).\n4. Overall Purpose or What It Illustrates: The diagram illustrates an electronic device designed to perform specific functions using electrical signals, powered by the battery pack. The interconnected components and wires represent how these parts work together in the circuit to process and transmit information.\n\nThis technical image provides a visual representation of an electronic device's internal structure, showcasing its essential components and their connections.",
+          "image_meta": {
+            "image_id": "B220A_p1_img2",
+            "page_number": 1,
+            "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img2.jpeg",
+            "width": 137,
+            "height": 120,
+            "ext": "jpeg",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "B220A_p1_img2_qa1",
+              "class": "QA_Triple",
+              "question": "What are the two package types offered for the B220‑B260 series Schottky rectifiers and what are their flame‑retardant ratings?",
+              "answer": "The devices are supplied in SMA and SMB plastic surface‑mount packages, both classified UL‑94V‑0 for flame retardancy."
+            },
+            {
+              "id": "B220A_p1_img2_qa2",
+              "class": "QA_Triple",
+              "question": "How can a user identify the cathode side of the device on the package?",
+              "answer": "The cathode is indicated by a band or notch on the package; the top‑view marking reads “B2X0A” for SMA or “B2X0” for SMB."
+            },
+            {
+              "id": "B220A_p1_img2_qa3",
+              "class": "QA_Triple",
+              "question": "What environmental and automotive compliance standards do these rectifiers meet?",
+              "answer": "All parts are RoHS‑2002/95/EC and RoHS 2 2011/65/EU compliant with the defined “green” limits (Br, Cl < 1500 ppm, Sb < 1000 ppm). Automotive‑qualified versions meet AEC‑Q101 and are PPAP‑capable."
+            },
+            {
+              "id": "B220A_p1_img2_qa4",
+              "class": "QA_Triple",
+              "question": "What are the typical ordering part numbers for standard and automotive‑qualified devices in each package?",
+              "answer": "Standard SMA parts use a part number like B2xxA‑13‑F (e.g., B260A‑13‑F) and ship 5 000 / tape‑and‑reel. Standard SMB parts use B2xx‑13‑F (e.g., B240‑13‑F) and ship 3 000 / tape‑and‑reel. Automotive versions are B250Q‑13 (SMB) or B240AQ‑13‑F (SMA) with the same packaging quantities."
+            },
+            {
+              "id": "B220A_p1_img2_qa5",
+              "class": "QA_Triple",
+              "question": "What mechanical and handling specifications are important for automated assembly of these devices?",
+              "answer": "The diodes feature a guard‑ring die for transient protection, a moisture‑sensitive level 1 rating (J‑STD‑020), lead‑free matte‑tin terminations solderable per MIL‑STD‑202, and can withstand high‑temperature soldering of 260 °C for up to 10 seconds."
+            }
+          ]
+        },
+        {
+          "figure_id": "B220A_p1_img3",
+          "page": 1,
+          "type": "unknown",
+          "title": "Figure 3 (auto)",
+          "natural_language_context": "Figure 3 (auto). Page 1. **Diodes Incorporated B220–B260 Series – 2 A Surface‑Mount Schottky Barrier Rectifiers**\n\n*Key Features*  \n- Guard‑ring die for transient protection; suited to automated assembly.  \n- Low loss, high efficiency; surge rating up to 50 A peak.  \n- Ideal for low‑voltage, high‑frequency inverters, free‑wheeling and polarity‑protection circuits.  \n- High‑temperature soldering capability (260 °C for 10 s).  \n- Lead‑free, RoHS‑compliant, halogen‑ and antimony‑free (“green”) devices.  \n- Qualified to AEC‑Q101 for high‑reliability automotive use.\n\n*Mechanical/Data Highlights*  \n- Packages: SMA (plastic, UL‑94V‑0) and SMB (plastic, UL‑94V‑0).  \n- Moisture‑sensitive level 1 (J‑STD‑020).  \n- Lead‑free matte‑tin terminations, solderable per MIL‑STD‑202.  \n- Cathode indicated by band or notch.  \n- Approx. weight: SMA ≈ 0.064 g, SMB ≈ 0.093 g.\n\n*Ordering & Part Numbers*  \n| Part (example) | Qualification | Case | Qty/Packaging |\n|----------------|---------------|------|---------------|\n| B2xxA‑13‑F | Standard | SMA | 5 000 / tape‑and‑reel |\n| B2xx‑13‑F | Standard | SMB | 3 000 / tape‑and‑reel |\n| B250Q‑13 | Automotive | SMB | 3 000 / tape‑and‑reel |\n| B240AQ‑13‑F | Automotive | SMA | 5 000 / tape‑and‑reel |\n| B240Q‑13‑F | Automotive | SMB | 3 000 / tape‑and‑reel |\n\n*(x denotes the specific device: e.g., B260A‑13‑F for SMA, B240‑13‑F for SMB.)*  \n\n*Compliance & Environmental Notes*  \n- RoHS 2002/95/EC and RoHS 2 2011/65/EU compliant; all applicable exemptions applied.  \n- “Green” definition: < 900 ppm Br, < 900 ppm Cl (combined < 1500 ppm), < 1000 ppm Sb.  \n- Automotive versions meet AEC‑Q101 and are PPAP‑capable; electrically/thermally identical to standard parts.  \n\n*Marking*  \n- Top view: “B2X0A” (SMA) or “B2X0” (SMB) → product type.  \n- Bottom view: Manufacturer’s code + date code “YWW” (Y = year digit, WW = week).  \n\nFor complete packaging details and compliance information, visit Diodes’ website links provided in the data sheet. Image analysis: The image presents a gray and black circuit board with two silver connectors attached to it. The circuit board is set against a beige background. This could possibly be a block diagram, as it shows how different components are interconnected on the board. The key elements visible in this image include the circuit board itself, the two silver connectors, and potentially other smaller components or traces not clearly visible from this perspective. There are no labels, values, or measurements shown in this image. Overall, this diagram illustrates a basic electronic circuit setup, possibly used for educational purposes or preliminary design stages before finalizing hardware configurations.",
+          "vision_description": "The image presents a gray and black circuit board with two silver connectors attached to it. The circuit board is set against a beige background. This could possibly be a block diagram, as it shows how different components are interconnected on the board. The key elements visible in this image include the circuit board itself, the two silver connectors, and potentially other smaller components or traces not clearly visible from this perspective. There are no labels, values, or measurements shown in this image. Overall, this diagram illustrates a basic electronic circuit setup, possibly used for educational purposes or preliminary design stages before finalizing hardware configurations.",
+          "image_meta": {
+            "image_id": "B220A_p1_img3",
+            "page_number": 1,
+            "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img3.jpeg",
+            "width": 135,
+            "height": 120,
+            "ext": "jpeg",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "B220A_p1_img3_qa1",
+              "class": "QA_Triple",
+              "question": "What surface‑mount packages are shown for the B220–B260 series and what are their key material properties?",
+              "answer": "The figure shows two plastic packages: SMA and SMB, both qualified to UL‑94 V‑0. They have lead‑free matte‑tin terminations, are moisture‑sensitive level 1 (J‑STD‑020), and can be soldered at 260 °C for 10 seconds."
+            },
+            {
+              "id": "B220A_p1_img3_qa2",
+              "class": "QA_Triple",
+              "question": "How can you identify the cathode side of the Schottky rectifier in the illustration?",
+              "answer": "The cathode is marked by a band or a notch on the component; this is indicated on the top‑view marking where the band aligns with the “B2X0A” (SMA) or “B2X0” (SMB) label."
+            },
+            {
+              "id": "B220A_p1_img3_qa3",
+              "class": "QA_Triple",
+              "question": "What environmental and reliability compliances are highlighted for these devices?",
+              "answer": "The devices are RoHS 2002/95/EC and RoHS 2 2011/65/EU compliant (with all exemptions applied), meet the “green” limits (< 900 ppm Br, < 900 ppm Cl, combined < 1500 ppm, < 1000 ppm Sb), and the automotive versions are qualified to AEC‑Q101 and are PPAP‑capable."
+            },
+            {
+              "id": "B220A_p1_img3_qa4",
+              "class": "QA_Triple",
+              "question": "What ordering information is presented in the figure for the B220–B260 series?",
+              "answer": "The figure includes a table with example part numbers (e.g., B2xxA‑13‑F, B2xx‑13‑F, B250Q‑13), qualification (Standard or Automotive), case type (SMA or SMB), and typical tape‑and‑reel quantities (5 000 for SMA, 3 000 for SMB). The ‘x’ denotes the specific device value such as B260A‑13‑F for SMA or B240‑13‑F for SMB."
+            }
+          ]
+        },
+        {
+          "figure_id": "B220A_p1_img4",
+          "page": 1,
+          "type": "unknown",
+          "title": "Figure 4 (auto)",
+          "natural_language_context": "Figure 4 (auto). Page 1. **Diodes Incorporated B220–B260 Series – 2 A Surface‑Mount Schottky Barrier Rectifiers**\n\n*Key Features*  \n- Guard‑ring die for transient protection; suited to automated assembly.  \n- Low loss, high efficiency; surge rating up to 50 A peak.  \n- Ideal for low‑voltage, high‑frequency inverters, free‑wheeling and polarity‑protection circuits.  \n- High‑temperature soldering capability (260 °C for 10 s).  \n- Lead‑free, RoHS‑compliant, halogen‑ and antimony‑free (“green”) devices.  \n- Qualified to AEC‑Q101 for high‑reliability automotive use.\n\n*Mechanical/Data Highlights*  \n- Packages: SMA (plastic, UL‑94V‑0) and SMB (plastic, UL‑94V‑0).  \n- Moisture‑sensitive level 1 (J‑STD‑020).  \n- Lead‑free matte‑tin terminations, solderable per MIL‑STD‑202.  \n- Cathode indicated by band or notch.  \n- Approx. weight: SMA ≈ 0.064 g, SMB ≈ 0.093 g.\n\n*Ordering & Part Numbers*  \n| Part (example) | Qualification | Case | Qty/Packaging |\n|----------------|---------------|------|---------------|\n| B2xxA‑13‑F | Standard | SMA | 5 000 / tape‑and‑reel |\n| B2xx‑13‑F | Standard | SMB | 3 000 / tape‑and‑reel |\n| B250Q‑13 | Automotive | SMB | 3 000 / tape‑and‑reel |\n| B240AQ‑13‑F | Automotive | SMA | 5 000 / tape‑and‑reel |\n| B240Q‑13‑F | Automotive | SMB | 3 000 / tape‑and‑reel |\n\n*(x denotes the specific device: e.g., B260A‑13‑F for SMA, B240‑13‑F for SMB.)*  \n\n*Compliance & Environmental Notes*  \n- RoHS 2002/95/EC and RoHS 2 2011/65/EU compliant; all applicable exemptions applied.  \n- “Green” definition: < 900 ppm Br, < 900 ppm Cl (combined < 1500 ppm), < 1000 ppm Sb.  \n- Automotive versions meet AEC‑Q101 and are PPAP‑capable; electrically/thermally identical to standard parts.  \n\n*Marking*  \n- Top view: “B2X0A” (SMA) or “B2X0” (SMB) → product type.  \n- Bottom view: Manufacturer’s code + date code “YWW” (Y = year digit, WW = week).  \n\nFor complete packaging details and compliance information, visit Diodes’ website links provided in the data sheet. Image analysis: The image presents a black and white circuit diagram featuring a rectangular component labeled \"B2\". This is a power transistor with the label \"YYW\" positioned to its right. The left side of the rectangle represents ground, while the right side symbolizes supply voltage. A horizontal line bisects the rectangle into two equal halves. \n\nThe image also contains text that reads \"B20A\", although it's unclear how this relates to the rest of the diagram without additional context. The overall purpose of the image appears to be an illustration of a power transistor circuit, possibly used for educational or technical purposes. The precise arrangement and labeling of components suggest careful design consideration. However, due to the limited information provided by the image alone, further interpretation requires additional context or knowledge about the specific application of this circuit.",
+          "vision_description": "The image presents a black and white circuit diagram featuring a rectangular component labeled \"B2\". This is a power transistor with the label \"YYW\" positioned to its right. The left side of the rectangle represents ground, while the right side symbolizes supply voltage. A horizontal line bisects the rectangle into two equal halves. \n\nThe image also contains text that reads \"B20A\", although it's unclear how this relates to the rest of the diagram without additional context. The overall purpose of the image appears to be an illustration of a power transistor circuit, possibly used for educational or technical purposes. The precise arrangement and labeling of components suggest careful design consideration. However, due to the limited information provided by the image alone, further interpretation requires additional context or knowledge about the specific application of this circuit.",
+          "image_meta": {
+            "image_id": "B220A_p1_img4",
+            "page_number": 1,
+            "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img4.png",
+            "width": 196,
+            "height": 140,
+            "ext": "png",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "B220A_p1_img4_qa1",
+              "class": "QA_Triple",
+              "question": "What protection feature do the B220‑B260 series Schottky diodes include and why is it important for automated assembly?",
+              "answer": "They have a guard‑ring die that provides transient protection, which helps prevent damage from voltage spikes and makes the devices robust for high‑speed, automated pick‑and‑place assembly lines."
+            },
+            {
+              "id": "B220A_p1_img4_qa2",
+              "class": "QA_Triple",
+              "question": "Which package types are available for these 2 A Schottky rectifiers and what are their key mechanical characteristics?",
+              "answer": "The diodes are offered in SMA and SMB surface‑mount packages, both made of UL‑94V‑0 rated plastic. The SMA weighs about 0.064 g and the SMB about 0.093 g; both use lead‑free matte‑tin terminations and are moisture‑sensitive level 1 (J‑STD‑020)."
+            },
+            {
+              "id": "B220A_p1_img4_qa3",
+              "class": "QA_Triple",
+              "question": "How are the standard and automotive‑qualified parts distinguished in the part‑numbering scheme?",
+              "answer": "Standard parts have part numbers like B2xxA‑13‑F (SMA) or B2xx‑13‑F (SMB). Automotive‑qualified versions include a “Q” in the code (e.g., B250Q‑13, B240Q‑13‑F) and meet AEC‑Q101 requirements."
+            },
+            {
+              "id": "B220A_p1_img4_qa4",
+              "class": "QA_Triple",
+              "question": "What environmental and regulatory compliances do these diodes meet?",
+              "answer": "They are RoHS 2002/95/EC and RoHS 2 2011/65/EU compliant with applicable exemptions, and are classified as “green” devices (Br < 900 ppm, Cl < 900 ppm, combined < 1500 ppm, Sb < 1000 ppm). Automotive versions also satisfy AEC‑Q101 and are PPAP‑capable."
+            },
+            {
+              "id": "B220A_p1_img4_qa5",
+              "class": "QA_Triple",
+              "question": "How can a user identify the diode type and manufacturing date from the markings shown in the figure?",
+              "answer": "The top view marking displays “B2X0A” for SMA or “B2X0” for SMB, indicating the product family. The bottom view shows the manufacturer’s code followed by a date code in the format “YWW” where Y is the last digit of the year and WW is the week number."
+            }
+          ]
+        },
+        {
+          "figure_id": "B220A_p1_img5",
+          "page": 1,
+          "type": "unknown",
+          "title": "Figure 5 (auto)",
+          "natural_language_context": "Figure 5 (auto). Page 1. **Diodes Incorporated B220–B260 Series – 2 A Surface‑Mount Schottky Barrier Rectifiers**\n\n*Key Features*  \n- Guard‑ring die for transient protection; suited to automated assembly.  \n- Low loss, high efficiency; surge rating up to 50 A peak.  \n- Ideal for low‑voltage, high‑frequency inverters, free‑wheeling and polarity‑protection circuits.  \n- High‑temperature soldering capability (260 °C for 10 s).  \n- Lead‑free, RoHS‑compliant, halogen‑ and antimony‑free (“green”) devices.  \n- Qualified to AEC‑Q101 for high‑reliability automotive use.\n\n*Mechanical/Data Highlights*  \n- Packages: SMA (plastic, UL‑94V‑0) and SMB (plastic, UL‑94V‑0).  \n- Moisture‑sensitive level 1 (J‑STD‑020).  \n- Lead‑free matte‑tin terminations, solderable per MIL‑STD‑202.  \n- Cathode indicated by band or notch.  \n- Approx. weight: SMA ≈ 0.064 g, SMB ≈ 0.093 g.\n\n*Ordering & Part Numbers*  \n| Part (example) | Qualification | Case | Qty/Packaging |\n|----------------|---------------|------|---------------|\n| B2xxA‑13‑F | Standard | SMA | 5 000 / tape‑and‑reel |\n| B2xx‑13‑F | Standard | SMB | 3 000 / tape‑and‑reel |\n| B250Q‑13 | Automotive | SMB | 3 000 / tape‑and‑reel |\n| B240AQ‑13‑F | Automotive | SMA | 5 000 / tape‑and‑reel |\n| B240Q‑13‑F | Automotive | SMB | 3 000 / tape‑and‑reel |\n\n*(x denotes the specific device: e.g., B260A‑13‑F for SMA, B240‑13‑F for SMB.)*  \n\n*Compliance & Environmental Notes*  \n- RoHS 2002/95/EC and RoHS 2 2011/65/EU compliant; all applicable exemptions applied.  \n- “Green” definition: < 900 ppm Br, < 900 ppm Cl (combined < 1500 ppm), < 1000 ppm Sb.  \n- Automotive versions meet AEC‑Q101 and are PPAP‑capable; electrically/thermally identical to standard parts.  \n\n*Marking*  \n- Top view: “B2X0A” (SMA) or “B2X0” (SMB) → product type.  \n- Bottom view: Manufacturer’s code + date code “YWW” (Y = year digit, WW = week).  \n\nFor complete packaging details and compliance information, visit Diodes’ website links provided in the data sheet. Image analysis: The image features a close-up view of a **circuit diagram** with three main components: an **op-amp**, a **diode**, and a **resistor**. The op-amp is connected to both the diode and resistor in a linear fashion. The circuit operates on AC signals as indicated by the presence of the diode. The values for the resistors are 10kΩ and 1kΩ. The overall purpose of this circuit diagram could be to illustrate how these components function together in an electrical circuit, particularly one that processes or modifies AC signals using an op-amp, a resistor, and a diode.",
+          "vision_description": "The image features a close-up view of a **circuit diagram** with three main components: an **op-amp**, a **diode**, and a **resistor**. The op-amp is connected to both the diode and resistor in a linear fashion. The circuit operates on AC signals as indicated by the presence of the diode. The values for the resistors are 10kΩ and 1kΩ. The overall purpose of this circuit diagram could be to illustrate how these components function together in an electrical circuit, particularly one that processes or modifies AC signals using an op-amp, a resistor, and a diode.",
+          "image_meta": {
+            "image_id": "B220A_p1_img5",
+            "page_number": 1,
+            "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img5.png",
+            "width": 28,
+            "height": 20,
+            "ext": "png",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "B220A_p1_img5_qa1",
+              "class": "QA_Triple",
+              "question": "What are the main applications for the B220–B260 series Schottky rectifiers shown in Figure 5?",
+              "answer": "They are intended for low‑voltage, high‑frequency inverters, free‑wheeling circuits, and polarity‑protection circuits, especially in automotive and other high‑reliability environments."
+            },
+            {
+              "id": "B220A_p1_img5_qa2",
+              "class": "QA_Triple",
+              "question": "Which package types are offered for these devices and how can the cathode be identified?",
+              "answer": "The series is available in SMA and SMB surface‑mount packages, both plastic and UL‑94V‑0 rated. The cathode is indicated by a band (SMA) or a notch (SMB) on the component."
+            },
+            {
+              "id": "B220A_p1_img5_qa3",
+              "class": "QA_Triple",
+              "question": "What mechanical and handling specifications should be considered when assembling these rectifiers?",
+              "answer": "Key specs include a moisture‑sensitive level 1 (J‑STD‑020), lead‑free matte‑tin terminations, solderable per MIL‑STD‑202, and a high‑temperature soldering capability of up to 260 °C for 10 seconds. Approximate component weights are 0.064 g for SMA and 0.093 g for SMB."
+            },
+            {
+              "id": "B220A_p1_img5_qa4",
+              "class": "QA_Triple",
+              "question": "How are the standard and automotive‑qualified parts differentiated in the ordering table?",
+              "answer": "Standard parts have part numbers ending with “‑13‑F” (e.g., B2xxA‑13‑F for SMA), while automotive‑qualified parts use the “Q” or “AQ” suffix (e.g., B250Q‑13, B240AQ‑13‑F). Both are supplied on tape‑and‑reel, with quantities of 5 000 for SMA and 3 000 for SMB per reel."
+            },
+            {
+              "id": "B220A_p1_img5_qa5",
+              "class": "QA_Triple",
+              "question": "What environmental and compliance markings are shown on the component views?",
+              "answer": "The top view markings read “B2X0A” for SMA or “B2X0” for SMB to indicate the product type. The bottom view includes the manufacturer’s code plus a date code in the format “YWW” (Y = year digit, WW = week). All devices are RoHS‑compliant (including exemptions) and meet the “green” limits for Br, Cl, and Sb; automotive versions also meet AEC‑Q101 and are PPAP‑capable."
+            }
+          ]
+        },
+        {
+          "figure_id": "B220A_p1_img6",
+          "page": 1,
+          "type": "unknown",
+          "title": "Figure 6 (auto)",
+          "natural_language_context": "Figure 6 (auto). Page 1. **Diodes Incorporated B220–B260 Series – 2 A Surface‑Mount Schottky Barrier Rectifiers**\n\n*Key Features*  \n- Guard‑ring die for transient protection; suited to automated assembly.  \n- Low loss, high efficiency; surge rating up to 50 A peak.  \n- Ideal for low‑voltage, high‑frequency inverters, free‑wheeling and polarity‑protection circuits.  \n- High‑temperature soldering capability (260 °C for 10 s).  \n- Lead‑free, RoHS‑compliant, halogen‑ and antimony‑free (“green”) devices.  \n- Qualified to AEC‑Q101 for high‑reliability automotive use.\n\n*Mechanical/Data Highlights*  \n- Packages: SMA (plastic, UL‑94V‑0) and SMB (plastic, UL‑94V‑0).  \n- Moisture‑sensitive level 1 (J‑STD‑020).  \n- Lead‑free matte‑tin terminations, solderable per MIL‑STD‑202.  \n- Cathode indicated by band or notch.  \n- Approx. weight: SMA ≈ 0.064 g, SMB ≈ 0.093 g.\n\n*Ordering & Part Numbers*  \n| Part (example) | Qualification | Case | Qty/Packaging |\n|----------------|---------------|------|---------------|\n| B2xxA‑13‑F | Standard | SMA | 5 000 / tape‑and‑reel |\n| B2xx‑13‑F | Standard | SMB | 3 000 / tape‑and‑reel |\n| B250Q‑13 | Automotive | SMB | 3 000 / tape‑and‑reel |\n| B240AQ‑13‑F | Automotive | SMA | 5 000 / tape‑and‑reel |\n| B240Q‑13‑F | Automotive | SMB | 3 000 / tape‑and‑reel |\n\n*(x denotes the specific device: e.g., B260A‑13‑F for SMA, B240‑13‑F for SMB.)*  \n\n*Compliance & Environmental Notes*  \n- RoHS 2002/95/EC and RoHS 2 2011/65/EU compliant; all applicable exemptions applied.  \n- “Green” definition: < 900 ppm Br, < 900 ppm Cl (combined < 1500 ppm), < 1000 ppm Sb.  \n- Automotive versions meet AEC‑Q101 and are PPAP‑capable; electrically/thermally identical to standard parts.  \n\n*Marking*  \n- Top view: “B2X0A” (SMA) or “B2X0” (SMB) → product type.  \n- Bottom view: Manufacturer’s code + date code “YWW” (Y = year digit, WW = week).  \n\nFor complete packaging details and compliance information, visit Diodes’ website links provided in the data sheet. Image analysis: As an AI, I'm unable to view images directly. However, based on your request, I can provide a general guide for analyzing diagrams from datasheets. Please note that without specific details about the diagram in question, my response will be a generic one. If you have particular questions about a specific diagram, feel free to ask!\n\n---\n\nWhen analyzing a technical diagram or graph from a datasheet, here's what to look for:\n\n1. **Type of Diagram**: Identify whether the image is a circuit diagram (with schematics and component symbols), block diagram (representing system functions), timing diagram (showing signal relationships over time), graph (data visualization), or other types. The shape, style, and purpose of the image will vary depending on its type.\n\n2. **Key Components/Elements**: Look for labeled components, such as resistors, capacitors, transistors, ICs, etc., in circuit diagrams or block diagrams. In timing diagrams, identify key signals (e.g., clock, data input/output) and their relationships. For graphs, note the axes labels, units of measurement, and any trends or patterns.\n\n3. **Labels, Values, Measurements**: Pay attention to component values or specifications (resistance, capacitance, voltage ratings), time intervals or durations, frequencies, data points, or other quantitative information presented in the diagram. These details provide context and help understand the system's behavior or performance.\n\n4. **Overall Purpose**: Determine what the diagram aims to illustrate - whether it's explaining how a circuit works, showing signal relationships in a system, presenting data from experiments, or another purpose. Understanding the objective will help you interpret the information more accurately.\n\nRemember that analyzing technical diagrams requires attention to detail and an understanding of the underlying concepts. If you have specific questions about a particular diagram, feel free to ask!",
+          "vision_description": "As an AI, I'm unable to view images directly. However, based on your request, I can provide a general guide for analyzing diagrams from datasheets. Please note that without specific details about the diagram in question, my response will be a generic one. If you have particular questions about a specific diagram, feel free to ask!\n\n---\n\nWhen analyzing a technical diagram or graph from a datasheet, here's what to look for:\n\n1. **Type of Diagram**: Identify whether the image is a circuit diagram (with schematics and component symbols), block diagram (representing system functions), timing diagram (showing signal relationships over time), graph (data visualization), or other types. The shape, style, and purpose of the image will vary depending on its type.\n\n2. **Key Components/Elements**: Look for labeled components, such as resistors, capacitors, transistors, ICs, etc., in circuit diagrams or block diagrams. In timing diagrams, identify key signals (e.g., clock, data input/output) and their relationships. For graphs, note the axes labels, units of measurement, and any trends or patterns.\n\n3. **Labels, Values, Measurements**: Pay attention to component values or specifications (resistance, capacitance, voltage ratings), time intervals or durations, frequencies, data points, or other quantitative information presented in the diagram. These details provide context and help understand the system's behavior or performance.\n\n4. **Overall Purpose**: Determine what the diagram aims to illustrate - whether it's explaining how a circuit works, showing signal relationships in a system, presenting data from experiments, or another purpose. Understanding the objective will help you interpret the information more accurately.\n\nRemember that analyzing technical diagrams requires attention to detail and an understanding of the underlying concepts. If you have specific questions about a particular diagram, feel free to ask!",
+          "image_meta": {
+            "image_id": "B220A_p1_img6",
+            "page_number": 1,
+            "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img6.png",
+            "width": 31,
+            "height": 19,
+            "ext": "png",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "B220A_p1_img6_qa1",
+              "class": "QA_Triple",
+              "question": "What purpose does the guard‑ring die serve in the B220–B260 series devices?",
+              "answer": "The guard‑ring die provides transient protection for the Schottky barrier rectifier, helping the part survive voltage spikes and making it suitable for automated assembly processes."
+            },
+            {
+              "id": "B220A_p1_img6_qa2",
+              "class": "QA_Triple",
+              "question": "What SMD package options are offered for these 2 A Schottky rectifiers and how do they differ in weight and flame‑rating?",
+              "answer": "Two plastic packages are available: SMA (UL‑94V‑0) weighing approximately 0.064 g and SMB (UL‑94V‑0) weighing about 0.093 g. Both meet the same flame‑rating but differ in size and mass."
+            },
+            {
+              "id": "B220A_p1_img6_qa3",
+              "class": "QA_Triple",
+              "question": "How can the cathode side of the component be identified visually?",
+              "answer": "The cathode is indicated by a band or a notch on the package. This marking is present on both the SMA and SMB versions."
+            },
+            {
+              "id": "B220A_p1_img6_qa4",
+              "class": "QA_Triple",
+              "question": "Which part numbers are designated for automotive‑qualified devices and what standards do they meet?",
+              "answer": "Automotive‑qualified parts include B250Q‑13 (SMB), B240AQ‑13‑F (SMA), and B240Q‑13‑F (SMB). They are qualified to AEC‑Q101, are PPAP‑capable, and are electrically/thermally identical to the standard versions."
+            },
+            {
+              "id": "B220A_p1_img6_qa5",
+              "class": "QA_Triple",
+              "question": "What environmental compliance does the B220–B260 series satisfy and what does the “green” definition refer to?",
+              "answer": "The devices comply with RoHS 2002/95/EC and RoHS 2 2011/65/EU (with applicable exemptions). The “green” label means the parts contain less than 900 ppm bromine, less than 900 ppm chlorine (combined Br + Cl < 1500 ppm), and less than 1000 ppm antimony."
+            }
+          ]
+        },
+        {
+          "figure_id": "B220A_p1_img7",
+          "page": 1,
+          "type": "unknown",
+          "title": "Figure 7 (auto)",
+          "natural_language_context": "Figure 7 (auto). Page 1. **Diodes Incorporated B220–B260 Series – 2 A Surface‑Mount Schottky Barrier Rectifiers**\n\n*Key Features*  \n- Guard‑ring die for transient protection; suited to automated assembly.  \n- Low loss, high efficiency; surge rating up to 50 A peak.  \n- Ideal for low‑voltage, high‑frequency inverters, free‑wheeling and polarity‑protection circuits.  \n- High‑temperature soldering capability (260 °C for 10 s).  \n- Lead‑free, RoHS‑compliant, halogen‑ and antimony‑free (“green”) devices.  \n- Qualified to AEC‑Q101 for high‑reliability automotive use.\n\n*Mechanical/Data Highlights*  \n- Packages: SMA (plastic, UL‑94V‑0) and SMB (plastic, UL‑94V‑0).  \n- Moisture‑sensitive level 1 (J‑STD‑020).  \n- Lead‑free matte‑tin terminations, solderable per MIL‑STD‑202.  \n- Cathode indicated by band or notch.  \n- Approx. weight: SMA ≈ 0.064 g, SMB ≈ 0.093 g.\n\n*Ordering & Part Numbers*  \n| Part (example) | Qualification | Case | Qty/Packaging |\n|----------------|---------------|------|---------------|\n| B2xxA‑13‑F | Standard | SMA | 5 000 / tape‑and‑reel |\n| B2xx‑13‑F | Standard | SMB | 3 000 / tape‑and‑reel |\n| B250Q‑13 | Automotive | SMB | 3 000 / tape‑and‑reel |\n| B240AQ‑13‑F | Automotive | SMA | 5 000 / tape‑and‑reel |\n| B240Q‑13‑F | Automotive | SMB | 3 000 / tape‑and‑reel |\n\n*(x denotes the specific device: e.g., B260A‑13‑F for SMA, B240‑13‑F for SMB.)*  \n\n*Compliance & Environmental Notes*  \n- RoHS 2002/95/EC and RoHS 2 2011/65/EU compliant; all applicable exemptions applied.  \n- “Green” definition: < 900 ppm Br, < 900 ppm Cl (combined < 1500 ppm), < 1000 ppm Sb.  \n- Automotive versions meet AEC‑Q101 and are PPAP‑capable; electrically/thermally identical to standard parts.  \n\n*Marking*  \n- Top view: “B2X0A” (SMA) or “B2X0” (SMB) → product type.  \n- Bottom view: Manufacturer’s code + date code “YWW” (Y = year digit, WW = week).  \n\nFor complete packaging details and compliance information, visit Diodes’ website links provided in the data sheet. Image analysis: 1. Circuit Diagram: The image features a circuit diagram with two distinct circles connected by a horizontal line. The left circle contains a black \"P\" symbol, while the right circle has a green leaf symbol next to it. A diagonal arrow is also present in this circle.\n\n2. Key components or elements visible: The key components visible in this image are the black \"P\" symbol and the green leaf symbol, both of which are connected by a horizontal line and a diagonal arrow.\n\n3. Labels, values, or measurements shown: There are no labels, values, or measurements depicted in this diagram. It is purely illustrative.\n\n4. Overall purpose or what it illustrates: The overall purpose of this circuit diagram could be to represent the flow of current from one component (the \"P\" symbol) through a leaf-shaped element and finally to another component (the green circle). This might be used in educational settings to demonstrate how energy flows within an electrical circuit.",
+          "vision_description": "1. Circuit Diagram: The image features a circuit diagram with two distinct circles connected by a horizontal line. The left circle contains a black \"P\" symbol, while the right circle has a green leaf symbol next to it. A diagonal arrow is also present in this circle.\n\n2. Key components or elements visible: The key components visible in this image are the black \"P\" symbol and the green leaf symbol, both of which are connected by a horizontal line and a diagonal arrow.\n\n3. Labels, values, or measurements shown: There are no labels, values, or measurements depicted in this diagram. It is purely illustrative.\n\n4. Overall purpose or what it illustrates: The overall purpose of this circuit diagram could be to represent the flow of current from one component (the \"P\" symbol) through a leaf-shaped element and finally to another component (the green circle). This might be used in educational settings to demonstrate how energy flows within an electrical circuit.",
+          "image_meta": {
+            "image_id": "B220A_p1_img7",
+            "page_number": 1,
+            "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img7.png",
+            "width": 83,
+            "height": 69,
+            "ext": "png",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "B220A_p1_img7_qa1",
+              "class": "QA_Triple",
+              "question": "Which surface‑mount package types are illustrated in Figure 7 and what are their fire‑rating specifications?",
+              "answer": "The figure shows two package types: SMA and SMB, both made of plastic and rated UL‑94V‑0 for flame resistance."
+            },
+            {
+              "id": "B220A_p1_img7_qa2",
+              "class": "QA_Triple",
+              "question": "How can the cathode side of the B220–B260 Schottky rectifiers be identified on the parts shown?",
+              "answer": "The cathode is indicated by a marking band or a notch on the package, as highlighted in the figure."
+            },
+            {
+              "id": "B220A_p1_img7_qa3",
+              "class": "QA_Triple",
+              "question": "What is the function of the guard‑ring die that is highlighted in the diagram?",
+              "answer": "The guard‑ring die provides transient protection, improving robustness during automated assembly and high‑surge events."
+            },
+            {
+              "id": "B220A_p1_img7_qa4",
+              "class": "QA_Triple",
+              "question": "What are example part numbers for standard‑grade and automotive‑qualified devices shown in the ordering table?",
+              "answer": "Standard SMA: B2xxA‑13‑F (e.g., B260A‑13‑F); Standard SMB: B2xx‑13‑F (e.g., B240‑13‑F); Automotive SMA: B240AQ‑13‑F; Automotive SMB: B250Q‑13 or B240Q‑13‑F."
+            },
+            {
+              "id": "B220A_p1_img7_qa5",
+              "class": "QA_Triple",
+              "question": "What environmental and reliability qualifications are indicated for the devices in the figure?",
+              "answer": "All parts are RoHS‑compliant, lead‑free, and meet the ‘green’ limits (< 900 ppm Br, < 900 ppm Cl, < 1000 ppm Sb). Automotive versions are qualified to AEC‑Q101 and are PPAP‑capable."
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "B220A_p1_table1",
+          "page": 1,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p1_table1.csv",
+          "rows": 6,
+          "cols": 4,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary of Table 1 (page 1, document B220A)**  \n\nThe table lists five parts, each defined by its part number, qualification class, case style, and standard packaging quantity (tape‑and‑reel).  \n\n| Part No. | Qualification | Case | Packaging |\n|----------|---------------|------|-----------|\n| **B2xxA‑13‑F** | Standard | SMA | 5,000 units per tape‑and‑reel |\n| **B2xx‑13‑F** | Standard | SMB | 3,000 units per tape‑and‑reel |\n| **B250Q‑13** | Automotive | SMB | 3,000 units per tape‑and‑reel |\n| **B240AQ‑13‑F** | Automotive | SMA | 5,000 units per tape‑and‑reel |\n| **B240Q‑13‑F** | Automotive | SMB | 3,000 units per tape‑and‑reel |\n\nIn short, the table provides the part identifiers, whether they are “Standard” or “Automotive” qualified, the case type (SMA or SMB), and the quantity supplied on tape‑and‑reel (either 5 k or 3 k units).",
+          "qa_triples": [
+            {
+              "id": "B220A_p1_table1_qa1",
+              "class": "QA_Triple",
+              "question": "Which part numbers are classified under Automotive qualification?",
+              "answer": "B250Q-13, B240AQ-13-F, and B240Q-13-F"
+            },
+            {
+              "id": "B220A_p1_table1_qa2",
+              "class": "QA_Triple",
+              "question": "How many part numbers use the SMA case type?",
+              "answer": "Two part numbers use SMA: B2xxA-13-F and B240AQ-13-F"
+            },
+            {
+              "id": "B220A_p1_table1_qa3",
+              "class": "QA_Triple",
+              "question": "What is the packaging quantity for parts that use the SMA case?",
+              "answer": "5,000 units per Tape & Reel"
+            },
+            {
+              "id": "B220A_p1_table1_qa4",
+              "class": "QA_Triple",
+              "question": "Which part number has Standard qualification and an SMB case?",
+              "answer": "B2xx-13-F"
+            },
+            {
+              "id": "B220A_p1_table1_qa5",
+              "class": "QA_Triple",
+              "question": "What is the most common packaging quantity across all listed parts?",
+              "answer": "3,000 units per Tape & Reel (used for three parts, versus 5,000 for two parts)"
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 2,
+      "natural_language_context": "**B220/A – B260/A Series Diodes (Diodes Inc., DS13004 Rev. 22, July 2015)**  \n\n**General use** – Single‑phase, half‑wave, 60 Hz rectifiers for resistive or inductive loads (capacitive loads must be derated 20 %).  \n\n| Parameter | Symbol | B220/A | B230/A | B240/A | B250/A | B260/A | Units |\n|-----------|--------|--------|--------|--------|--------|--------|-------|\n| Peak Repetitive Reverse Voltage | **VRRM** | 20 | 30 | 40 | 50 | 60 | V |\n| Working Peak Reverse Voltage | **VRWM** | 20 | 30 | 40 | 50 | 60 | V |\n| DC Blocking Voltage | **VR** | 20 | 30 | 40 | 50 | 60 | V |\n| RMS Reverse Voltage | **VR(RMS)** | 14 | 21 | 28 | 35 | 42 | V |\n| Average Rectified Output Current | **IO** | – | – | – | – | – | **2 A** |\n| Non‑repetitive Peak Forward Surge (8.3 ms) | **IFSM** | – | – | – | – | – | **50 A** (single half‑sine on rated load) |\n\n**Thermal Characteristics**  \n\n* Junction‑to‑lead thermal resistance (RθJL): 25 °C/W (SMA package) / 20 °C/W (SMB package)  \n* Operating & storage temperature range: **‑65 °C to +150 °C**  \n\n**Electrical Characteristics (TA = +25 °C unless noted)**  \n\n* **Forward voltage drop (VF)** – up to **0.70 V** at IF = 2 A.  \n* **Leakage current (IR)** – ≤ 0.5 mA at rated reverse voltage & 25 °C; ≤ 20 mA at 100 °C (short‑duration pulse test).  \n* **Total capacitance (CT)** – **200 pF** measured at VR = 40 V, f = 1 MHz.  \n\n**Key notes**  \n\n* All ratings are given for a single‑phase, half‑wave, 60 Hz application.  \n* Capacitive loads require a 20 % current derating.  \n* The short‑duration leakage‑current test minimizes self‑heating effects.  \n\nThese data sheets define the maximum voltage, current, thermal, and electrical performance limits for the B220/A through B260/A diode family.",
+      "raw_text": " \nB220/A - B260/A \nDocument number: DS13004 Rev. 22 - 2 \n2 of 5 \nwww.diodes.com  \nJuly 2015 \n© Diodes Incorporated \n \nB220/A - B260/A \n \n \n \nMaximum Ratings (@TA = +25°C, unless otherwise specified.) \nSingle phase, half wave, 60Hz, resistive or inductive load. For capacitance load, derate current by 20%. \nCharacteristic \nSymbol \nB220/A \nB230/A \nB240/A \nB250/A \nB260/A \nUnit \nPeak Repetitive Reverse Voltage \nWorking Peak Reverse Voltage \nDC Blocking Voltage \nVRRM \nVRWM \nVR \n20 \n30 \n40 \n50 \n60 \nV \nRMS Reverse Voltage \nVR(RMS) \n14 \n21 \n28 \n35 \n42 \nV \nAverage Rectified Output Current \n \nIO \n2.0 \nA \nNon-Repetitive Peak Forward Surge Current, 8.3ms  \nSingle Half Sine-Wave Superimposed on Rated Load \nIFSM \n50 \nA \n \n \nThermal Characteristics    \nCharacteristic \nSymbol \nValue \nUnit \nTypical Thermal Resistance, Junction to Lead \nSMA \nSMB \nRθJL \n25 \n20 \n°C/W \nOperating and Storage Temperature Range \nTJ, TSTG \n-65 to +150 \n°C \n \n \nElectrical Characteristics (@TA = +25°C, unless otherwise specified.) \nCharacteristic \nSymbol \nMin \nTyp \nMax \nUnit \nTest Condition \nForward Voltage Drop \nB220/A, B230/A, B240/A \nB250/A, B260/A \nVF \n— \n— \n0.50 \n0.70 \nV \nIF = 2.0A, TA = +25°C \nLeakage Current (Note 6) \nIR \n— \n— \n0.5 \n20 \nmA \n@ Rated VR, TA = +25°C \n@ Rated VR, TA = +100°C \nTotal Capacitance \nCT \n— \n— \n200 \npF \nVR = 40V, f = 1MHz \nNote: \n6. Short duration pulse test used to minimize self-heating effect. \n \n \n \n",
+      "text_blocks": [
+        {
+          "id": "p2_text_block_1",
+          "type": "text_block",
+          "title": null,
+          "summary": "**Diodes Inc. – B220/A‑B260/A Series (Rev. 22, July 2015)**  \n\n**General:**  \n- Single‑phase, half‑wave, 60 Hz rectifier (resistive/inductive loads).  \n- For capacitive loads, derate forward current by 20 %.  \n\n**Maximum Ratings (25 °C unless noted):**  \n\n| Parameter | Symbol | B220/A | B230/A | B240/A | B250/A | B260/A | Unit |\n|-----------|--------|--------|--------|--------|--------|--------|------|\n| Peak Repetitive Reverse Voltage | VRRM | 20 | 30 | 40 | 50 | 60 | V |\n| DC Blocking Voltage (working) | VRWM | 20 | 30 | 40 | 50 | 60 | V |\n| RMS Reverse Voltage | VR(RMS) | 14 | 21 | 28 | 35 | 42 | V |\n| Average Rectified Output Current | IO | — | — | — | — | — | 2 A |\n| Non‑repetitive Peak Forward Surge (8.3 ms) | IFSM | 50 A (all) | – | – | – | – | A |\n\n**Thermal Characteristics:**  \n- Junction‑to‑lead thermal resistance: RθJL = 25 °C/W (SMA case), 20 °C/W (SMB case).  \n- Operating/storage temperature range: –65 °C to +150 °C.\n\n**Electrical Characteristics (25 °C unless noted):**  \n\n- **Forward Voltage Drop (VF):** ≤ 0.50 V (B220‑B240); ≤ 0.70 V (B250‑B260) at IF = 2 A.  \n- **Leakage Current (IR):** ≤ 0.5 mA at rated VR, 25 °C; ≤ 20 mA at rated VR, 100 °C.  \n- **Total Capacitance (CT):** 200 pF (typical) measured at VR = 40 V, 1 MHz.  \n\n*Note: Leakage current measured with a short‑duration pulse to limit self‑heating.*  \n\nThese diodes are suited for low‑voltage rectification applications where compact size, moderate current (2 A continuous), and low forward drop are required."
+        }
+      ],
+      "figures": [
+        {
+          "figure_id": "B220A_p2_img1",
+          "page": 2,
+          "type": "unknown",
+          "title": "Figure 1 (auto)",
+          "natural_language_context": "Figure 1 (auto). Page 2. **B220/A – B260/A Series Diodes (Diodes Inc., DS13004 Rev. 22, July 2015)**  \n\n**General use** – Single‑phase, half‑wave, 60 Hz rectifiers for resistive or inductive loads (capacitive loads must be derated 20 %).  \n\n| Parameter | Symbol | B220/A | B230/A | B240/A | B250/A | B260/A | Units |\n|-----------|--------|--------|--------|--------|--------|--------|-------|\n| Peak Repetitive Reverse Voltage | **VRRM** | 20 | 30 | 40 | 50 | 60 | V |\n| Working Peak Reverse Voltage | **VRWM** | 20 | 30 | 40 | 50 | 60 | V |\n| DC Blocking Voltage | **VR** | 20 | 30 | 40 | 50 | 60 | V |\n| RMS Reverse Voltage | **VR(RMS)** | 14 | 21 | 28 | 35 | 42 | V |\n| Average Rectified Output Current | **IO** | – | – | – | – | – | **2 A** |\n| Non‑repetitive Peak Forward Surge (8.3 ms) | **IFSM** | – | – | – | – | – | **50 A** (single half‑sine on rated load) |\n\n**Thermal Characteristics**  \n\n* Junction‑to‑lead thermal resistance (RθJL): 25 °C/W (SMA package) / 20 °C/W (SMB package)  \n* Operating & storage temperature range: **‑65 °C to +150 °C**  \n\n**Electrical Characteristics (TA = +25 °C unless noted)**  \n\n* **Forward voltage drop (VF)** – up to **0.70 V** at IF = 2 A.  \n* **Leakage current (IR)** – ≤ 0.5 mA at rated reverse voltage & 25 °C; ≤ 20 mA at 100 °C (short‑duration pulse test).  \n* **Total capacitance (CT)** – **200 pF** measured at VR = 40 V, f = 1 MHz.  \n\n**Key notes**  \n\n* All ratings are given for a single‑phase, half‑wave, 60 Hz application.  \n* Capacitive loads require a 20 % current derating.  \n* The short‑duration leakage‑current test minimizes self‑heating effects.  \n\nThese data sheets define the maximum voltage, current, thermal, and electrical performance limits for the B220/A through B260/A diode family. Image analysis: * The image features a **blue and white** block diagram of an audio processing system.\n* The main component in the diagram is labeled as \"**DIDODES**\".\n* Another text element, \"**IN NOCORP AT**\", can be seen, although its context or meaning isn't clear from the image alone.\n* There are also **two circles** present in the diagram, one of which is colored blue and the other white.\n* The purpose of the diagram appears to be a visual representation of an audio processing system, possibly for educational or technical purposes.\n\nPlease note that without additional context or information, it's difficult to provide more specific details about the image.",
+          "vision_description": "* The image features a **blue and white** block diagram of an audio processing system.\n* The main component in the diagram is labeled as \"**DIDODES**\".\n* Another text element, \"**IN NOCORP AT**\", can be seen, although its context or meaning isn't clear from the image alone.\n* There are also **two circles** present in the diagram, one of which is colored blue and the other white.\n* The purpose of the diagram appears to be a visual representation of an audio processing system, possibly for educational or technical purposes.\n\nPlease note that without additional context or information, it's difficult to provide more specific details about the image.",
+          "image_meta": {
+            "image_id": "B220A_p2_img1",
+            "page_number": 2,
+            "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p2_img1.jpeg",
+            "width": 303,
+            "height": 76,
+            "ext": "jpeg",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "B220A_p2_img1_qa1",
+              "class": "QA_Triple",
+              "question": "What type of components are covered by the B220/A–B260/A series shown in the figure?",
+              "answer": "They are single‑phase, half‑wave rectifier diodes intended for 60 Hz applications, used with resistive or inductive loads (capacitive loads must be derated)."
+            },
+            {
+              "id": "B220A_p2_img1_qa2",
+              "class": "QA_Triple",
+              "question": "What do the parameters VRRM, VRWM, and VR represent, and what are their values for the B250/A diode?",
+              "answer": "VRRM is the peak repetitive reverse voltage, VRWM is the working peak reverse voltage, and VR is the DC blocking voltage; for the B250/A all three are 50 V."
+            },
+            {
+              "id": "B220A_p2_img1_qa3",
+              "class": "QA_Triple",
+              "question": "What are the thermal characteristics of these diodes, and how does the package type affect them?",
+              "answer": "The operating and storage temperature range is –65 °C to +150 °C. The junction‑to‑lead thermal resistance (RθJL) is 25 °C/W for the SMA package and 20 °C/W for the SMB package, meaning the SMB package dissipates heat more efficiently."
+            },
+            {
+              "id": "B220A_p2_img1_qa4",
+              "class": "QA_Triple",
+              "question": "Why must capacitive loads be derated by 20 % when using these diodes?",
+              "answer": "Capacitive loads cause higher peak currents and greater voltage spikes during the half‑wave rectification cycle, so a 20 % current derating reduces stress on the diode and prevents exceeding its reverse‑voltage and current ratings."
+            },
+            {
+              "id": "B220A_p2_img1_qa5",
+              "class": "QA_Triple",
+              "question": "The diagram shows a block labeled “DIDODES”. What does this likely refer to in the context of the figure?",
+              "answer": "It is almost certainly a typographical error for “DIODES”, indicating where the B220/A‑B260/A rectifier diodes are placed within the audio processing system’s signal path."
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "B220A_p2_table1",
+          "page": 2,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p2_table1.csv",
+          "rows": 5,
+          "cols": 8,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary of Table 1 (page 2, Document B220A)**  \n\nThe table lists key electrical ratings for the series of devices B220/A, B230/A, B240/A, B250/A, and B260/A.\n\n| Parameter | Symbol | B220/A | B230/A | B240/A | B250/A | B260/A | Unit |\n|---|---|---|---|---|---|---|---|\n| **Peak Repetitive/Working Reverse Voltage** (max reverse stress) | VRRM / VRWM / VR | 20 | 30 | 40 | 50 | 60 | V |\n| **RMS Reverse Voltage** (continuous reverse) | VR(RMS) | 14 | 21 | 28 | 35 | 42 | V |\n| **Average Rectified Output Current** (continuous forward) | IO | 2 | – | – | – | – | A |\n| **Non‑Repetitive Peak Forward Surge Current** (8.3 ms half‑sine on rated load) | IFSM | 50 | – | – | – | – | A |\n\n**Key points**\n\n- Reverse‑voltage capability increases in 10‑V steps from 20 V (B220/A) to 60 V (B260/A).  \n- Corresponding RMS reverse voltages scale proportionally (14 V‑42 V).  \n- Only the B220/A model specifies a continuous forward current rating of 2 A and a surge current rating of 50 A; these ratings are not listed for the higher‑voltage models.  \n\nThis concise table captures the essential voltage and current specifications for the B220‑series devices.",
+          "qa_triples": [
+            {
+              "id": "B220A_p2_table1_qa1",
+              "class": "QA_Triple",
+              "question": "What is the peak repetitive reverse voltage (VRRM) for the B250/A variant?",
+              "answer": "50.0 V"
+            },
+            {
+              "id": "B220A_p2_table1_qa2",
+              "class": "QA_Triple",
+              "question": "How does the RMS reverse voltage (VR(RMS)) relate to the peak repetitive reverse voltage for each model?",
+              "answer": "The RMS reverse voltage is 70% of the peak repetitive reverse voltage for each model (e.g., B220/A: 14.0 V vs 20.0 V, B230/A: 21.0 V vs 30.0 V, etc.)."
+            },
+            {
+              "id": "B220A_p2_table1_qa3",
+              "class": "QA_Triple",
+              "question": "Which model in the table offers the highest peak repetitive reverse voltage?",
+              "answer": "The B260/A model, with a peak repetitive reverse voltage of 60.0 V."
+            },
+            {
+              "id": "B220A_p2_table1_qa4",
+              "class": "QA_Triple",
+              "question": "What is the average rectified output current (IO) specified for the B220/A model?",
+              "answer": "2.0 A"
+            },
+            {
+              "id": "B220A_p2_table1_qa5",
+              "class": "QA_Triple",
+              "question": "What is the non‑repetitive peak forward surge current (IFSM) for the B220/A model?",
+              "answer": "50.0 A"
+            }
+          ]
+        },
+        {
+          "table_id": "B220A_p2_table2",
+          "page": 2,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p2_table2.csv",
+          "rows": 4,
+          "cols": 7,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary of Table 2 (p. 2, Doc B220A)**  \n\n| Parameter | Symbol | Value range / limit | Test conditions |\n|-----------|--------|---------------------|------------------|\n| Forward Voltage Drop | **VF** | 0.50 – 0.70 V (max) | IF = 2.0 A, TA = +25 °C |\n| Leakage Current (Note 6) | **IR** | ≤ 0.5 mA at TA = +25 °C; ≤ 20 mA at TA = +100 °C | Measured at the rated reverse voltage (VR) |\n| Total Capacitance | **CT** | ≤ 200 pF (max) | VR = 40 V, frequency = 1 MHz |\n\n- No nominal (typical) values are listed; only maximum limits are provided.  \n- All measurements assume the device is operating at its rated reverse voltage.",
+          "qa_triples": [
+            {
+              "id": "B220A_p2_table2_qa1",
+              "class": "QA_Triple",
+              "question": "What is the maximum forward voltage drop (VF) for the diodes listed in the table?",
+              "answer": "The maximum forward voltage drop is 0.50 V for the B220/A, B230/A, and B240/A diodes, and 0.70 V for the B250/A and B260/A diodes."
+            },
+            {
+              "id": "B220A_p2_table2_qa2",
+              "class": "QA_Triple",
+              "question": "Under what test conditions is the forward voltage drop (VF) specified?",
+              "answer": "The forward voltage drop is measured at a forward current (IF) of 2.0 A and an ambient temperature (TA) of +25 °C."
+            },
+            {
+              "id": "B220A_p2_table2_qa3",
+              "class": "QA_Triple",
+              "question": "What are the maximum leakage current values at the two specified temperatures?",
+              "answer": "The maximum leakage current is 0.5 mA at TA = +25 °C and 20 mA at TA = +100 °C, both measured at the rated reverse voltage."
+            },
+            {
+              "id": "B220A_p2_table2_qa4",
+              "class": "QA_Triple",
+              "question": "What is the maximum total capacitance and under which measurement conditions?",
+              "answer": "The maximum total capacitance is 200 pF, measured with a reverse voltage (VR) of 40 V at a frequency of 1 MHz."
+            },
+            {
+              "id": "B220A_p2_table2_qa5",
+              "class": "QA_Triple",
+              "question": "Does the table provide any typical (Typ) values for the listed characteristics?",
+              "answer": "No, the table only provides maximum values; typical (Typ) values are not listed for any characteristic."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 3,
+      "natural_language_context": "**Summary – Diodes Inc. B220/A‑B260/A Series (Doc DS13004 Rev. 22, July 2015)**  \n\nThe excerpt presents the key electrical and mechanical characteristics of the B220/A‑B260/A diode family, together with typical performance curves and design notes.\n\n| **Parameter** | **Key Information** |\n|---------------|----------------------|\n| **Device family** | B220/A, B240/A, B260/A – high‑current rectifier/rectifier‑type diodes (rated for 2 A average forward current). |\n| **Forward I‑V** | Figure 1 shows the typical forward voltage drop rising from ≈0.6 V at 0.01 A to ≈1.0 V at 10 A. |\n| **Reverse leakage** | Figure 2 plots instantaneous reverse current versus reverse voltage. Leakage stays below 1 mA up to the rated peak reverse voltage (PRV) and rises to a few mA near 200 % of PRV. |\n| **Capacitance vs. reverse bias** | Figure 3: total junction capacitance falls from ≈150 pF at 0 V to ≈50 pF at 100 V reverse bias. |\n| **Forward‑current derating** | Figure 4: average forward current (I₍AV₎) is derated with temperature. At 25 °C the diode can carry 2 A continuously; the rating reduces linearly to ≈0.5 A at 125 °C. |\n| **Operating‑temperature derating** | Figure 5 (B240 example): allowable reverse voltage is reduced as ambient temperature rises. For example, at 100 °C the maximum reverse voltage is ~80 % of the room‑temperature rating. |\n| **Surge‑current capability** | Figure 6: non‑repetitive peak forward surge current (Iₚₑₐₖ) versus number of 60 Hz cycles. The diode tolerates a 10‑times‑rated surge for a single half‑cycle, with the allowable surge decreasing as the number of repetitions increases. |\n| **Mounting** | Note 7: devices are to be mounted on an FR‑4 printed‑circuit board using the minimum recommended pad layout (details at Diodes.com). |\n| **General notes** | – All curves are typical; actual part values may vary within specified tolerances. <br> – The device family shares the same mechanical outline; only the voltage rating differs (B220 = 220 V, B240 = 240 V, B260 = 260 V PRV). |\n\n**Design implications**\n\n* Use the forward‑voltage curve to size drive circuitry; expect ≈0.8 V drop at 2 A typical operation.  \n* Account for reverse‑leakage when designing high‑impedance circuits, especially at elevated temperatures.  \n* Apply the current‑derating curve for thermal design: ensure junction temperature stays below the 125 °C limit, or reduce current accordingly.  \n* When operating near the maximum reverse voltage, de‑rate the voltage according to the temperature‑derating graph to avoid overstress.  \n* For applications with occasional high‑current transients (e.g., motor drives, flyback converters), verify that the surge‑current spec is not exceeded for the expected number of cycles.  \n\nOverall, the B220/A‑B260/A series provides robust 2 A rectification with well‑defined voltage, current, temperature, and surge limits, and is intended for surface‑mount installation on standard FR‑4 PCBs.",
+      "raw_text": " \nB220/A - B260/A \nDocument number: DS13004 Rev. 22 - 2 \n3 of 5 \nwww.diodes.com  \nJuly 2015 \n© Diodes Incorporated \n \nB220/A - B260/A \n \n \n \n \n0.01\n0.1\n1.0\n10\n0\n0.2\n0.4\n0.6\n0.8\n1.0\nI , INSTANTANEOUS FORWARD CURRENT (A)\nF\nV , INSTANTANEOUS FORWARD VOLTAGE (V)\nFig. 1  Typical Forward Characteristics\nF\n0\n20\n40\n60\n80\n100\n120\n140\nI , INSTANTANEOUS REVERSE CURRENT (mA)\nR\nPERCENT OF RATED PEAK REVERSE VOLTAGE (%)\nFig. 2  Typical Reverse Characteristics\n100\n10\n1.0\n0.1\n0.01\n0.001\n \n10\n100\n1,000\n0.1\n1\n10\n100\nC , TOTAL CAPACITANCE (pF)\nT\nV , DC REVERSE VOLTAGE (V)\nFig. 3  Total Capacitance vs. Reverse Voltage\nR\n0\n0.5\n1.0\n25\n50\n75\n100\n125\n150\nI\n, AVERAGE FORWARD CURRENT (A)\nF(AV)\nT , TERMINAL TEMPERATURE (ºC)\nFig. 4  Forward Current Derating Curve\nT\n1.5\n2.0\n2.5\n \n20\n30\n40\n50\n16\n12\n8\n4\n24\n20\n32\n28\n36\n40\nT , DERATED AMBIENT TEMPERATURE (°C)\nA\nV , DC REVERSE VOLTAGE (V)\nFig. 5  Operating Temperature Derating  (B240)\nR\n60\n70\n80\n120\n130\n100\n110\n150\n140\n160\n0\nNote 6\n90\n      \n0\n10\n20\n30\n40\n50\n1\n10\n100\nI\n, PEAK FORWARD SURGE CURRENT (A)\nFSM\nNUMBER OF CYCLES AT 60 Hz\nFig. 6  Max Non-Repetitive Peak Forward Surge Current \n \nNote:  \n7. Device mounted on FR-4 PC board with minimum recommended pad layout pattern as per http://www.diodes.com. \n \nNote 7 \n",
+      "text_blocks": [
+        {
+          "id": "p3_text_block_1",
+          "type": "text_block",
+          "title": null,
+          "summary": "**Summary – Diodes Inc. B220‑A to B260‑A Series (DS13004 Rev. 22, July 2015)**  \n\n- **Device family:** B220‑A, B240‑A, B260‑A rectifier diodes.  \n- **Electrical characteristics:**  \n  - *Forward I‑V:* Typical curve shows smooth rise of forward current from 0 A to 1 A as forward voltage goes from ≈0.2 V to 1.0 V.  \n  - *Reverse I‑V:* Reverse leakage current increases with reverse voltage; at 100 % of rated peak reverse voltage the leakage is on the order of tens of mA.  \n  - *Capacitance:* Total junction capacitance falls from ~100 pF at 0 V reverse bias to ~10 pF at 1 kV reverse bias.  \n- **Derating curves:**  \n  - *Forward‑current derating* vs. terminal temperature (‑40 °C to +150 °C) shows linear reduction; at 125 °C the allowable average forward current is roughly half the rated value.  \n  - *Operating‑temperature derating* for a given DC reverse voltage (typical 240 V) provides allowable ambient temperature limits; higher reverse voltages shift the curve left, reducing max ambient temperature.  \n- **Surge rating:** Maximum non‑repetitive peak forward surge current is plotted versus number of 60 Hz cycles; a single 10 ms surge of ~12 A is permitted.  \n- **Mechanical note:** Devices are intended for mounting on FR‑4 printed‑circuit boards using the minimum recommended pad layout (available on Diodes.com).  \n\nThese figures and curves are intended for designers to select appropriate operating points, ensure proper thermal management, and comply with surge‑current limits when using the B220‑A to B260‑A diode series."
+        }
+      ],
+      "figures": [
+        {
+          "figure_id": "B220A_p3_img1",
+          "page": 3,
+          "type": "unknown",
+          "title": "Figure 1 (auto)",
+          "natural_language_context": "Figure 1 (auto). Page 3. **Summary – Diodes Inc. B220/A‑B260/A Series (Doc DS13004 Rev. 22, July 2015)**  \n\nThe excerpt presents the key electrical and mechanical characteristics of the B220/A‑B260/A diode family, together with typical performance curves and design notes.\n\n| **Parameter** | **Key Information** |\n|---------------|----------------------|\n| **Device family** | B220/A, B240/A, B260/A – high‑current rectifier/rectifier‑type diodes (rated for 2 A average forward current). |\n| **Forward I‑V** | Figure 1 shows the typical forward voltage drop rising from ≈0.6 V at 0.01 A to ≈1.0 V at 10 A. |\n| **Reverse leakage** | Figure 2 plots instantaneous reverse current versus reverse voltage. Leakage stays below 1 mA up to the rated peak reverse voltage (PRV) and rises to a few mA near 200 % of PRV. |\n| **Capacitance vs. reverse bias** | Figure 3: total junction capacitance falls from ≈150 pF at 0 V to ≈50 pF at 100 V reverse bias. |\n| **Forward‑current derating** | Figure 4: average forward current (I₍AV₎) is derated with temperature. At 25 °C the diode can carry 2 A continuously; the rating reduces linearly to ≈0.5 A at 125 °C. |\n| **Operating‑temperature derating** | Figure 5 (B240 example): allowable reverse voltage is reduced as ambient temperature rises. For example, at 100 °C the maximum reverse voltage is ~80 % of the room‑temperature rating. |\n| **Surge‑current capability** | Figure 6: non‑repetitive peak forward surge current (Iₚₑₐₖ) versus number of 60 Hz cycles. The diode tolerates a 10‑times‑rated surge for a single half‑cycle, with the allowable surge decreasing as the number of repetitions increases. |\n| **Mounting** | Note 7: devices are to be mounted on an FR‑4 printed‑circuit board using the minimum recommended pad layout (details at Diodes.com). |\n| **General notes** | – All curves are typical; actual part values may vary within specified tolerances. <br> – The device family shares the same mechanical outline; only the voltage rating differs (B220 = 220 V, B240 = 240 V, B260 = 260 V PRV). |\n\n**Design implications**\n\n* Use the forward‑voltage curve to size drive circuitry; expect ≈0.8 V drop at 2 A typical operation.  \n* Account for reverse‑leakage when designing high‑impedance circuits, especially at elevated temperatures.  \n* Apply the current‑derating curve for thermal design: ensure junction temperature stays below the 125 °C limit, or reduce current accordingly.  \n* When operating near the maximum reverse voltage, de‑rate the voltage according to the temperature‑derating graph to avoid overstress.  \n* For applications with occasional high‑current transients (e.g., motor drives, flyback converters), verify that the surge‑current spec is not exceeded for the expected number of cycles.  \n\nOverall, the B220/A‑B260/A series provides robust 2 A rectification with well‑defined voltage, current, temperature, and surge limits, and is intended for surface‑mount installation on standard FR‑4 PCBs. Image analysis: 1. Image: Blue and white logo of Diodes Inc. with a crescent on it. The word \"Diodes\" is written in blue letters. Below the word, there are two lines representing \"Inc.\" and \"Corporate Formed At\". Above the word \"Diodes\", there's a stylized letter \"D\" colored in light blue.\n2. Circuit Diagram: The image appears to be a technical diagram with various components such as resistors, capacitors, transistors, and integrated circuits. Each component is represented by its respective symbol and connected by lines representing wires or traces on a PCB. There are labels next to each component indicating their values in ohms for resistance, farads for capacitance, amperes for current flow, and volts for voltage drop.\n3. Block Diagram: The image seems to be a block diagram showing the different stages of a system or process, such as an electronic circuit or communication protocol. Each block represents a different stage or component, with arrows connecting them to show the flow of information or signals between these stages. Labels next to each block indicate their names and functions in the overall system.\n4. Timing Diagram: The image appears to be a timing diagram showing the relationship between different variables or events over time. Each variable is represented by a line, with vertical bars indicating specific points in time. Labels on these lines provide information about the values of the variables at each point in time. The diagram may show how certain events trigger changes in these values, illustrating the behavior of a system under different conditions.",
+          "vision_description": "1. Image: Blue and white logo of Diodes Inc. with a crescent on it. The word \"Diodes\" is written in blue letters. Below the word, there are two lines representing \"Inc.\" and \"Corporate Formed At\". Above the word \"Diodes\", there's a stylized letter \"D\" colored in light blue.\n2. Circuit Diagram: The image appears to be a technical diagram with various components such as resistors, capacitors, transistors, and integrated circuits. Each component is represented by its respective symbol and connected by lines representing wires or traces on a PCB. There are labels next to each component indicating their values in ohms for resistance, farads for capacitance, amperes for current flow, and volts for voltage drop.\n3. Block Diagram: The image seems to be a block diagram showing the different stages of a system or process, such as an electronic circuit or communication protocol. Each block represents a different stage or component, with arrows connecting them to show the flow of information or signals between these stages. Labels next to each block indicate their names and functions in the overall system.\n4. Timing Diagram: The image appears to be a timing diagram showing the relationship between different variables or events over time. Each variable is represented by a line, with vertical bars indicating specific points in time. Labels on these lines provide information about the values of the variables at each point in time. The diagram may show how certain events trigger changes in these values, illustrating the behavior of a system under different conditions.",
+          "image_meta": {
+            "image_id": "B220A_p3_img1",
+            "page_number": 3,
+            "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p3_img1.jpeg",
+            "width": 303,
+            "height": 76,
+            "ext": "jpeg",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "B220A_p3_img1_qa1",
+              "class": "QA_Triple",
+              "question": "What does Figure 1 illustrate about the forward voltage drop of the B220/A‑B260/A diodes?",
+              "answer": "Figure 1 shows the typical forward I‑V curve: the voltage drop rises from about 0.6 V at 0.01 A to roughly 1.0 V when the forward current reaches 10 A."
+            },
+            {
+              "id": "B220A_p3_img1_qa2",
+              "class": "QA_Triple",
+              "question": "According to Figure 2, how does the reverse‑leakage current change as the reverse voltage approaches and exceeds the rated peak reverse voltage (PRV)?",
+              "answer": "Figure 2 plots instantaneous reverse current versus reverse voltage; the leakage stays below 1 mA up to the PRV rating, then increases to a few milliamps when the reverse voltage is about 200 % of the PRV."
+            },
+            {
+              "id": "B220A_p3_img1_qa3",
+              "class": "QA_Triple",
+              "question": "What trend does Figure 3 show for the diode’s junction capacitance as reverse bias is increased?",
+              "answer": "Figure 3 shows that total junction capacitance decreases with reverse bias, falling from roughly 150 pF at 0 V to about 50 pF at 100 V reverse bias."
+            },
+            {
+              "id": "B220A_p3_img1_qa4",
+              "class": "QA_Triple",
+              "question": "How is the average forward current (I₍AV₎) derated with temperature according to Figure 4?",
+              "answer": "Figure 4 indicates linear derating: at 25 °C the diode can carry its rated 2 A continuously, and the allowable current drops to about 0.5 A when the ambient temperature reaches 125 °C."
+            },
+            {
+              "id": "B220A_p3_img1_qa5",
+              "class": "QA_Triple",
+              "question": "What does Figure 6 demonstrate about the diode’s surge‑current capability versus the number of 60 Hz cycles?",
+              "answer": "Figure 6 shows that the diode can withstand a non‑repetitive peak forward surge of up to 10 times the rated current for a single half‑cycle, but the permitted surge current decreases as the number of repeated cycles increases."
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "B220A_p3_table1",
+          "page": 3,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p3_table1.csv",
+          "rows": 33,
+          "cols": 7,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary**\n\nThe excerpt references “Table 1” on page 3 of document **B220A**. The table’s column headers are generic placeholders labeled **Unnamed: 0** through **Unnamed: 6**, and the subsequent rows contain only commas, indicating that the table has no populated data—essentially an empty or placeholder table.",
+          "qa_triples": [
+            {
+              "id": "B220A_p3_table1_qa1",
+              "class": "QA_Triple",
+              "question": "How many data rows are present in Table 1?",
+              "answer": "The table appears to be empty; no data rows are displayed."
+            },
+            {
+              "id": "B220A_p3_table1_qa2",
+              "class": "QA_Triple",
+              "question": "What are the column headings for Table 1?",
+              "answer": "The columns are labeled Unnamed: 0 through Unnamed: 6, indicating that the original headings are missing or undefined."
+            },
+            {
+              "id": "B220A_p3_table1_qa3",
+              "class": "QA_Triple",
+              "question": "Does Table 1 contain any numeric values or summary information?",
+              "answer": "No, the table consists only of blank cells and provides no numeric or summary data."
+            }
+          ]
+        },
+        {
+          "table_id": "B220A_p3_table2",
+          "page": 3,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p3_table2.csv",
+          "rows": 21,
+          "cols": 10,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary**\n\nTable 2 (page 3 of document B220A) is essentially empty. The table lists placeholder column headers labeled “Unnamed: 0” through “Unnamed: 9”, but all rows contain no entries—each cell is blank. In other words, the table provides no substantive data or information.",
+          "qa_triples": [
+            {
+              "id": "B220A_p3_table2_qa1",
+              "class": "QA_Triple",
+              "question": "What columns are listed in Table 2?",
+              "answer": "The columns are labeled Unnamed: 0 through Unnamed: 9."
+            },
+            {
+              "id": "B220A_p3_table2_qa2",
+              "class": "QA_Triple",
+              "question": "How many rows of data are present in Table 2?",
+              "answer": "The table contains no populated rows; all rows appear empty."
+            },
+            {
+              "id": "B220A_p3_table2_qa3",
+              "class": "QA_Triple",
+              "question": "What key insights can be drawn from the data in Table 2?",
+              "answer": "No insights can be drawn because the table does not contain any data entries."
+            }
+          ]
+        },
+        {
+          "table_id": "B220A_p3_table3",
+          "page": 3,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p3_table3.csv",
+          "rows": 5,
+          "cols": 10,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary:**  \nTable 3 (page 3) of document B220A is essentially empty. It lists ten column headers labeled “Unnamed 0” through “Unnamed 9,” but contains no data entries—only blank rows.",
+          "qa_triples": [
+            {
+              "id": "B220A_p3_table3_qa1",
+              "class": "QA_Triple",
+              "question": "How many columns are listed in Table 3?",
+              "answer": "Table 3 displays ten columns, labeled from Unnamed: 0 to Unnamed: 9."
+            },
+            {
+              "id": "B220A_p3_table3_qa2",
+              "class": "QA_Triple",
+              "question": "What are the column headings in Table 3?",
+              "answer": "All column headings are generic placeholders: Unnamed: 0, Unnamed: 1, Unnamed: 2, Unnamed: 3, Unnamed: 4, Unnamed: 5, Unnamed: 6, Unnamed: 7, Unnamed: 8, and Unnamed: 9."
+            },
+            {
+              "id": "B220A_p3_table3_qa3",
+              "class": "QA_Triple",
+              "question": "How many data rows are present in Table 3?",
+              "answer": "The table contains no populated data rows; it appears to be empty."
+            },
+            {
+              "id": "B220A_p3_table3_qa4",
+              "class": "QA_Triple",
+              "question": "Are there any values or summary statistics provided in Table 3?",
+              "answer": "No, the table only shows empty cells (commas) and does not include any numeric or textual values or summary statistics."
+            },
+            {
+              "id": "B220A_p3_table3_qa5",
+              "class": "QA_Triple",
+              "question": "What key insights can be drawn from Table 3?",
+              "answer": "Since the table lacks actual data, no substantive insights can be extracted from it."
+            }
+          ]
+        },
+        {
+          "table_id": "B220A_p3_table4",
+          "page": 3,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p3_table4.csv",
+          "rows": 18,
+          "cols": 21,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary:**  \nTable 4 (page 3 of document B220A) is laid out with 21 columns, each titled “Unnamed: 0” through “Unnamed: 20.” All subsequent rows contain only commas and no actual entries, indicating that the table is completely empty—no data values are provided under any of the column headings.",
+          "qa_triples": [
+            {
+              "id": "B220A_p3_table4_qa1",
+              "class": "QA_Triple",
+              "question": "What column headings are shown in Table 4?",
+              "answer": "The columns are labeled generically as Unnamed: 0 through Unnamed: 20, with no descriptive names provided."
+            },
+            {
+              "id": "B220A_p3_table4_qa2",
+              "class": "QA_Triple",
+              "question": "How many rows of actual data are present in Table 4?",
+              "answer": "The table appears to contain only empty rows; no data values are populated in any of the cells."
+            },
+            {
+              "id": "B220A_p3_table4_qa3",
+              "class": "QA_Triple",
+              "question": "Can any quantitative insights be extracted from Table 4?",
+              "answer": "No, because the table does not contain any numeric or categorical entries to analyze."
+            }
+          ]
+        },
+        {
+          "table_id": "B220A_p3_table5",
+          "page": 3,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p3_table5.csv",
+          "rows": 5,
+          "cols": 18,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary**\n\nTable 5 (page 3) of document **B220A** is essentially empty. It lists 18 column headers labeled “Unnamed: 0” through “Unnamed: 17,” but there is no data beneath them—each row consists solely of commas, indicating blank cells. In short, the table contains only placeholder column names and no substantive content.",
+          "qa_triples": [
+            {
+              "id": "B220A_p3_table5_qa1",
+              "class": "QA_Triple",
+              "question": "How many rows are present in Table 5?",
+              "answer": "Table 5 contains three rows, each with empty cells."
+            },
+            {
+              "id": "B220A_p3_table5_qa2",
+              "class": "QA_Triple",
+              "question": "What are the column headings in Table 5?",
+              "answer": "The columns are labeled as Unnamed: 0 through Unnamed: 17."
+            },
+            {
+              "id": "B220A_p3_table5_qa3",
+              "class": "QA_Triple",
+              "question": "Is there any data recorded in the cells of Table 5?",
+              "answer": "No, all cells in the table are empty; no data values are provided."
+            },
+            {
+              "id": "B220A_p3_table5_qa4",
+              "class": "QA_Triple",
+              "question": "Based on the available information, can any quantitative insights be derived from Table 5?",
+              "answer": "No, because the table contains only empty entries, no quantitative insights can be extracted."
+            }
+          ]
+        },
+        {
+          "table_id": "B220A_p3_table6",
+          "page": 3,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p3_table6.csv",
+          "rows": 14,
+          "cols": 10,
+          "flavor": "lattice",
+          "natural_language_context": "The excerpt cites **Table 6 on page 3 of document B220A**. The table is laid out with ten columns—named “Unnamed: 0” through “Unnamed: 9”—and includes two note columns labeled “Note 6” and “Note 7”. However, every row displayed contains only commas, meaning no actual data values are present; the cells are empty. In short, the table appears to be a placeholder or an unfinished data section with no substantive content.",
+          "qa_triples": [
+            {
+              "id": "B220A_p3_table6_qa1",
+              "class": "QA_Triple",
+              "question": "What are the column headings in Table 6?",
+              "answer": "The columns are labeled as Unnamed: 0, Unnamed: 1, Unnamed: 2, Unnamed: 3, Unnamed: 4, Unnamed: 5, Note 6, Unnamed: 7, Unnamed: 8, and Unnamed: 9."
+            },
+            {
+              "id": "B220A_p3_table6_qa2",
+              "class": "QA_Triple",
+              "question": "How many data rows are present in Table 6?",
+              "answer": "Table 6 contains no populated data rows; all rows appear to be empty."
+            },
+            {
+              "id": "B220A_p3_table6_qa3",
+              "class": "QA_Triple",
+              "question": "Are there any values or notes recorded in Table 6?",
+              "answer": "No, the table does not contain any values or notes; the cells are blank."
+            },
+            {
+              "id": "B220A_p3_table6_qa4",
+              "class": "QA_Triple",
+              "question": "What can be inferred about the purpose of Table 6 given its lack of data?",
+              "answer": "The empty table suggests that the data may not have been captured, is pending insertion, or the table serves as a placeholder without substantive information."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 4,
+      "natural_language_context": "**Summary – B220/A – B260/A Diode Package Information (Diodes Inc., DS13004 Rev. 22, July 2015)**  \n\n- **Documentation**  \n  - Full package‑outline drawings are in **AP02002**.  \n  - Recommended PCB pad layouts are in **AP02001**. (Both files are available on diodes.com.)\n\n- **Package Types**  \n  - The devices are supplied in two surface‑mount footprints: **SMA** and **SMB**.\n\n- **Key Mechanical Dimensions (mm)**  \n\n  | Feature | SMA (min‑max) | SMB (min‑max) |\n  |---------|---------------|--------------|\n  | **A** (overall length) | 2.29 – 2.92 | 3.30 – 3.94 |\n  | **B** (width) | 4.00 – 4.60 | 4.06 – 4.57 |\n  | **C** (lead‑to‑lead spacing) | 1.27 – 1.63 | 1.96 – 2.21 |\n  | **D** (lead thickness) | 0.15 – 0.31 | 0.15 – 0.31 |\n  | **E** (overall height) | 4.80 – 5.59 | 5.00 – 5.59 |\n  | **G** (terminal width) | 0.05 – 0.20 | 0.05 – 0.20 |\n  | **H** (terminal height) | 0.76 – 1.52 | 0.76 – 1.52 |\n  | **J** (lead offset) | 2.01 – 2.30 | 2.00 – 2.50 |\n\n- **Combined (SMA/SMB) Nominal Dimensions**  \n\n  - **C** = 4.30 mm (SMA) / 4.00 mm (SMB)  \n  - **G** = 1.80 mm (SMA) / 1.50 mm (SMB)  \n  - **X** = 2.50 mm (both)  \n  - **X1** = 6.80 mm (SMA) / 6.50 mm (SMB)  \n  - **Y** = 2.30 mm (SMA) / 1.70 mm (SMB)\n\nAll measurements are expressed in millimetres.  \n\n**Takeaway:** The datasheet provides the exact mechanical tolerances for the SMA and SMB footprints of the B220/A‑B260/A series, and points designers to the latest outline (AP02002) and pad‑layout (AP02001) files for accurate PCB footprint creation.",
+      "raw_text": " \nB220/A - B260/A \nDocument number: DS13004 Rev. 22 - 2 \n4 of 5 \nwww.diodes.com  \nJuly 2015 \n© Diodes Incorporated \n \nB220/A - B260/A \n \n \n \n \nPackage Outline Dimensions \nPlease see AP02002 at http://www.diodes.com/datasheets/ap02002.pdf for the latest version. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSuggested Pad Layout \nPlease see AP02001 at http://www.diodes.com/datasheets/ap02001.pdf for the latest version. \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSMA \nDim \nMin \nMax \nA \n2.29 \n2.92 \nB \n4.00 \n4.60 \nC \n1.27 \n1.63 \nD \n0.15 \n0.31 \nE \n4.80 \n5.59 \nG \n0.05 \n0.20 \nH \n0.76 \n1.52 \nJ \n2.01 \n2.30 \nAll Dimensions in mm \nSMB \nDim \nMin \nMax \nA \n3.30 \n3.94 \nB \n4.06 \n4.57 \nC \n1.96 \n2.21 \nD \n0.15 \n0.31 \nE \n5.00 \n5.59 \nG \n0.05 \n0.20 \nH \n0.76 \n1.52 \nJ \n2.00 \n2.50 \nAll Dimensions in mm \nSMB \nDimensions Value (in mm) \nC \n4.30 \nG \n1.80 \nX \n2.50 \nX1 \n6.80 \nY \n2.30 \nSMA \nDimensions Value (in mm) \nC \n4.00 \nG \n1.50 \nX \n2.50 \nX1 \n6.50 \nY \n1.70 \nA\nB\nC\nD\nG\nH\nE\nJ\n \nC\nX1\nY\nG\nX\nSMA/SMB \nSMA/SMB \n",
+      "text_blocks": [
+        {
+          "id": "p4_text_block_1",
+          "type": "text_block",
+          "title": null,
+          "summary": "**Summary of B220/A‑B260/A Package Data (Diodes Inc., Rev. 22, July 2015)**  \n\n- This document (DS13004) provides the mechanical outline for the B220/A‑B260/A series.  \n- For the most up‑to‑date package drawings and pad‑layout recommendations, see the referenced AP02002 and AP02001 datasheets on Diodes’ website.  \n\n**SMA package dimensions (mm)** – each dimension is given as a minimum‑maximum range:  \n- A : 2.29 – 2.92  \n- B : 4.00 – 4.60  \n- C : 1.27 – 1.63  \n- D : 0.15 – 0.31  \n- E : 4.80 – 5.59  \n- G : 0.05 – 0.20  \n- H : 0.76 – 1.52  \n- J : 2.01 – 2.30  \n\n**SMB package dimensions (mm)**:  \n- A : 3.30 – 3.94  \n- B : 4.06 – 4.57  \n- C : 1.96 – 2.21  \n- D : 0.15 – 0.31  \n- E : 5.00 – 5.59  \n- G : 0.05 – 0.20  \n- H : 0.76 – 1.52  \n- J : 2.00 – 2.50  \n\n**Key dimensional constants (mm)**  \n\n| Package | C | G | X | X1 | Y |\n|---------|---|---|---|----|---|\n| SMB | 4.30 | 1.80 | 2.50 | 6.80 | 2.30 |\n| SMA | 4.00 | 1.50 | 2.50 | 6.50 | 1.70 |\n\nAll measurements are in millimetres. The drawing includes reference letters (A, B, C, D, E, G, H, J) that correspond to the listed dimensions."
+        }
+      ],
+      "figures": [
+        {
+          "figure_id": "B220A_p4_img1",
+          "page": 4,
+          "type": "unknown",
+          "title": "Figure 1 (auto)",
+          "natural_language_context": "Figure 1 (auto). Page 4. **Summary – B220/A – B260/A Diode Package Information (Diodes Inc., DS13004 Rev. 22, July 2015)**  \n\n- **Documentation**  \n  - Full package‑outline drawings are in **AP02002**.  \n  - Recommended PCB pad layouts are in **AP02001**. (Both files are available on diodes.com.)\n\n- **Package Types**  \n  - The devices are supplied in two surface‑mount footprints: **SMA** and **SMB**.\n\n- **Key Mechanical Dimensions (mm)**  \n\n  | Feature | SMA (min‑max) | SMB (min‑max) |\n  |---------|---------------|--------------|\n  | **A** (overall length) | 2.29 – 2.92 | 3.30 – 3.94 |\n  | **B** (width) | 4.00 – 4.60 | 4.06 – 4.57 |\n  | **C** (lead‑to‑lead spacing) | 1.27 – 1.63 | 1.96 – 2.21 |\n  | **D** (lead thickness) | 0.15 – 0.31 | 0.15 – 0.31 |\n  | **E** (overall height) | 4.80 – 5.59 | 5.00 – 5.59 |\n  | **G** (terminal width) | 0.05 – 0.20 | 0.05 – 0.20 |\n  | **H** (terminal height) | 0.76 – 1.52 | 0.76 – 1.52 |\n  | **J** (lead offset) | 2.01 – 2.30 | 2.00 – 2.50 |\n\n- **Combined (SMA/SMB) Nominal Dimensions**  \n\n  - **C** = 4.30 mm (SMA) / 4.00 mm (SMB)  \n  - **G** = 1.80 mm (SMA) / 1.50 mm (SMB)  \n  - **X** = 2.50 mm (both)  \n  - **X1** = 6.80 mm (SMA) / 6.50 mm (SMB)  \n  - **Y** = 2.30 mm (SMA) / 1.70 mm (SMB)\n\nAll measurements are expressed in millimetres.  \n\n**Takeaway:** The datasheet provides the exact mechanical tolerances for the SMA and SMB footprints of the B220/A‑B260/A series, and points designers to the latest outline (AP02002) and pad‑layout (AP02001) files for accurate PCB footprint creation. Image analysis: The image features a logo for DC Dodges Corp., an electronics corporation based in New Jersey, United States. The logo is primarily composed of the company name \"DC DODGES\" written in blue cursive letters that curve around each other to form a circular shape. This design creates a sense of continuity and unity, symbolizing the corporate identity. Below this circular formation, there are two additional lines of text: \"NEW JERSEY\" and \"CORPORATE BUSINESS MEMBERS.\" These words provide geographical context and indicate that it's a business entity. The overall purpose of the logo is to establish brand recognition and convey essential information about the company in a visually appealing manner.",
+          "vision_description": "The image features a logo for DC Dodges Corp., an electronics corporation based in New Jersey, United States. The logo is primarily composed of the company name \"DC DODGES\" written in blue cursive letters that curve around each other to form a circular shape. This design creates a sense of continuity and unity, symbolizing the corporate identity. Below this circular formation, there are two additional lines of text: \"NEW JERSEY\" and \"CORPORATE BUSINESS MEMBERS.\" These words provide geographical context and indicate that it's a business entity. The overall purpose of the logo is to establish brand recognition and convey essential information about the company in a visually appealing manner.",
+          "image_meta": {
+            "image_id": "B220A_p4_img1",
+            "page_number": 4,
+            "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p4_img1.jpeg",
+            "width": 303,
+            "height": 76,
+            "ext": "jpeg",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "B220A_p4_img1_qa1",
+              "class": "QA_Triple",
+              "question": "What surface‑mount footprints are offered for the B220/A‑B260/A diode series and where can I obtain the full package outlines and recommended pad layouts?",
+              "answer": "The diodes are supplied in two footprints: SMA and SMB. Full package‑outline drawings are in document **AP02002** and the recommended PCB pad layouts are in **AP02001**; both files are available for download from diodes.com."
+            },
+            {
+              "id": "B220A_p4_img1_qa2",
+              "class": "QA_Triple",
+              "question": "What are the overall length (dimension A) tolerances for the SMA and SMB packages?",
+              "answer": "SMA: 2.29 mm – 2.92 mm; SMB: 3.30 mm – 3.94 mm."
+            },
+            {
+              "id": "B220A_p4_img1_qa3",
+              "class": "QA_Triple",
+              "question": "How does the lead‑to‑lead spacing (dimension C) differ between the SMA and SMB footprints?",
+              "answer": "For SMA the spacing is 1.27 mm – 1.63 mm, while for SMB it is 1.96 mm – 2.21 mm."
+            },
+            {
+              "id": "B220A_p4_img1_qa4",
+              "class": "QA_Triple",
+              "question": "What are the nominal combined dimensions (C, G, X, X1, Y) for the SMA and SMB packages?",
+              "answer": "SMA: C = 4.30 mm, G = 1.80 mm, X = 2.50 mm, X1 = 6.80 mm, Y = 2.30 mm. SMB: C = 4.00 mm, G = 1.50 mm, X = 2.50 mm, X1 = 6.50 mm, Y = 1.70 mm."
+            },
+            {
+              "id": "B220A_p4_img1_qa5",
+              "class": "QA_Triple",
+              "question": "Which dimension specifies the overall height of the devices and what are its tolerance ranges for SMA and SMB?",
+              "answer": "Dimension E defines overall height. SMA: 4.80 mm – 5.59 mm; SMB: 5.00 mm – 5.59 mm."
+            }
+          ]
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "B220A_p4_table1",
+          "page": 4,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p4_table1.csv",
+          "rows": 1,
+          "cols": 3,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary:**  \nThe excerpt references *Table 1* located on page 4 of document **B220A**. The table is presented with three columns that lack descriptive headings, labeled only as **“Unnamed: 0,” “Unnamed: 1,” and “Unnamed: 2.”** No data rows or additional context are provided in the excerpt.",
+          "qa_triples": [
+            {
+              "id": "B220A_p4_table1_qa1",
+              "class": "QA_Triple",
+              "question": "How many columns are present in Table 1?",
+              "answer": "Table 1 contains three columns."
+            },
+            {
+              "id": "B220A_p4_table1_qa2",
+              "class": "QA_Triple",
+              "question": "What are the column headings of Table 1?",
+              "answer": "The columns are labeled as Unnamed: 0, Unnamed: 1, and Unnamed: 2, indicating they have no descriptive headers."
+            },
+            {
+              "id": "B220A_p4_table1_qa3",
+              "class": "QA_Triple",
+              "question": "On which page of the document does Table 1 appear?",
+              "answer": "Table 1 is located on page 4."
+            },
+            {
+              "id": "B220A_p4_table1_qa4",
+              "class": "QA_Triple",
+              "question": "From which document is Table 1 taken?",
+              "answer": "Table 1 is taken from document B220A."
+            },
+            {
+              "id": "B220A_p4_table1_qa5",
+              "class": "QA_Triple",
+              "question": "What does the lack of descriptive column names suggest about Table 1?",
+              "answer": "The absence of descriptive column names suggests the table may be a placeholder, an intermediate data extract, or that the headings were omitted during export."
+            }
+          ]
+        },
+        {
+          "table_id": "B220A_p4_table2",
+          "page": 4,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p4_table2.csv",
+          "rows": 11,
+          "cols": 3,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary of Table 2 (page 4, document B220A)**  \n\nThe table lists the minimum and maximum measured values for four dimensions (A, B, C, and D) of the SMB component:\n\n| Dimension | Minimum | Maximum |\n|-----------|---------|---------|\n| A | 3.30 | 3.94 |\n| B | 4.06 | 4.57 |\n| C | 1.96 | 2.21 |\n| D | 0.15 | 0.31 |\n\nThese ranges define the allowable size tolerances for each respective dimension.",
+          "qa_triples": [
+            {
+              "id": "B220A_p4_table2_qa1",
+              "class": "QA_Triple",
+              "question": "Which dimension has the highest maximum value?",
+              "answer": "Dimension B has the highest maximum value of 4.57."
+            },
+            {
+              "id": "B220A_p4_table2_qa2",
+              "class": "QA_Triple",
+              "question": "What is the overall minimum value across all dimensions?",
+              "answer": "The overall minimum value is 0.15, observed for dimension D."
+            },
+            {
+              "id": "B220A_p4_table2_qa3",
+              "class": "QA_Triple",
+              "question": "What is the range (max minus min) for dimension B?",
+              "answer": "The range for dimension B is 0.51 (4.57 – 4.06)."
+            },
+            {
+              "id": "B220A_p4_table2_qa4",
+              "class": "QA_Triple",
+              "question": "Which dimension exhibits the smallest minimum value?",
+              "answer": "Dimension D has the smallest minimum value of 0.15."
+            },
+            {
+              "id": "B220A_p4_table2_qa5",
+              "class": "QA_Triple",
+              "question": "What is the overall maximum value across all dimensions?",
+              "answer": "The overall maximum value is 4.57, found in dimension B."
+            }
+          ]
+        },
+        {
+          "table_id": "B220A_p4_table3",
+          "page": 4,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p4_table3.csv",
+          "rows": 11,
+          "cols": 3,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary of Table 3 (page 4, document B220A)**  \n\nThe table lists four dimensions (A–D) with their corresponding minimum and maximum values:\n\n| Dimension | Minimum | Maximum |\n|-----------|---------|---------|\n| **A**     | 2.29    | 2.92 |\n| **B**     | 4.00    | 4.60 |\n| **C**     | 1.27    | 1.63 |\n| **D**     | 0.15    | 0.31 |\n\nIn short, each dimension’s range is given by the “Min” and “Max” columns as shown above.",
+          "qa_triples": [
+            {
+              "id": "B220A_p4_table3_qa1",
+              "class": "QA_Triple",
+              "question": "Which dimension has the largest maximum value and what is it?",
+              "answer": "Dimension B has the largest maximum value of 4.60."
+            },
+            {
+              "id": "B220A_p4_table3_qa2",
+              "class": "QA_Triple",
+              "question": "Which dimension has the smallest minimum value and what is it?",
+              "answer": "Dimension D has the smallest minimum value of 0.15."
+            },
+            {
+              "id": "B220A_p4_table3_qa3",
+              "class": "QA_Triple",
+              "question": "What is the range (Max‑Min) for dimension C?",
+              "answer": "The range for dimension C is 0.36 (1.63 - 1.27)."
+            },
+            {
+              "id": "B220A_p4_table3_qa4",
+              "class": "QA_Triple",
+              "question": "How many dimensions are listed in Table 3?",
+              "answer": "Four dimensions are listed: A, B, C, and D."
+            },
+            {
+              "id": "B220A_p4_table3_qa5",
+              "class": "QA_Triple",
+              "question": "What are the overall minimum and maximum values across all dimensions?",
+              "answer": "Overall minimum is 0.15 (dimension D) and overall maximum is 4.60 (dimension B)."
+            }
+          ]
+        },
+        {
+          "table_id": "B220A_p4_table4",
+          "page": 4,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p4_table4.csv",
+          "rows": 7,
+          "cols": 2,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary:**  \n\nTable 4 (page 4, document B220A) lists four measured dimensions (in millimetres):  \n\n- **C:** 4.30 mm  \n- **G:** 1.80 mm  \n- **X:** 2.50 mm  \n- **X1:** 6.80 mm",
+          "qa_triples": [
+            {
+              "id": "B220A_p4_table4_qa1",
+              "class": "QA_Triple",
+              "question": "What is the dimension value for C?",
+              "answer": "4.30 mm"
+            },
+            {
+              "id": "B220A_p4_table4_qa2",
+              "class": "QA_Triple",
+              "question": "Which dimension has the smallest value?",
+              "answer": "G, with a value of 1.80 mm"
+            },
+            {
+              "id": "B220A_p4_table4_qa3",
+              "class": "QA_Triple",
+              "question": "Which dimension has the largest value?",
+              "answer": "X1, with a value of 6.80 mm"
+            },
+            {
+              "id": "B220A_p4_table4_qa4",
+              "class": "QA_Triple",
+              "question": "How many different dimensions are listed in Table 4?",
+              "answer": "Four dimensions (C, G, X, and X1)"
+            },
+            {
+              "id": "B220A_p4_table4_qa5",
+              "class": "QA_Triple",
+              "question": "What unit of measurement is used for the dimension values?",
+              "answer": "Millimeters (mm)"
+            }
+          ]
+        },
+        {
+          "table_id": "B220A_p4_table5",
+          "page": 4,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p4_table5.csv",
+          "rows": 7,
+          "cols": 2,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary of Table 5 (page 4, document B220A):**\n\nThe table lists four dimensional measurements (in millimetres):\n\n- **C:** 4.00 mm  \n- **G:** 1.50 mm  \n- **X:** 2.50 mm  \n- **X1:** 6.50 mm  \n\nThese are the only values presented in the table.",
+          "qa_triples": [
+            {
+              "id": "B220A_p4_table5_qa1",
+              "class": "QA_Triple",
+              "question": "What is the dimension value (in mm) for component C?",
+              "answer": "4.00 mm"
+            },
+            {
+              "id": "B220A_p4_table5_qa2",
+              "class": "QA_Triple",
+              "question": "Which component has the smallest dimension value and what is it?",
+              "answer": "Component G has the smallest dimension value of 1.50 mm."
+            },
+            {
+              "id": "B220A_p4_table5_qa3",
+              "class": "QA_Triple",
+              "question": "What is the combined total of all dimension values listed in the table?",
+              "answer": "The sum of the dimension values is 14.50 mm (4.00 + 1.50 + 2.50 + 6.50)."
+            },
+            {
+              "id": "B220A_p4_table5_qa4",
+              "class": "QA_Triple",
+              "question": "Which component has the largest dimension value and what is that value?",
+              "answer": "Component X1 has the largest dimension value of 6.50 mm."
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "page_number": 5,
+      "natural_language_context": "**Summary of Diodes Incorporated Disclaimer (Document DS13004 Rev. 22 – B220/A – B260/A)**  \n\n- **No Warranty:** Diodes provides the document and associated products “as‑is,” without any express or implied warranties of merchantability, fitness for a particular purpose, or any other legal equivalents.  \n\n- **Right to Change:** The company may modify, improve, or correct the document or products at any time without notice and does not grant any patent, trademark, or other license rights.  \n\n- **Liability Limitations:** Diodes assumes no liability for the use of the document or its products. Users assume all risks and must hold Diodes harmless from any damages, including personal injury or death arising from unauthorized or unintended applications.  \n\n- **Unauthorized Sales:** Products bought through non‑authorized channels are not warranted, and customers must indemnify Diodes against any resulting claims.  \n\n- **Intellectual‑Property Notice:** The described products may be covered by one or more pending U.S. and foreign patents and trademarks.  \n\n- **Language Authority:** The English version of the document is the definitive and controlling text, even if translations exist.  \n\n- **Life‑Support Restriction:** Diodes’ components may not be used in life‑support or critical medical devices without written approval from the company’s CEO. Users of such devices are solely responsible for compliance with all regulatory, safety, and legal requirements and must fully indemnify Diodes for any damages arising from the use of its parts in those systems.  \n\n- **Copyright:** © 2015 Diodes Incorporated. All rights reserved.",
+      "raw_text": " \nB220/A - B260/A \nDocument number: DS13004 Rev. 22 - 2 \n5 of 5 \nwww.diodes.com  \nJuly 2015 \n© Diodes Incorporated \n \nB220/A - B260/A \n \n \n \n \nIMPORTANT NOTICE \n \nDIODES INCORPORATED MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARDS TO THIS DOCUMENT, \nINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE \n(AND THEIR EQUIVALENTS UNDER THE LAWS OF ANY JURISDICTION).   \n \nDiodes Incorporated and its subsidiaries reserve the right to make modifications, enhancements, improvements, corrections or other changes \nwithout further notice to this document and any product described herein. Diodes Incorporated does not assume any liability arising out of the \napplication or use of this document or any product described herein; neither does Diodes Incorporated convey any license under its patent or \ntrademark rights, nor the rights of others.  Any Customer or user of this document or products described herein in such applications shall assume \nall risks of such use and will agree to hold Diodes Incorporated and all the companies whose products are represented on Diodes Incorporated \nwebsite, harmless against all damages.   \n \nDiodes Incorporated does not warrant or accept any liability whatsoever in respect of any products purchased through unauthorized sales channel. \nShould Customers purchase or use Diodes Incorporated products for any unintended or unauthorized application, Customers shall indemnify and \nhold Diodes Incorporated and its representatives harmless against all claims, damages, expenses, and attorney fees arising out of, directly or \nindirectly, any claim of personal injury or death associated with such unintended or unauthorized application. \n \nProducts described herein may be covered by one or more United States, international or foreign patents pending. Product names and markings \nnoted herein may also be covered by one or more United States, international or foreign trademarks. \n \nThis document is written in English but may be translated into multiple languages for reference. Only the English version of this document is the \nfinal and determinative format released by Diodes Incorporated. \n \nLIFE SUPPORT \n \nDiodes Incorporated products are specifically not authorized for use as critical components in life support devices or systems without the express \nwritten approval of the Chief Executive Officer of Diodes Incorporated. As used herein: \n \nA.   Life support devices or systems are devices or systems which: \n \n \n1.  are intended to implant into the body, or \n \n2. support or sustain life and whose failure to perform when properly used in accordance with instructions for use provided in the \n \n     labeling can be reasonably expected to result in significant injury to the user. \n \nB.   A critical component is any component in a life support device or system whose failure to perform can be reasonably expected to cause the   \n      failure of the life support device or to affect its safety or effectiveness. \n \nCustomers represent that they have all necessary expertise in the safety and regulatory ramifications of their life support devices or systems, and \nacknowledge and agree that they are solely responsible for all legal, regulatory and safety-related requirements concerning their products and any \nuse of Diodes Incorporated products in such safety-critical, life support devices or systems, notwithstanding any devices- or systems-related \ninformation or support that may be provided by Diodes Incorporated. Further, Customers must fully indemnify Diodes Incorporated and its \nrepresentatives against any damages arising out of the use of Diodes Incorporated products in such safety-critical, life support devices or systems. \n \nCopyright © 2015, Diodes Incorporated \n \nwww.diodes.com \n \n \n",
+      "text_blocks": [
+        {
+          "id": "p5_text_block_1",
+          "type": "text_block",
+          "title": null,
+          "summary": "**Summary of Diodes Incorporated Disclaimer (B220/A–B260/A, Doc DS13004 Rev. 22‑2)**  \n\n- **No Warranty:** Diodes provides the document and the products described “as‑is,” without any express or implied warranties of merchantability, fitness for a particular purpose, or any other legal equivalents.  \n- **Right to Change:** The company may modify, improve, correct, or otherwise change the document or products at any time without notice.  \n- **No Liability:** Diodes disclaims all liability for damages arising from the use of the document or its products. Users assume all risks and must hold Diodes harmless for any injuries, deaths, or other claims.  \n- **Unauthorized Sales:** Products bought through unauthorized channels are not covered by any warranty or liability protection.  \n- **Intellectual Property:** The products may be covered by U.S., international, or foreign patents and trademarks.  \n- **Language:** Only the English version is legally binding; translations are for reference only.  \n- **Life‑Support Restriction:** Diodes’ components may not be used in life‑support or critical‑safety devices without explicit written approval from the CEO. Customers are fully responsible for regulatory compliance, safety, and indemnify Diodes for any resulting claims.  \n\n*© 2015 Diodes Incorporated*"
+        }
+      ],
+      "figures": [
+        {
+          "figure_id": "B220A_p5_img1",
+          "page": 5,
+          "type": "unknown",
+          "title": "Figure 1 (auto)",
+          "natural_language_context": "Figure 1 (auto). Page 5. **Summary of Diodes Incorporated Disclaimer (Document DS13004 Rev. 22 – B220/A – B260/A)**  \n\n- **No Warranty:** Diodes provides the document and associated products “as‑is,” without any express or implied warranties of merchantability, fitness for a particular purpose, or any other legal equivalents.  \n\n- **Right to Change:** The company may modify, improve, or correct the document or products at any time without notice and does not grant any patent, trademark, or other license rights.  \n\n- **Liability Limitations:** Diodes assumes no liability for the use of the document or its products. Users assume all risks and must hold Diodes harmless from any damages, including personal injury or death arising from unauthorized or unintended applications.  \n\n- **Unauthorized Sales:** Products bought through non‑authorized channels are not warranted, and customers must indemnify Diodes against any resulting claims.  \n\n- **Intellectual‑Property Notice:** The described products may be covered by one or more pending U.S. and foreign patents and trademarks.  \n\n- **Language Authority:** The English version of the document is the definitive and controlling text, even if translations exist.  \n\n- **Life‑Support Restriction:** Diodes’ components may not be used in life‑support or critical medical devices without written approval from the company’s CEO. Users of such devices are solely responsible for compliance with all regulatory, safety, and legal requirements and must fully indemnify Diodes for any damages arising from the use of its parts in those systems.  \n\n- **Copyright:** © 2015 Diodes Incorporated. All rights reserved. Image analysis: The image features a logo for Diodes Corporation, which is primarily composed of stylized letters \"DIODES\". The company name appears in capital letters with varying shades of blue against a white background. Above and below the company name, there are two words that read \"INCOR\" and \"ED\", respectively. These elements together form a cohesive design representing the corporation's brand identity.",
+          "vision_description": "The image features a logo for Diodes Corporation, which is primarily composed of stylized letters \"DIODES\". The company name appears in capital letters with varying shades of blue against a white background. Above and below the company name, there are two words that read \"INCOR\" and \"ED\", respectively. These elements together form a cohesive design representing the corporation's brand identity.",
+          "image_meta": {
+            "image_id": "B220A_p5_img1",
+            "page_number": 5,
+            "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p5_img1.jpeg",
+            "width": 303,
+            "height": 76,
+            "ext": "jpeg",
+            "type": "unknown",
+            "title": null
+          },
+          "qa_triples": [
+            {
+              "id": "B220A_p5_img1_qa1",
+              "class": "QA_Triple",
+              "question": "What does the disclaimer say about any warranties for Diodes' documents and products?",
+              "answer": "Diodes provides the document and its products \"as‑is\" with no express or implied warranties of merchantability, fitness for a particular purpose, or any other legal equivalents."
+            },
+            {
+              "id": "B220A_p5_img1_qa2",
+              "class": "QA_Triple",
+              "question": "Can Diodes change the document or its products after they have been released, and do users get notice of such changes?",
+              "answer": "Yes, Diodes may modify, improve, or correct the document or products at any time without notice, and they do not grant any patent, trademark, or other license rights through the document."
+            },
+            {
+              "id": "B220A_p5_img1_qa3",
+              "class": "QA_Triple",
+              "question": "What liability limitations does Diodes impose on users of the document and its components?",
+              "answer": "Diodes assumes no liability for any use of the document or its products; users bear all risks, must hold Diodes harmless for any damages—including personal injury or death—from unauthorized or unintended applications."
+            },
+            {
+              "id": "B220A_p5_img1_qa4",
+              "class": "QA_Triple",
+              "question": "What restrictions apply to using Diodes components in life‑support or critical medical devices?",
+              "answer": "Diodes components may not be used in life‑support or critical medical devices without written approval from the company’s CEO, and users must indemnify Diodes for any damages arising from such use."
+            },
+            {
+              "id": "B220A_p5_img1_qa5",
+              "class": "QA_Triple",
+              "question": "Which version of the disclaimer text is considered legally controlling if translations exist?",
+              "answer": "The English version of the document is the definitive and controlling text, even if translations are available."
+            }
+          ]
+        }
+      ],
+      "tables": []
+    }
+  ]
+}

@@ -1,0 +1,66 @@
+{
+  "doc_id": "t520",
+  "source_file": "t520.pdf",
+  "assets_dir": "uploads\\t520\\assets",
+  "num_pages": 1,
+  "document_natural_language_context": "**KEMET T520B227M006ATE025 – 220 µF Polymer Tantalum SMD Capacitor**\n\n- **Series / Part**: T520, polymer‑tantalum, molded chip\n- **Capacitance**: 220 µF ±20 %\n- **Rated Voltage**: 6.3 VDC (tested up to 105 °C)\n- **ESR**: 25 mΩ (100 kHz, 25 °C)\n- **Ripple Current**: 2.3 A @100 kHz, 45 °C; 1.61 A @85 °C; 0.575 A @105 °C\n- **Leakage Current**: 138.6 µA (5 min, 25 °C)\n- **Dissipation Factor**: 8 % (120 Hz, 25 °C)\n- **Temperature Range**: –55 °C to +105 °C (rated to 105 °C)\n- **Humidity Test**: 60 °C, 90 % RH, 500 h, no load\n- **Physical Size (Footprint 3528)**:  \n  - Length: 3.5 ± 0.2 mm  \n  - Width: 2.8 ± 0.2 mm  \n  - Height: 1.9 ± 0.2 mm (max 2.1 mm)  \n  - Other key dimensions (lead/pad sizes) also listed in the data sheet.\n- **Package & Weight**: Tape‑and‑reel, 178 mm reel, 2 000 pcs/reel, 94.85 mg each\n- **Termination**: Tin‑plated leads\n- **Compliance**: RoHS‑compliant, non‑combustible, low‑ESR\n- **Shelf Life**: 52 weeks; MSL 3\n- **Manufacturer**: KEMET (2006‑2019)\n\n*Note*: The data sheet includes standard liability disclaimer; suitability for specific applications must be verified by the user.",
+  "pages": [
+    {
+      "page_number": 1,
+      "natural_language_context": "**KEMET T520B227M006ATE025 – Polymer‑tantalum SMD Capacitor**\n\n| Parameter | Value |\n|-----------|-------|\n| **Series / Part** | T520 – Polymer Tantalum (SMD chip) |\n| **Capacitance** | 220 µF ±20 % |\n| **Rated Voltage** | 6.3 VDC (tested to 105 °C) |\n| **ESR** | 25 mΩ @ 100 kHz, 25 °C |\n| **Dissipation Factor** | 8 % @ 120 Hz, 25 °C |\n| **Ripple‑Current Rating** | 2.3 A @ 100 kHz, 45 °C  <br>1.61 A @ 85 °C  <br>0.575 A @ 105 °C |\n| **Leakage Current** | 138.6 µA after 5 min at 25 °C |\n| **Temperature Range** | –55 °C to +105 °C (rated 105 °C) |\n| **Humidity Test** | 60 °C, 90 % RH, 500 h – no load change |\n| **Package** | 3528 (3.5 mm L × 2.8 mm W × 1.9 mm H) molded polymer, max height 2.1 mm |\n| **Termination** | Tin, non‑combustible |\n| **RoHS** | Yes |\n| **Shelf Life** | 52 weeks |\n| **MSL** | 3 |\n| **Weight** | 94.85 mg per part |\n| **Packaging** | Tape & Reel, 2000 pcs per reel (178 mm) |\n| **Key Features** | Low ESR, high ripple‑current capability, non‑combustible polymer dielectric, SMD mount, RoHS compliant |\n\n*Note:* The data reflects KEMET’s 2006‑2019 specifications. Suitability for any particular design must be verified by the designer; KEMET provides the information without warranty for specific applications.",
+      "raw_text": "KEMET Part Number: T520B227M006ATE025\nT520, Tantalum, Polymer Tantalum, 220 uF, 20%, 6.3 VDC, SMD, Polymer, Molded, Low ESR, Non-Combustible, 25 mOhms, 3528,\nHeight Max = 2.1mm\nDimensions\nFootprint\n3528\nL\n3.5mm +/-0.2mm\nW\n2.8mm +/-0.2mm\nH\n1.9mm +/-0.2mm\nT\n0.13mm REF\nS\n0.8mm +/-0.3mm\nF\n2.2mm +/-0.1mm\nA\n1.9mm MIN\nB\n0.4mm +/-0.15mm\nP\n0.5mm REF\nR\n1mm REF\nX\n0.1mm +/-0.1mm\nPackaging Specifications\nWeight:\n94.85 mg\nPackaging:\nT&R, 178mm\nPackaging Quantity:\n2000\nGeneral Information\nSupplier:\nKEMET\nSeries:\nT520\nDielectric:\nPolymer Tantalum\nStyle:\nSMD Chip\nDescription:\nSMD, Polymer, Molded, Low\nESR, Non-Combustible\nFeatures:\nLow ESR\nRoHS:\nYes\nTermination:\nTin\nShelf Life:\n52 Weeks\nMSL:\n3\nSpecifications\nCapacitance:\n220 uF\nCapacitance Tolerance:\n20%\nVoltage DC:\n6.3 VDC (105C)\nTemperature Range:\n-55/+105C\nRated Temperature:\n105°C\nHumidity:\n60C, 90% RH, 500 Hours, No\nLoad\nDissipation Factor:\n8.00% 120Hz 25C\nFailure Rate:\nN/A\nResistance:\n25 mOhms (100kHz 25C)\nRipple Current:\n2300 mA (100kHz 45C), 1610\nmA (85C), 575 mA (105C)\nLeakage Current:\n138.6 uA (5min 25C)\n© 2006 - 2019 KEMET\nStatements of suitability for certain applications are based on our knowledge of typical operating conditions for such applications, but are not intended to constitute - and\nwe specifically disclaim - any warranty concerning suitability for a specific customer application or use. This Information is intended for use only by customers who have the\nrequisite experience and capability to determine the correct products for their application. Any technical advice inferred from this Information or otherwise provided by us\nwith reference to the use of our products is given gratis, and we assume no obligation or liability for the advice given or results obtained.\nGenerated 6/27/2019 - fc3ac288-dcb6-40ed-96e0-6f79d63cf9ea\n",
+      "text_blocks": [
+        {
+          "id": "p1_text_block_1",
+          "type": "text_block",
+          "title": null,
+          "summary": "**KEMET T520B227M006ATE025 – Polymer Tantalum SMD Capacitor**\n\n- **Capacitance:** 220 µF ±20 %  \n- **Voltage rating:** 6.3 VDC (rated to 105 °C)  \n- **ESR:** 25 mΩ at 100 kHz, 25 °C (low‑ESR, non‑combustible)  \n- **Dielectric:** Polymer tantalum, molded, RoHS‑compliant, tin termination  \n- **Size (3528 footprint):** 3.5 mm ± 0.2 L × 2.8 mm ± 0.2 W × 1.9 mm ± 0.2 H (max height 2.1 mm)  \n- **Weight:** 94.85 mg per part  \n- **Temperature range:** –55 °C to +105 °C (rated at 105 °C)  \n- **Ripple current:** 2.3 A @100 kHz (45 °C), 1.61 A @85 °C, 0.575 A @105 °C  \n- **Leakage current:** 138.6 µA after 5 min at 25 °C  \n- **Packaging:** Tape & Reel, 2 m length, 2 000 parts per reel, MSL 3, shelf life 52 weeks  \n\nThe part is a compact, low‑ESR polymer tantalum chip capacitor suitable for high‑reliability SMD applications requiring moderate capacitance and voltage in a 3528‑size package."
+        }
+      ],
+      "figures": [],
+      "tables": [
+        {
+          "table_id": "t520_p1_table1",
+          "page": 1,
+          "path": "uploads\\t520\\assets\\tables\\t520_p1_table1.csv",
+          "rows": 40,
+          "cols": 7,
+          "flavor": "lattice",
+          "natural_language_context": "**Summary of Table 1 (t520 document)**  \n\n- **Part number:** KEMET T520B227M006ATE025 (Series T520)  \n- **Component type:** Surface‑mount polymer‑tantalum electrolytic capacitor (SMD chip)  \n- **Key specifications:** 220 µF, 20 % tolerance, 6.3 VDC rated, low‑ESR (≈25 mΩ), non‑combustible, molded polymer, max height 2.1 mm (size 3528)  \n- **Supplier:** KEMET  \n\n**Legal disclaimer:**  \nThe suitability statements are based on typical operating conditions and do **not** constitute a warranty for any specific customer application. The information is intended only for customers with the expertise to select appropriate products. Any technical advice provided is free of charge; KEMET assumes no liability for that advice or any results derived from it.",
+          "qa_triples": [
+            {
+              "id": "t520_p1_table1_qa1",
+              "class": "QA_Triple",
+              "question": "What is the capacitance value and its tolerance for the T520 part?",
+              "answer": "The capacitor has a capacitance of 220 µF with a tolerance of ±20%."
+            },
+            {
+              "id": "t520_p1_table1_qa2",
+              "class": "QA_Triple",
+              "question": "What is the maximum operating voltage rating of this component?",
+              "answer": "The maximum voltage rating is 6.3 VDC."
+            },
+            {
+              "id": "t520_p1_table1_qa3",
+              "class": "QA_Triple",
+              "question": "What is the equivalent series resistance (ESR) specified for the part?",
+              "answer": "The ESR is specified as 25 mΩ."
+            },
+            {
+              "id": "t520_p1_table1_qa4",
+              "class": "QA_Triple",
+              "question": "What are the physical dimensions and package type of the T520 component?",
+              "answer": "It is an SMD chip in a 3528 size code with a maximum height of 2.1 mm."
+            },
+            {
+              "id": "t520_p1_table1_qa5",
+              "class": "QA_Triple",
+              "question": "What dielectric material is used in this capacitor series?",
+              "answer": "The capacitor uses a polymer tantalum dielectric."
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

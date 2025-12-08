@@ -1,0 +1,27 @@
+{
+  "doc_id": "t520",
+  "source_file": "t520.pdf",
+  "num_pages": 1,
+  "assets_dir": "uploads\\t520\\assets",
+  "pages": [
+    {
+      "page_number": 1,
+      "raw_text": "KEMET Part Number: T520B227M006ATE025\nT520, Tantalum, Polymer Tantalum, 220 uF, 20%, 6.3 VDC, SMD, Polymer, Molded, Low ESR, Non-Combustible, 25 mOhms, 3528,\nHeight Max = 2.1mm\nDimensions\nFootprint\n3528\nL\n3.5mm +/-0.2mm\nW\n2.8mm +/-0.2mm\nH\n1.9mm +/-0.2mm\nT\n0.13mm REF\nS\n0.8mm +/-0.3mm\nF\n2.2mm +/-0.1mm\nA\n1.9mm MIN\nB\n0.4mm +/-0.15mm\nP\n0.5mm REF\nR\n1mm REF\nX\n0.1mm +/-0.1mm\nPackaging Specifications\nWeight:\n94.85 mg\nPackaging:\nT&R, 178mm\nPackaging Quantity:\n2000\nGeneral Information\nSupplier:\nKEMET\nSeries:\nT520\nDielectric:\nPolymer Tantalum\nStyle:\nSMD Chip\nDescription:\nSMD, Polymer, Molded, Low\nESR, Non-Combustible\nFeatures:\nLow ESR\nRoHS:\nYes\nTermination:\nTin\nShelf Life:\n52 Weeks\nMSL:\n3\nSpecifications\nCapacitance:\n220 uF\nCapacitance Tolerance:\n20%\nVoltage DC:\n6.3 VDC (105C)\nTemperature Range:\n-55/+105C\nRated Temperature:\n105°C\nHumidity:\n60C, 90% RH, 500 Hours, No\nLoad\nDissipation Factor:\n8.00% 120Hz 25C\nFailure Rate:\nN/A\nResistance:\n25 mOhms (100kHz 25C)\nRipple Current:\n2300 mA (100kHz 45C), 1610\nmA (85C), 575 mA (105C)\nLeakage Current:\n138.6 uA (5min 25C)\n© 2006 - 2019 KEMET\nStatements of suitability for certain applications are based on our knowledge of typical operating conditions for such applications, but are not intended to constitute - and\nwe specifically disclaim - any warranty concerning suitability for a specific customer application or use. This Information is intended for use only by customers who have the\nrequisite experience and capability to determine the correct products for their application. Any technical advice inferred from this Information or otherwise provided by us\nwith reference to the use of our products is given gratis, and we assume no obligation or liability for the advice given or results obtained.\nGenerated 6/27/2019 - fc3ac288-dcb6-40ed-96e0-6f79d63cf9ea\n",
+      "images": [],
+      "tables": [
+        {
+          "table_id": "t520_p1_table1",
+          "page_number": 1,
+          "path": "uploads\\t520\\assets\\tables\\t520_p1_table1.csv",
+          "rows": 40,
+          "cols": 7,
+          "flavor": "lattice",
+          "global_index": 0
+        }
+      ],
+      "figure_references": [],
+      "table_references": [],
+      "references": []
+    }
+  ]
+}

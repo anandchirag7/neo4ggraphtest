@@ -1,0 +1,515 @@
+RAW:
+{
+  "ics": [
+    {
+      "name": "ISL81401",
+      "pins": [
+        "VIN",
+        "VOUT",
+        "EN",
+        "UVLO",
+        "PGOOD",
+        "FB_OUT",
+        "CS+",
+        "CS-",
+        "SS/TRK",
+        "IMON_OUT",
+        "IMON_IN",
+        "EXTBIAS",
+        "VDD",
+        "VCC5V",
+        "BOOT1",
+        "BOOT2",
+        "UG1",
+        "UG2",
+        "PHASE1",
+        "PHASE2",
+        "LG1",
+        "LG2",
+        "PGND",
+        "OC_MODE",
+        "COMP",
+        "ISEN+",
+        "ISEN-",
+        "A1",
+        "A2",
+        "CLKOUT",
+        "DITHER",
+        "REF",
+        "RT",
+        "SYNC",
+        "PWM",
+        "FB_IN",
+        "FB_OUT",
+        "RST"
+      ],
+      "constraints": [
+        {
+          "id": "ISL81401_VIN_MIN",
+          "pin": "VIN",
+          "type": "min_voltage",
+          "value": 4.5,
+          "unit": "V",
+          "description": "Minimum input voltage that the device can operate with.",
+          "keywords": ["wide input voltage range", "4.5V"]
+        },
+        {
+          "id": "ISL81401_VIN_MAX",
+          "pin": "VIN",
+          "type": "max_voltage",
+          "value": 40,
+          "unit": "V",
+          "description": "Maximum input voltage that the device can tolerate.",
+          "keywords": ["wide input voltage range", "40V"]
+        },
+        {
+          "id": "ISL81401_VOUT_MIN",
+          "pin": "VOUT",
+          "type": "min_voltage",
+          "value": 0.8,
+          "unit": "V",
+          "description": "Minimum regulated output voltage.",
+          "keywords": ["wide output voltage range", "0.8V"]
+        },
+        {
+          "id": "ISL81401_VOUT_MAX",
+          "pin": "VOUT",
+          "type": "max_voltage",
+          "value": 40,
+          "unit": "V",
+          "description": "Maximum regulated output voltage.",
+          "keywords": ["wide output voltage range", "40V"]
+        },
+        {
+          "id": "ISL81401_F0_MIN",
+          "pin": "",
+          "type": "min_frequency",
+          "value": 100,
+          "unit": "kHz",
+          "description": "Minimum programmable switching frequency.",
+          "keywords": ["programmable frequency", "100kHz"]
+        },
+        {
+          "id": "ISL81401_F0_MAX",
+          "pin": "",
+          "type": "max_frequency",
+          "value": 600,
+          "unit": "kHz",
+          "description": "Maximum programmable switching frequency.",
+          "keywords": ["programmable frequency", "600kHz"]
+        },
+        {
+          "id": "ISL81401_QUISCENT_CURRENT",
+          "pin": "EN",
+          "type": "quiescent_current",
+          "value": 2.7,
+          "unit": "µA",
+          "description": "Low shutdown (quiescent) current when the device is disabled.",
+          "keywords": ["low shut down current", "2.7µA"]
+        },
+        {
+          "id": "ISL81401_EXTBIAS_VOLTAGE_MIN",
+          "pin": "EXTBIAS",
+          "type": "min_voltage",
+          "value": 5,
+          "unit": "V",
+          "description": "Minimum external bias supply voltage for higher efficiency operation.",
+          "keywords": ["external bias", "5V"]
+        },
+        {
+          "id": "ISL81401_EXTBIAS_VOLTAGE_MAX",
+          "pin": "EXTBIAS",
+          "type": "max_voltage",
+          "value": 36,
+          "unit": "V",
+          "description": "Maximum external bias supply voltage for higher efficiency operation.",
+          "keywords": ["external bias", "36V"]
+        }
+      ]
+    },
+    {
+      "name": "ISL81401A",
+      "pins": [
+        "VIN",
+        "VOUT",
+        "EN",
+        "UVLO",
+        "PGOOD",
+        "FB_OUT",
+        "CS+",
+        "CS-",
+        "SS/TRK",
+        "IMON_OUT",
+        "IMON_IN",
+        "EXTBIAS",
+        "VDD",
+        "VCC5V",
+        "BOOT1",
+        "BOOT2",
+        "UG1",
+        "UG2",
+        "PHASE1",
+        "PHASE2",
+        "LG1",
+        "LG2",
+        "PGND",
+        "OC_MODE",
+        "COMP",
+        "ISEN+",
+        "ISEN-",
+        "A1",
+        "A2",
+        "CLKOUT",
+        "DITHER",
+        "REF",
+        "RT",
+        "SYNC",
+        "PWM",
+        "FB_IN",
+        "FB_OUT",
+        "RST"
+      ],
+      "constraints": [
+        {
+          "id": "ISL81401A_VIN_MIN",
+          "pin": "VIN",
+          "type": "min_voltage",
+          "value": 4.5,
+          "unit": "V",
+          "description": "Minimum input voltage for the unidirectional version.",
+          "keywords": ["wide input voltage range", "4.5V"]
+        },
+        {
+          "id": "ISL81401A_VIN_MAX",
+          "pin": "VIN",
+          "type": "max_voltage",
+          "value": 40,
+          "unit": "V",
+          "description": "Maximum input voltage for the unidirectional version.",
+          "keywords": ["wide input voltage range", "40V"]
+        },
+        {
+          "id": "ISL81401A_VOUT_MIN",
+          "pin": "VOUT",
+          "type": "min_voltage",
+          "value": 0.8,
+          "unit": "V",
+          "description": "Minimum regulated output voltage for the unidirectional version.",
+          "keywords": ["wide output voltage range", "0.8V"]
+        },
+        {
+          "id": "ISL81401A_VOUT_MAX",
+          "pin": "VOUT",
+          "type": "max_voltage",
+          "value": 40,
+          "unit": "V",
+          "description": "Maximum regulated output voltage for the unidirectional version.",
+          "keywords": ["wide output voltage range", "40V"]
+        },
+        {
+          "id": "ISL81401A_F0_MIN",
+          "pin": "",
+          "type": "min_frequency",
+          "value": 100,
+          "unit": "kHz",
+          "description": "Minimum programmable switching frequency for the unidirectional device.",
+          "keywords": ["programmable frequency", "100kHz"]
+        },
+        {
+          "id": "ISL81401A_F0_MAX",
+          "pin": "",
+          "type": "max_frequency",
+          "value": 600,
+          "unit": "kHz",
+          "description": "Maximum programmable switching frequency for the unidirectional device.",
+          "keywords": ["programmable frequency", "600kHz"]
+        },
+        {
+          "id": "ISL81401A_QUISCENT_CURRENT",
+          "pin": "EN",
+          "type": "quiescent_current",
+          "value": 2.7,
+          "unit": "µA",
+          "description": "Low shutdown current when disabled, same as bidirectional version.",
+          "keywords": ["low shut down current", "2.7µA"]
+        },
+        {
+          "id": "ISL81401A_EXTBIAS_VOLTAGE_MIN",
+          "pin": "EXTBIAS",
+          "type": "min_voltage",
+          "value": 5,
+          "unit": "V",
+          "description": "Minimum external bias voltage for higher efficiency operation.",
+          "keywords": ["external bias", "5V"]
+        },
+        {
+          "id": "ISL81401A_EXTBIAS_VOLTAGE_MAX",
+          "pin": "EXTBIAS",
+          "type": "max_voltage",
+          "value": 36,
+          "unit": "V",
+          "description": "Maximum external bias voltage for higher efficiency operation.",
+          "keywords": ["external bias", "36V"]
+        }
+      ]
+    }
+  ]
+}
+
+CLEANED:
+{
+  "ics": [
+    {
+      "name": "ISL81401",
+      "pins": [
+        "VIN",
+        "VOUT",
+        "EN",
+        "UVLO",
+        "PGOOD",
+        "FB_OUT",
+        "CS+",
+        "CS-",
+        "SS/TRK",
+        "IMON_OUT",
+        "IMON_IN",
+        "EXTBIAS",
+        "VDD",
+        "VCC5V",
+        "BOOT1",
+        "BOOT2",
+        "UG1",
+        "UG2",
+        "PHASE1",
+        "PHASE2",
+        "LG1",
+        "LG2",
+        "PGND",
+        "OC_MODE",
+        "COMP",
+        "ISEN+",
+        "ISEN-",
+        "A1",
+        "A2",
+        "CLKOUT",
+        "DITHER",
+        "REF",
+        "RT",
+        "SYNC",
+        "PWM",
+        "FB_IN",
+        "FB_OUT",
+        "RST"
+      ],
+      "constraints": [
+        {
+          "id": "ISL81401_VIN_MIN",
+          "pin": "VIN",
+          "type": "min_voltage",
+          "value": 4.5,
+          "unit": "V",
+          "description": "Minimum input voltage that the device can operate with.",
+          "keywords": ["wide input voltage range", "4.5V"]
+        },
+        {
+          "id": "ISL81401_VIN_MAX",
+          "pin": "VIN",
+          "type": "max_voltage",
+          "value": 40,
+          "unit": "V",
+          "description": "Maximum input voltage that the device can tolerate.",
+          "keywords": ["wide input voltage range", "40V"]
+        },
+        {
+          "id": "ISL81401_VOUT_MIN",
+          "pin": "VOUT",
+          "type": "min_voltage",
+          "value": 0.8,
+          "unit": "V",
+          "description": "Minimum regulated output voltage.",
+          "keywords": ["wide output voltage range", "0.8V"]
+        },
+        {
+          "id": "ISL81401_VOUT_MAX",
+          "pin": "VOUT",
+          "type": "max_voltage",
+          "value": 40,
+          "unit": "V",
+          "description": "Maximum regulated output voltage.",
+          "keywords": ["wide output voltage range", "40V"]
+        },
+        {
+          "id": "ISL81401_F0_MIN",
+          "pin": "",
+          "type": "min_frequency",
+          "value": 100,
+          "unit": "kHz",
+          "description": "Minimum programmable switching frequency.",
+          "keywords": ["programmable frequency", "100kHz"]
+        },
+        {
+          "id": "ISL81401_F0_MAX",
+          "pin": "",
+          "type": "max_frequency",
+          "value": 600,
+          "unit": "kHz",
+          "description": "Maximum programmable switching frequency.",
+          "keywords": ["programmable frequency", "600kHz"]
+        },
+        {
+          "id": "ISL81401_QUISCENT_CURRENT",
+          "pin": "EN",
+          "type": "quiescent_current",
+          "value": 2.7,
+          "unit": "µA",
+          "description": "Low shutdown (quiescent) current when the device is disabled.",
+          "keywords": ["low shut down current", "2.7µA"]
+        },
+        {
+          "id": "ISL81401_EXTBIAS_VOLTAGE_MIN",
+          "pin": "EXTBIAS",
+          "type": "min_voltage",
+          "value": 5,
+          "unit": "V",
+          "description": "Minimum external bias supply voltage for higher efficiency operation.",
+          "keywords": ["external bias", "5V"]
+        },
+        {
+          "id": "ISL81401_EXTBIAS_VOLTAGE_MAX",
+          "pin": "EXTBIAS",
+          "type": "max_voltage",
+          "value": 36,
+          "unit": "V",
+          "description": "Maximum external bias supply voltage for higher efficiency operation.",
+          "keywords": ["external bias", "36V"]
+        }
+      ]
+    },
+    {
+      "name": "ISL81401A",
+      "pins": [
+        "VIN",
+        "VOUT",
+        "EN",
+        "UVLO",
+        "PGOOD",
+        "FB_OUT",
+        "CS+",
+        "CS-",
+        "SS/TRK",
+        "IMON_OUT",
+        "IMON_IN",
+        "EXTBIAS",
+        "VDD",
+        "VCC5V",
+        "BOOT1",
+        "BOOT2",
+        "UG1",
+        "UG2",
+        "PHASE1",
+        "PHASE2",
+        "LG1",
+        "LG2",
+        "PGND",
+        "OC_MODE",
+        "COMP",
+        "ISEN+",
+        "ISEN-",
+        "A1",
+        "A2",
+        "CLKOUT",
+        "DITHER",
+        "REF",
+        "RT",
+        "SYNC",
+        "PWM",
+        "FB_IN",
+        "FB_OUT",
+        "RST"
+      ],
+      "constraints": [
+        {
+          "id": "ISL81401A_VIN_MIN",
+          "pin": "VIN",
+          "type": "min_voltage",
+          "value": 4.5,
+          "unit": "V",
+          "description": "Minimum input voltage for the unidirectional version.",
+          "keywords": ["wide input voltage range", "4.5V"]
+        },
+        {
+          "id": "ISL81401A_VIN_MAX",
+          "pin": "VIN",
+          "type": "max_voltage",
+          "value": 40,
+          "unit": "V",
+          "description": "Maximum input voltage for the unidirectional version.",
+          "keywords": ["wide input voltage range", "40V"]
+        },
+        {
+          "id": "ISL81401A_VOUT_MIN",
+          "pin": "VOUT",
+          "type": "min_voltage",
+          "value": 0.8,
+          "unit": "V",
+          "description": "Minimum regulated output voltage for the unidirectional version.",
+          "keywords": ["wide output voltage range", "0.8V"]
+        },
+        {
+          "id": "ISL81401A_VOUT_MAX",
+          "pin": "VOUT",
+          "type": "max_voltage",
+          "value": 40,
+          "unit": "V",
+          "description": "Maximum regulated output voltage for the unidirectional version.",
+          "keywords": ["wide output voltage range", "40V"]
+        },
+        {
+          "id": "ISL81401A_F0_MIN",
+          "pin": "",
+          "type": "min_frequency",
+          "value": 100,
+          "unit": "kHz",
+          "description": "Minimum programmable switching frequency for the unidirectional device.",
+          "keywords": ["programmable frequency", "100kHz"]
+        },
+        {
+          "id": "ISL81401A_F0_MAX",
+          "pin": "",
+          "type": "max_frequency",
+          "value": 600,
+          "unit": "kHz",
+          "description": "Maximum programmable switching frequency for the unidirectional device.",
+          "keywords": ["programmable frequency", "600kHz"]
+        },
+        {
+          "id": "ISL81401A_QUISCENT_CURRENT",
+          "pin": "EN",
+          "type": "quiescent_current",
+          "value": 2.7,
+          "unit": "µA",
+          "description": "Low shutdown current when disabled, same as bidirectional version.",
+          "keywords": ["low shut down current", "2.7µA"]
+        },
+        {
+          "id": "ISL81401A_EXTBIAS_VOLTAGE_MIN",
+          "pin": "EXTBIAS",
+          "type": "min_voltage",
+          "value": 5,
+          "unit": "V",
+          "description": "Minimum external bias voltage for higher efficiency operation.",
+          "keywords": ["external bias", "5V"]
+        },
+        {
+          "id": "ISL81401A_EXTBIAS_VOLTAGE_MAX",
+          "pin": "EXTBIAS",
+          "type": "max_voltage",
+          "value": 36,
+          "unit": "V",
+          "description": "Maximum external bias voltage for higher efficiency operation.",
+          "keywords": ["external bias", "36V"]
+        }
+      ]
+    }
+  ]
+}

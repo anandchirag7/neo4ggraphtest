@@ -1,0 +1,298 @@
+{
+  "doc_id": "B220A",
+  "source_file": "backend\\uploads\\B220A\\B220A.pdf",
+  "num_pages": 5,
+  "assets_dir": "backend\\uploads\\B220A\\assets",
+  "pages": [
+    {
+      "page_number": 1,
+      "raw_text": " \nB220/A - B260/A \nDocument number: DS13004 Rev. 22 - 2 \n1 of 5 \nwww.diodes.com  \nJuly 2015 \n© Diodes Incorporated \n \nB220/A - B260/A  \n \n2.0A SURFACE MOUNT SCHOTTKY BARRIER RECTIFIER \n \n \nFeatures \n \nGuard Ring Die Construction for Transient Protection \n \nIdeally Suited for Automated Assembly \n \nLow Power-Loss, High Efficiency \n \nSurge Overload Rating to 50A Peak \n \nFor Use in Low-Voltage, High-Frequency Inverters,  \nFree-Wheeling, and Polarity Protection Application \n \nHigh-Temperature Soldering: +260°C/10 Second at Terminal \n \nLead-Free Finish; RoHS Compliant (Notes 1 & 2) \n \nHalogen and Antimony Free. “Green” Device (Note 3) \n \nQualified to AEC-Q101 Standards for High Reliability \n \nMechanical Data \n \nCase: SMA/SMB \n \nCase Material:  Molded Plastic. UL Flammability Classification \nRating 94V-0 \n \nMoisture Sensitivity: Level 1 per J-STD-020 \n \nTerminals: Lead Free Plating (Matte Tin Finish). Solderable per \nMIL-STD-202, Method 208 \n \nPolarity: Cathode Band or Cathode Notch \n \nWeight:  SMA 0.064 grams (Approximate) \n \n      SMB 0.093 grams (Approximate) \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nOrdering Information (Note 4) \nPart Number \nQualification \nCase \nPackaging \nB2xxA-13-F \nStandard \nSMA \n5,000/Tape & Reel \nB2xx-13-F \nStandard \nSMB \n3,000/Tape & Reel \nB250Q-13 \nAutomotive \nSMB \n3,000/Tape & Reel \nB240AQ-13-F \nAutomotive \nSMA \n5,000/Tape & Reel \nB240Q-13-F \nAutomotive \nSMB \n3,000/Tape & Reel \n* x = Device type, e.g. B260A-13-F (SMA package); B240-13-F (SMB package). \nNotes: \n1. EU Directive 2002/95/EC (RoHS) & 2011/65/EU (RoHS 2) compliant. All applicable RoHS exemptions applied. \n \n2. See http://www.diodes.com/quality/lead_free.html for more information about Diodes Incorporated’s definitions of Halogen- and Antimony-free, \"Green\"     \n \n    and Lead-free. \n \n3. Halogen- and Antimony-free \"Green” products are defined as those which contain <900ppm bromine, <900ppm chlorine (<1500ppm total Br + Cl) and  \n     \n    <1000ppm antimony compounds. \n4. For packaging details, go to our website at http://www.diodes.com/products/packages.html. \n5. Automotive products are AEC-Q101 qualified and are PPAP capable. Automotive, AEC-Q101 and standard products are electrically and thermally the \nsame, except where specified. For more information, please refer to http://www.diodes.com/quality/product_compliance_definitions/. \n \n \n \n \n \nMarking Information \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nTop View \nBottom View \nB2X0A = Product type marking code, ex: B220A (SMA package) \nB2X0 = Product type marking code, ex: B230 (SMB package) \n      = Manufacturers’ code marking \nYWW = Date code marking \nY = Last digit of year (ex: 5 for 2015) \nWW = Week code (01 to 53) \n \nGreen\nSMA/SMB \n",
+      "images": [
+        {
+          "image_id": "B220A_p1_img1",
+          "page_number": 1,
+          "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img1.jpeg",
+          "width": 303,
+          "height": 76,
+          "ext": "jpeg",
+          "type": "unknown",
+          "title": null
+        },
+        {
+          "image_id": "B220A_p1_img2",
+          "page_number": 1,
+          "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img2.jpeg",
+          "width": 137,
+          "height": 120,
+          "ext": "jpeg",
+          "type": "unknown",
+          "title": null
+        },
+        {
+          "image_id": "B220A_p1_img3",
+          "page_number": 1,
+          "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img3.jpeg",
+          "width": 135,
+          "height": 120,
+          "ext": "jpeg",
+          "type": "unknown",
+          "title": null
+        },
+        {
+          "image_id": "B220A_p1_img4",
+          "page_number": 1,
+          "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img4.png",
+          "width": 196,
+          "height": 140,
+          "ext": "png",
+          "type": "unknown",
+          "title": null
+        },
+        {
+          "image_id": "B220A_p1_img5",
+          "page_number": 1,
+          "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img5.png",
+          "width": 28,
+          "height": 20,
+          "ext": "png",
+          "type": "unknown",
+          "title": null
+        },
+        {
+          "image_id": "B220A_p1_img6",
+          "page_number": 1,
+          "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img6.png",
+          "width": 31,
+          "height": 19,
+          "ext": "png",
+          "type": "unknown",
+          "title": null
+        },
+        {
+          "image_id": "B220A_p1_img7",
+          "page_number": 1,
+          "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p1_img7.png",
+          "width": 83,
+          "height": 69,
+          "ext": "png",
+          "type": "unknown",
+          "title": null
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "B220A_p1_table1",
+          "page_number": 1,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p1_table1.csv",
+          "rows": 6,
+          "cols": 4,
+          "flavor": "lattice",
+          "global_index": 0
+        }
+      ],
+      "figure_references": [],
+      "table_references": [],
+      "references": []
+    },
+    {
+      "page_number": 2,
+      "raw_text": " \nB220/A - B260/A \nDocument number: DS13004 Rev. 22 - 2 \n2 of 5 \nwww.diodes.com  \nJuly 2015 \n© Diodes Incorporated \n \nB220/A - B260/A \n \n \n \nMaximum Ratings (@TA = +25°C, unless otherwise specified.) \nSingle phase, half wave, 60Hz, resistive or inductive load. For capacitance load, derate current by 20%. \nCharacteristic \nSymbol \nB220/A \nB230/A \nB240/A \nB250/A \nB260/A \nUnit \nPeak Repetitive Reverse Voltage \nWorking Peak Reverse Voltage \nDC Blocking Voltage \nVRRM \nVRWM \nVR \n20 \n30 \n40 \n50 \n60 \nV \nRMS Reverse Voltage \nVR(RMS) \n14 \n21 \n28 \n35 \n42 \nV \nAverage Rectified Output Current \n \nIO \n2.0 \nA \nNon-Repetitive Peak Forward Surge Current, 8.3ms  \nSingle Half Sine-Wave Superimposed on Rated Load \nIFSM \n50 \nA \n \n \nThermal Characteristics    \nCharacteristic \nSymbol \nValue \nUnit \nTypical Thermal Resistance, Junction to Lead \nSMA \nSMB \nRθJL \n25 \n20 \n°C/W \nOperating and Storage Temperature Range \nTJ, TSTG \n-65 to +150 \n°C \n \n \nElectrical Characteristics (@TA = +25°C, unless otherwise specified.) \nCharacteristic \nSymbol \nMin \nTyp \nMax \nUnit \nTest Condition \nForward Voltage Drop \nB220/A, B230/A, B240/A \nB250/A, B260/A \nVF \n— \n— \n0.50 \n0.70 \nV \nIF = 2.0A, TA = +25°C \nLeakage Current (Note 6) \nIR \n— \n— \n0.5 \n20 \nmA \n@ Rated VR, TA = +25°C \n@ Rated VR, TA = +100°C \nTotal Capacitance \nCT \n— \n— \n200 \npF \nVR = 40V, f = 1MHz \nNote: \n6. Short duration pulse test used to minimize self-heating effect. \n \n \n \n",
+      "images": [
+        {
+          "image_id": "B220A_p2_img1",
+          "page_number": 2,
+          "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p2_img1.jpeg",
+          "width": 303,
+          "height": 76,
+          "ext": "jpeg",
+          "type": "unknown",
+          "title": null
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "B220A_p2_table1",
+          "page_number": 2,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p2_table1.csv",
+          "rows": 5,
+          "cols": 8,
+          "flavor": "lattice",
+          "global_index": 1
+        },
+        {
+          "table_id": "B220A_p2_table2",
+          "page_number": 2,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p2_table2.csv",
+          "rows": 4,
+          "cols": 7,
+          "flavor": "lattice",
+          "global_index": 2
+        }
+      ],
+      "figure_references": [],
+      "table_references": [],
+      "references": []
+    },
+    {
+      "page_number": 3,
+      "raw_text": " \nB220/A - B260/A \nDocument number: DS13004 Rev. 22 - 2 \n3 of 5 \nwww.diodes.com  \nJuly 2015 \n© Diodes Incorporated \n \nB220/A - B260/A \n \n \n \n \n0.01\n0.1\n1.0\n10\n0\n0.2\n0.4\n0.6\n0.8\n1.0\nI , INSTANTANEOUS FORWARD CURRENT (A)\nF\nV , INSTANTANEOUS FORWARD VOLTAGE (V)\nFig. 1  Typical Forward Characteristics\nF\n0\n20\n40\n60\n80\n100\n120\n140\nI , INSTANTANEOUS REVERSE CURRENT (mA)\nR\nPERCENT OF RATED PEAK REVERSE VOLTAGE (%)\nFig. 2  Typical Reverse Characteristics\n100\n10\n1.0\n0.1\n0.01\n0.001\n \n10\n100\n1,000\n0.1\n1\n10\n100\nC , TOTAL CAPACITANCE (pF)\nT\nV , DC REVERSE VOLTAGE (V)\nFig. 3  Total Capacitance vs. Reverse Voltage\nR\n0\n0.5\n1.0\n25\n50\n75\n100\n125\n150\nI\n, AVERAGE FORWARD CURRENT (A)\nF(AV)\nT , TERMINAL TEMPERATURE (ºC)\nFig. 4  Forward Current Derating Curve\nT\n1.5\n2.0\n2.5\n \n20\n30\n40\n50\n16\n12\n8\n4\n24\n20\n32\n28\n36\n40\nT , DERATED AMBIENT TEMPERATURE (°C)\nA\nV , DC REVERSE VOLTAGE (V)\nFig. 5  Operating Temperature Derating  (B240)\nR\n60\n70\n80\n120\n130\n100\n110\n150\n140\n160\n0\nNote 6\n90\n      \n0\n10\n20\n30\n40\n50\n1\n10\n100\nI\n, PEAK FORWARD SURGE CURRENT (A)\nFSM\nNUMBER OF CYCLES AT 60 Hz\nFig. 6  Max Non-Repetitive Peak Forward Surge Current \n \nNote:  \n7. Device mounted on FR-4 PC board with minimum recommended pad layout pattern as per http://www.diodes.com. \n \nNote 7 \n",
+      "images": [
+        {
+          "image_id": "B220A_p3_img1",
+          "page_number": 3,
+          "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p3_img1.jpeg",
+          "width": 303,
+          "height": 76,
+          "ext": "jpeg",
+          "type": "unknown",
+          "title": null
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "B220A_p3_table1",
+          "page_number": 3,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p3_table1.csv",
+          "rows": 33,
+          "cols": 7,
+          "flavor": "lattice",
+          "global_index": 3
+        },
+        {
+          "table_id": "B220A_p3_table2",
+          "page_number": 3,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p3_table2.csv",
+          "rows": 21,
+          "cols": 10,
+          "flavor": "lattice",
+          "global_index": 4
+        },
+        {
+          "table_id": "B220A_p3_table3",
+          "page_number": 3,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p3_table3.csv",
+          "rows": 5,
+          "cols": 10,
+          "flavor": "lattice",
+          "global_index": 5
+        },
+        {
+          "table_id": "B220A_p3_table4",
+          "page_number": 3,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p3_table4.csv",
+          "rows": 18,
+          "cols": 21,
+          "flavor": "lattice",
+          "global_index": 6
+        },
+        {
+          "table_id": "B220A_p3_table5",
+          "page_number": 3,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p3_table5.csv",
+          "rows": 5,
+          "cols": 18,
+          "flavor": "lattice",
+          "global_index": 7
+        },
+        {
+          "table_id": "B220A_p3_table6",
+          "page_number": 3,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p3_table6.csv",
+          "rows": 14,
+          "cols": 10,
+          "flavor": "lattice",
+          "global_index": 8
+        }
+      ],
+      "figure_references": [],
+      "table_references": [],
+      "references": []
+    },
+    {
+      "page_number": 4,
+      "raw_text": " \nB220/A - B260/A \nDocument number: DS13004 Rev. 22 - 2 \n4 of 5 \nwww.diodes.com  \nJuly 2015 \n© Diodes Incorporated \n \nB220/A - B260/A \n \n \n \n \nPackage Outline Dimensions \nPlease see AP02002 at http://www.diodes.com/datasheets/ap02002.pdf for the latest version. \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSuggested Pad Layout \nPlease see AP02001 at http://www.diodes.com/datasheets/ap02001.pdf for the latest version. \n \n  \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \n \nSMA \nDim \nMin \nMax \nA \n2.29 \n2.92 \nB \n4.00 \n4.60 \nC \n1.27 \n1.63 \nD \n0.15 \n0.31 \nE \n4.80 \n5.59 \nG \n0.05 \n0.20 \nH \n0.76 \n1.52 \nJ \n2.01 \n2.30 \nAll Dimensions in mm \nSMB \nDim \nMin \nMax \nA \n3.30 \n3.94 \nB \n4.06 \n4.57 \nC \n1.96 \n2.21 \nD \n0.15 \n0.31 \nE \n5.00 \n5.59 \nG \n0.05 \n0.20 \nH \n0.76 \n1.52 \nJ \n2.00 \n2.50 \nAll Dimensions in mm \nSMB \nDimensions Value (in mm) \nC \n4.30 \nG \n1.80 \nX \n2.50 \nX1 \n6.80 \nY \n2.30 \nSMA \nDimensions Value (in mm) \nC \n4.00 \nG \n1.50 \nX \n2.50 \nX1 \n6.50 \nY \n1.70 \nA\nB\nC\nD\nG\nH\nE\nJ\n \nC\nX1\nY\nG\nX\nSMA/SMB \nSMA/SMB \n",
+      "images": [
+        {
+          "image_id": "B220A_p4_img1",
+          "page_number": 4,
+          "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p4_img1.jpeg",
+          "width": 303,
+          "height": 76,
+          "ext": "jpeg",
+          "type": "unknown",
+          "title": null
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "B220A_p4_table1",
+          "page_number": 4,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p4_table1.csv",
+          "rows": 1,
+          "cols": 3,
+          "flavor": "lattice",
+          "global_index": 9
+        },
+        {
+          "table_id": "B220A_p4_table2",
+          "page_number": 4,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p4_table2.csv",
+          "rows": 11,
+          "cols": 3,
+          "flavor": "lattice",
+          "global_index": 10
+        },
+        {
+          "table_id": "B220A_p4_table3",
+          "page_number": 4,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p4_table3.csv",
+          "rows": 11,
+          "cols": 3,
+          "flavor": "lattice",
+          "global_index": 11
+        },
+        {
+          "table_id": "B220A_p4_table4",
+          "page_number": 4,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p4_table4.csv",
+          "rows": 7,
+          "cols": 2,
+          "flavor": "lattice",
+          "global_index": 12
+        },
+        {
+          "table_id": "B220A_p4_table5",
+          "page_number": 4,
+          "path": "backend\\uploads\\B220A\\assets\\tables\\B220A_p4_table5.csv",
+          "rows": 7,
+          "cols": 2,
+          "flavor": "lattice",
+          "global_index": 13
+        }
+      ],
+      "figure_references": [],
+      "table_references": [],
+      "references": []
+    },
+    {
+      "page_number": 5,
+      "raw_text": " \nB220/A - B260/A \nDocument number: DS13004 Rev. 22 - 2 \n5 of 5 \nwww.diodes.com  \nJuly 2015 \n© Diodes Incorporated \n \nB220/A - B260/A \n \n \n \n \nIMPORTANT NOTICE \n \nDIODES INCORPORATED MAKES NO WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, WITH REGARDS TO THIS DOCUMENT, \nINCLUDING, BUT NOT LIMITED TO, THE IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE \n(AND THEIR EQUIVALENTS UNDER THE LAWS OF ANY JURISDICTION).   \n \nDiodes Incorporated and its subsidiaries reserve the right to make modifications, enhancements, improvements, corrections or other changes \nwithout further notice to this document and any product described herein. Diodes Incorporated does not assume any liability arising out of the \napplication or use of this document or any product described herein; neither does Diodes Incorporated convey any license under its patent or \ntrademark rights, nor the rights of others.  Any Customer or user of this document or products described herein in such applications shall assume \nall risks of such use and will agree to hold Diodes Incorporated and all the companies whose products are represented on Diodes Incorporated \nwebsite, harmless against all damages.   \n \nDiodes Incorporated does not warrant or accept any liability whatsoever in respect of any products purchased through unauthorized sales channel. \nShould Customers purchase or use Diodes Incorporated products for any unintended or unauthorized application, Customers shall indemnify and \nhold Diodes Incorporated and its representatives harmless against all claims, damages, expenses, and attorney fees arising out of, directly or \nindirectly, any claim of personal injury or death associated with such unintended or unauthorized application. \n \nProducts described herein may be covered by one or more United States, international or foreign patents pending. Product names and markings \nnoted herein may also be covered by one or more United States, international or foreign trademarks. \n \nThis document is written in English but may be translated into multiple languages for reference. Only the English version of this document is the \nfinal and determinative format released by Diodes Incorporated. \n \nLIFE SUPPORT \n \nDiodes Incorporated products are specifically not authorized for use as critical components in life support devices or systems without the express \nwritten approval of the Chief Executive Officer of Diodes Incorporated. As used herein: \n \nA.   Life support devices or systems are devices or systems which: \n \n \n1.  are intended to implant into the body, or \n \n2. support or sustain life and whose failure to perform when properly used in accordance with instructions for use provided in the \n \n     labeling can be reasonably expected to result in significant injury to the user. \n \nB.   A critical component is any component in a life support device or system whose failure to perform can be reasonably expected to cause the   \n      failure of the life support device or to affect its safety or effectiveness. \n \nCustomers represent that they have all necessary expertise in the safety and regulatory ramifications of their life support devices or systems, and \nacknowledge and agree that they are solely responsible for all legal, regulatory and safety-related requirements concerning their products and any \nuse of Diodes Incorporated products in such safety-critical, life support devices or systems, notwithstanding any devices- or systems-related \ninformation or support that may be provided by Diodes Incorporated. Further, Customers must fully indemnify Diodes Incorporated and its \nrepresentatives against any damages arising out of the use of Diodes Incorporated products in such safety-critical, life support devices or systems. \n \nCopyright © 2015, Diodes Incorporated \n \nwww.diodes.com \n \n \n",
+      "images": [
+        {
+          "image_id": "B220A_p5_img1",
+          "page_number": 5,
+          "path": "backend\\uploads\\B220A\\assets\\images\\B220A_p5_img1.jpeg",
+          "width": 303,
+          "height": 76,
+          "ext": "jpeg",
+          "type": "unknown",
+          "title": null
+        }
+      ],
+      "tables": [],
+      "figure_references": [],
+      "table_references": [],
+      "references": []
+    }
+  ]
+}

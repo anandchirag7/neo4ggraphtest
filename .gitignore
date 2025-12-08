@@ -1,0 +1,10 @@
+# Ignore Python cache and virtualenv
+__pycache__/
+*.pyc
+venv/
+*.sqlite3
+
+# Ignore uploads and static files
+uploads/
+static/
+node_modules/

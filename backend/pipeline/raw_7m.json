@@ -1,0 +1,146 @@
+{
+  "doc_id": "7m",
+  "source_file": "backend\\uploads\\7m\\7m.pdf",
+  "num_pages": 4,
+  "assets_dir": "backend\\uploads\\7m\\assets",
+  "pages": [
+    {
+      "page_number": 1,
+      "raw_text": "7M\nMHz Crystal \nRev. 1.09\nPage 1\nwww.txccrystal.com\n16 ~ 20  MHz\n60Ω  Max.\n20 ~ 64  MHz\n50Ω  Max.\n80Ω  Max.\n12 ~ 16  MHz\n80Ω  Max.\n80 ~ 114  MHz\n60Ω  Max.\n10 ~ 12  MHz\n150Ω  Max.\n60 ~ 80  MHz\nNotes:\n[1] Please contact us for low aging +/-1ppm grade crystals.\nMotional Resistance (ESR)\nFundamental\n3rd Overtone\nAging (at 25°C ± 3°C, first year)\nFaging\n ±3ppm Max.\nNote [1]\nStorage Temperature Range\nTSTR\n-40°C ~ +85°C\nDrive Level\nDL\n1 ~ 200μW (100μW Typ.)\nLoad Capacitance\nCL\n6pF, 7pF, 8pF, 9pF, 10pF\n12pF, 16pF, 18pF, 20pF\n-40°C ~ +85°C\n-40°C ~ +125°C\nShunt Capacitance\nC0\n3pF Max.\n-40°C ~ +85°C\n±20 ppm\n±15 ppm\n±60 ppm\n-40°C ~ +125°C\nOperating Temperature Range\nTOTR\n-20°C ~ +70°C\nFrequency Stability over\nOperating Temperature Range\n(refer to 25°C)\nFstab\n±30 ppm\n-20°C ~ +70°C\n±20 ppm\n±10 ppm\n±10 ppm\n-30°C ~ +85°C\n±30 ppm\nFrequency Tolerance\nFtol\n±30ppm, ±20ppm, ±10ppm\nat 25°C\nElectrical Characteristics\nItem\n7M\nConditions\nFrequency Range\nF0\n10MHz ~ 114MHz\n\u001f\nRoHS compliant & Pb free\n\u001f\nExternal dimensions (mm)\n\u001f\nComputer peripherals\nL : 3.2 x W : 2.5 x H : 0.7\n\u001f\nConsumer products\n\u001f\nCeramic SMD package\n\u001f\nCellular phone, Pager, DSC\n\u001f\nSeam sealing\n\u001f\nDisplay, TV\nFeatures\nApplications\n\u001f\nFrequency range : 10MHz to 114MHz\n\u001f\nBluetooth, Wireless LAN\n",
+      "images": [
+        {
+          "image_id": "7m_p1_img1",
+          "page_number": 1,
+          "path": "backend\\uploads\\7m\\assets\\images\\7m_p1_img1.png",
+          "width": 265,
+          "height": 90,
+          "ext": "png",
+          "type": "unknown",
+          "title": null
+        }
+      ],
+      "tables": [
+        {
+          "table_id": "7m_p1_table1",
+          "page_number": 1,
+          "path": "backend\\uploads\\7m\\assets\\tables\\7m_p1_table1.csv",
+          "rows": 19,
+          "cols": 4,
+          "flavor": "lattice",
+          "global_index": 0
+        },
+        {
+          "table_id": "7m_p1_table2",
+          "page_number": 1,
+          "path": "backend\\uploads\\7m\\assets\\tables\\7m_p1_table2.csv",
+          "rows": 5,
+          "cols": 2,
+          "flavor": "lattice",
+          "global_index": 1
+        }
+      ],
+      "figure_references": [],
+      "table_references": [],
+      "references": []
+    },
+    {
+      "page_number": 2,
+      "raw_text": "7M\nMHz Crystal \nRev. 1.09\nPage 2\nwww.txccrystal.com\n-\nT\n7M\n-\n20.000M A H E\nDimensions\nOrdering Information\nFrequency Tolerance (at 25°C)\nA\n± 30 ppm\nD\n± 20 ppm\nE\n± 10 ppm\nFrequency Stability (over Temp.)\nA\n± 30 ppm  ( -20°C ~ +70°C )\nD\n± 20 ppm  ( -20°C ~ +70°C )\nE\n± 10 ppm  ( -20°C ~ +70°C )\nT\n± 10 ppm  ( -30°C ~ +85°C )\nH\n± 30 ppm  ( -40°C ~ +85°C )\nI\n± 20 ppm  ( -40°C ~ +85°C )\nJ\n± 15 ppm  ( -40°C ~ +85°C )\nK\n± 60 ppm  ( -40°C ~ +125°C )\nLoad Capacitance\nB\n6 pF\nY\n7 pF\nV\n8 pF\nC\n9 pF\nQ\n10 pF\nE\n12 pF\nI\n16 pF\nJ\n18 pF\nK\n20 pF\nPackaging Method\nT\nTape & Reel\nFrequency in Hz\nPlease contact us for \navailable frequencies\n",
+      "images": [
+        {
+          "image_id": "7m_p2_img1",
+          "page_number": 2,
+          "path": "backend\\uploads\\7m\\assets\\images\\7m_p2_img1.png",
+          "width": 905,
+          "height": 538,
+          "ext": "png",
+          "type": "unknown",
+          "title": null
+        },
+        {
+          "image_id": "7m_p2_img2",
+          "page_number": 2,
+          "path": "backend\\uploads\\7m\\assets\\images\\7m_p2_img2.png",
+          "width": 265,
+          "height": 90,
+          "ext": "png",
+          "type": "unknown",
+          "title": null
+        }
+      ],
+      "tables": [],
+      "figure_references": [],
+      "table_references": [],
+      "references": []
+    },
+    {
+      "page_number": 3,
+      "raw_text": "7M\nMHz Crystal \nRev. 1.09\nPage 3\nwww.txccrystal.com\nPacking\nReflow Profile\n(°C)\n260\n220\n150\n180\nTime (sec)\n120 sec\n60 sec\n10 sec\nSolder melting point : 220°C ± 10°C, 60 sec. Min.\nPeak temperature : 260°C ± 10°C, 10 sec. Min.\n(Unit: mm)\n(Unit: mm)\n",
+      "images": [
+        {
+          "image_id": "7m_p3_img1",
+          "page_number": 3,
+          "path": "backend\\uploads\\7m\\assets\\images\\7m_p3_img1.png",
+          "width": 767,
+          "height": 273,
+          "ext": "png",
+          "type": "unknown",
+          "title": null
+        },
+        {
+          "image_id": "7m_p3_img2",
+          "page_number": 3,
+          "path": "backend\\uploads\\7m\\assets\\images\\7m_p3_img2.png",
+          "width": 728,
+          "height": 101,
+          "ext": "png",
+          "type": "unknown",
+          "title": null
+        },
+        {
+          "image_id": "7m_p3_img3",
+          "page_number": 3,
+          "path": "backend\\uploads\\7m\\assets\\images\\7m_p3_img3.png",
+          "width": 373,
+          "height": 68,
+          "ext": "png",
+          "type": "unknown",
+          "title": null
+        },
+        {
+          "image_id": "7m_p3_img4",
+          "page_number": 3,
+          "path": "backend\\uploads\\7m\\assets\\images\\7m_p3_img4.png",
+          "width": 605,
+          "height": 535,
+          "ext": "png",
+          "type": "unknown",
+          "title": null
+        },
+        {
+          "image_id": "7m_p3_img5",
+          "page_number": 3,
+          "path": "backend\\uploads\\7m\\assets\\images\\7m_p3_img5.png",
+          "width": 265,
+          "height": 90,
+          "ext": "png",
+          "type": "unknown",
+          "title": null
+        }
+      ],
+      "tables": [],
+      "figure_references": [],
+      "table_references": [],
+      "references": []
+    },
+    {
+      "page_number": 4,
+      "raw_text": "Mouser Electronics\n  \nAuthorized Distributor\n \n  \nClick to View Pricing, Inventory, Delivery & Lifecycle Information:\n \n \n \n \nTXC Corporation:\n  \n \n  7M-12.000MAAJ-T  7M-12.288MAAJ-T  7M-13.000MAAJ-T  7M-13.560MAAJ-T  7M-14.31818MAAJ-T  7M-\n16.000MAAJ-T  7M-16.384MAAJ-T  7M-16.9344MAAJ-T  7M-18.432MAAJ-T  7M-19.200MAAJ-T  7M-20.000MAAJ-T \n7M-24.000MAAJ-T  7M-24.576MAAJ-T  7M-25.000MAAJ-T  7M-26.000MAAJ-T  7M-27.000MAAJ-T  7M-27.120MAAJ-T\n  7M-30.000MAAJ-T  7M-32.000MAAJ-T  7M-36.000MAAJ-T  7M-38.400MAAJ-T  7M-40.000MAAJ-T  7M-48.000MAAJ-\nT  7M-10.000MAAJ-T  7M-50.000MAAJ-T  7M-36.000MAHV-T  7M-16.000MAHV-T  7M-24.000MAHV-T  7M-\n10.000MAHV-T  7M-13.000MAHV-T  7M-32.000MAHV-T  7M-38.400MAHV-T  7M-50.000MAHV-T  7M-26.000MAKV-T \n7M-26.000MAHV-T  7M-27.120MAHV-T  7M-19.200MAHV-T  7M-25.000MAKV-T  7M-27.000MAKV-T  7M-\n37.400MAHV-T  7M-25.000MAHV-T  7M-40.000MAKV-T  7M-40.000MAHV-T  7M-27.000MAHV-T  7M-24.000MAKV-T \n7M-20.000MAHV-T  7M-12.288MAHV-T  7M-30.000MAHV-T  7M-48.000MAHV-T  7M-12.000MAHV-T  7M25070033 \n7M26000028  7M20020003  7M25000196  7M24070019  7M24085001  7M24000218  7M25030004  7M12270003 \n7M25000055  7M26070013  7M40000129  7M40000002  7M27000050  7M25070010  7M12000048  7M25000080 \n7M40000009  7M25070060  7M25000003  7M25070018  7M16000099  7M25000013  7M25070025  7M48020003 \n7M12070021  7M48000003  7M25000019  7M27100001  7M12070015  7M25070063  7M31270003  7M32030001 \n7M50070014  7M24070016  7M12070005  7M12020002  7M38400010  7M24000174  7M25000018  7M24000138 \n7M18470004  7M25000041  7M25000016  7M48070001  7M24077005  7M25070006  7M16090001  7M12000039 \n7M27170001\n",
+      "images": [],
+      "tables": [],
+      "figure_references": [],
+      "table_references": [],
+      "references": []
+    }
+  ]
+}

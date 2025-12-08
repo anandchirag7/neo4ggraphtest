@@ -1,0 +1,3945 @@
+RAW:
+{
+  "ics": [
+    {
+      "name": "7M",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0",
+        "ESR",
+        "OPERATING_TEMPERATURE",
+        "STORAGE_TEMPERATURE"
+      ],
+      "constraints": [
+        {
+          "id": "7M_F0_MIN",
+          "pin": "",
+          "type": "min_frequency",
+          "value": 10,
+          "unit": "MHz",
+          "description": "Minimum operating frequency",
+          "keywords": [
+            "frequency range",
+            "10MHz minimum"
+          ]
+        },
+        {
+          "id": "7M_F0_MAX",
+          "pin": "",
+          "type": "max_frequency",
+          "value": 114,
+          "unit": "MHz",
+          "description": "Maximum operating frequency",
+          "keywords": [
+            "frequency range",
+            "114MHz maximum"
+          ]
+        },
+        {
+          "id": "7M_FT_A",
+          "pin": "",
+          "type": "frequency_tolerance",
+          "value": 30,
+          "unit": "ppm",
+          "description": "Frequency tolerance for grade A at 25°C",
+          "keywords": [
+            "frequency tolerance",
+            "±30 ppm",
+            "grade A"
+          ]
+        },
+        {
+          "id": "7M_FT_D",
+          "pin": "",
+          "type": "frequency_tolerance",
+          "value": 20,
+          "unit": "ppm",
+          "description": "Frequency tolerance for grade D at 25°C",
+          "keywords": [
+            "frequency tolerance",
+            "±20 ppm",
+            "grade D"
+          ]
+        },
+        {
+          "id": "7M_FT_E",
+          "pin": "",
+          "type": "frequency_tolerance",
+          "value": 10,
+          "unit": "ppm",
+          "description": "Frequency tolerance for grade E at 25°C",
+          "keywords": [
+            "frequency tolerance",
+            "±10 ppm",
+            "grade E"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_A",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 30,
+          "unit": "ppm",
+          "description": "Frequency stability for grade A over -20°C to +70°C",
+          "keywords": [
+            "frequency stability",
+            "±30 ppm",
+            "grade A"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_D",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 20,
+          "unit": "ppm",
+          "description": "Frequency stability for grade D over -20°C to +70°C",
+          "keywords": [
+            "frequency stability",
+            "±20 ppm",
+            "grade D"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_E",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 10,
+          "unit": "ppm",
+          "description": "Frequency stability for grade E over -20°C to +70°C",
+          "keywords": [
+            "frequency stability",
+            "±10 ppm",
+            "grade E"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_T",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 10,
+          "unit": "ppm",
+          "description": "Frequency stability for grade T over -30°C to +85°C",
+          "keywords": [
+            "frequency stability",
+            "±10 ppm",
+            "grade T"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_H",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 30,
+          "unit": "ppm",
+          "description": "Frequency stability for grade H over -40°C to +85°C",
+          "keywords": [
+            "frequency stability",
+            "±30 ppm",
+            "grade H"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_I",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 20,
+          "unit": "ppm",
+          "description": "Frequency stability for grade I over -40°C to +85°C",
+          "keywords": [
+            "frequency stability",
+            "±20 ppm",
+            "grade I"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_J",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 15,
+          "unit": "ppm",
+          "description": "Frequency stability for grade J over -40°C to +85°C",
+          "keywords": [
+            "frequency stability",
+            "±15 ppm",
+            "grade J"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_K",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 60,
+          "unit": "ppm",
+          "description": "Frequency stability for grade K over -40°C to +125°C",
+          "keywords": [
+            "frequency stability",
+            "±60 ppm",
+            "grade K"
+          ]
+        },
+        {
+          "id": "7M_CL_6pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 6,
+          "unit": "pF",
+          "description": "Available load capacitance value 6 pF",
+          "keywords": [
+            "load capacitance",
+            "6 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_7pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 7,
+          "unit": "pF",
+          "description": "Available load capacitance value 7 pF",
+          "keywords": [
+            "load capacitance",
+            "7 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_8pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 8,
+          "unit": "pF",
+          "description": "Available load capacitance value 8 pF",
+          "keywords": [
+            "load capacitance",
+            "8 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_9pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 9,
+          "unit": "pF",
+          "description": "Available load capacitance value 9 pF",
+          "keywords": [
+            "load capacitance",
+            "9 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_10pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 10,
+          "unit": "pF",
+          "description": "Available load capacitance value 10 pF",
+          "keywords": [
+            "load capacitance",
+            "10 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_12pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 12,
+          "unit": "pF",
+          "description": "Available load capacitance value 12 pF",
+          "keywords": [
+            "load capacitance",
+            "12 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_16pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 16,
+          "unit": "pF",
+          "description": "Available load capacitance value 16 pF",
+          "keywords": [
+            "load capacitance",
+            "16 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_18pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 18,
+          "unit": "pF",
+          "description": "Available load capacitance value 18 pF",
+          "keywords": [
+            "load capacitance",
+            "18 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_20pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 20,
+          "unit": "pF",
+          "description": "Available load capacitance value 20 pF",
+          "keywords": [
+            "load capacitance",
+            "20 pF"
+          ]
+        },
+        {
+          "id": "7M_ESR_10_12_MAX",
+          "pin": "",
+          "type": "max_impedance",
+          "value": 150,
+          "unit": "Ω",
+          "description": "Maximum motional resistance in the 10‑12 MHz range",
+          "keywords": [
+            "ESR",
+            "150Ω",
+            "10‑12 MHz"
+          ]
+        },
+        {
+          "id": "7M_ESR_12_16_MAX",
+          "pin": "",
+          "type": "max_impedance",
+          "value": 80,
+          "unit": "Ω",
+          "description": "Maximum motional resistance in the 12‑16 MHz range",
+          "keywords": [
+            "ESR",
+            "80Ω",
+            "12‑16 MHz"
+          ]
+        },
+        {
+          "id": "7M_ESR_16_20_MAX",
+          "pin": "",
+          "type": "max_impedance",
+          "value": 60,
+          "unit": "Ω",
+          "description": "Maximum motional resistance in the 16‑20 MHz range",
+          "keywords": [
+            "ESR",
+            "60Ω",
+            "16‑20 MHz"
+          ]
+        },
+        {
+          "id": "7M_ESR_20_64_MAX",
+          "pin": "",
+          "type": "max_impedance",
+          "value": 50,
+          "unit": "Ω",
+          "description": "Maximum motional resistance in the 20‑64 MHz range",
+          "keywords": [
+            "ESR",
+            "50Ω",
+            "20‑64 MHz"
+          ]
+        },
+        {
+          "id": "7M_ESR_80_114_MAX",
+          "pin": "",
+          "type": "max_impedance",
+          "value": 60,
+          "unit": "Ω",
+          "description": "Maximum motional resistance in the 80‑114 MHz range",
+          "keywords": [
+            "ESR",
+            "60Ω",
+            "80‑114 MHz"
+          ]
+        },
+        {
+          "id": "7M_DL_MIN",
+          "pin": "",
+          "type": "drive_level",
+          "value": 1,
+          "unit": "μW",
+          "description": "Minimum drive level",
+          "keywords": [
+            "drive level",
+            "1 μW",
+            "minimum"
+          ]
+        },
+        {
+          "id": "7M_DL_MAX",
+          "pin": "",
+          "type": "drive_level",
+          "value": 200,
+          "unit": "μW",
+          "description": "Maximum drive level",
+          "keywords": [
+            "drive level",
+            "200 μW",
+            "maximum"
+          ]
+        },
+        {
+          "id": "7M_DL_TYP",
+          "pin": "",
+          "type": "drive_level",
+          "value": 100,
+          "unit": "μW",
+          "description": "Typical drive level",
+          "keywords": [
+            "drive level",
+            "100 μW",
+            "typical"
+          ]
+        },
+        {
+          "id": "7M_C0_MAX",
+          "pin": "",
+          "type": "shunt_capacitance",
+          "value": 3,
+          "unit": "pF",
+          "description": "Maximum shunt capacitance",
+          "keywords": [
+            "shunt capacitance",
+            "3 pF max"
+          ]
+        },
+        {
+          "id": "7M_TOTR_MIN",
+          "pin": "",
+          "type": "operating_temperature_range",
+          "value": -20,
+          "unit": "°C",
+          "description": "Minimum operating temperature",
+          "keywords": [
+            "operating temperature",
+            "-20°C"
+          ]
+        },
+        {
+          "id": "7M_TOTR_MAX",
+          "pin": "",
+          "type": "operating_temperature_range",
+          "value": 70,
+          "unit": "°C",
+          "description": "Maximum operating temperature",
+          "keywords": [
+            "operating temperature",
+            "+70°C"
+          ]
+        },
+        {
+          "id": "7M_TSTR_MIN",
+          "pin": "",
+          "type": "storage_temperature_range",
+          "value": -40,
+          "unit": "°C",
+          "description": "Minimum storage temperature",
+          "keywords": [
+            "storage temperature",
+            "-40°C"
+          ]
+        },
+        {
+          "id": "7M_TSTR_MAX_85",
+          "pin": "",
+          "type": "storage_temperature_range",
+          "value": 85,
+          "unit": "°C",
+          "description": "Maximum storage temperature for standard range",
+          "keywords": [
+            "storage temperature",
+            "+85°C"
+          ]
+        },
+        {
+          "id": "7M_TSTR_MAX_125",
+          "pin": "",
+          "type": "storage_temperature_range",
+          "value": 125,
+          "unit": "°C",
+          "description": "Maximum storage temperature for extended range",
+          "keywords": [
+            "storage temperature",
+            "+125°C"
+          ]
+        },
+        {
+          "id": "7M_AGING_MAX",
+          "pin": "",
+          "type": "aging",
+          "value": 3,
+          "unit": "ppm",
+          "description": "Maximum aging at 25°C ±3°C, first year",
+          "keywords": [
+            "aging",
+            "±3 ppm"
+          ]
+        },
+        {
+          "id": "7M_DIM_LENGTH",
+          "pin": "",
+          "type": "length",
+          "value": 3.2,
+          "unit": "mm",
+          "description": "Crystal length",
+          "keywords": [
+            "dimension",
+            "length",
+            "3.2 mm"
+          ]
+        },
+        {
+          "id": "7M_DIM_WIDTH",
+          "pin": "",
+          "type": "width",
+          "value": 2.5,
+          "unit": "mm",
+          "description": "Crystal width",
+          "keywords": [
+            "dimension",
+            "width",
+            "2.5 mm"
+          ]
+        },
+        {
+          "id": "7M_DIM_HEIGHT",
+          "pin": "",
+          "type": "height",
+          "value": 0.7,
+          "unit": "mm",
+          "description": "Crystal height",
+          "keywords": [
+            "dimension",
+            "height",
+            "0.7 mm"
+          ]
+        },
+        {
+          "id": "7M_PACKAGING_METHOD",
+          "pin": "",
+          "type": "packaging_method",
+          "value": null,
+          "unit": null,
+          "description": "Packaging method: Tape & Reel",
+          "keywords": [
+            "packaging",
+            "tape & reel"
+          ]
+        },
+        {
+          "id": "7M_REFLOW_PEAK_TEMP",
+          "pin": "",
+          "type": "reflow_peak_temperature",
+          "value": 260,
+          "unit": "°C",
+          "description": "Peak temperature in reflow profile",
+          "keywords": [
+            "reflow",
+            "260°C"
+          ]
+        },
+        {
+          "id": "7M_REFLOW_MELT_TEMP",
+          "pin": "",
+          "type": "reflow_melt_temperature",
+          "value": 220,
+          "unit": "°C",
+          "description": "Solder melting point in reflow profile",
+          "keywords": [
+            "reflow",
+            "220°C",
+            "melting point"
+          ]
+        },
+        {
+          "id": "7M_REFLOW_PEAK_TIME",
+          "pin": "",
+          "type": "reflow_peak_time",
+          "value": 10,
+          "unit": "sec",
+          "description": "Minimum peak time at peak temperature",
+          "keywords": [
+            "reflow",
+            "10 sec"
+          ]
+        },
+        {
+          "id": "7M_REFLOW_MELT_TIME",
+          "pin": "",
+          "type": "reflow_melt_time",
+          "value": 60,
+          "unit": "sec",
+          "description": "Minimum time at solder melting temperature",
+          "keywords": [
+            "reflow",
+            "60 sec"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-12.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-12.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 12.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "12.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-12.288MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-12.288MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 12.288,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "12.288 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-13.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-13.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 13.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "13.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-13.560MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-13.560MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 13.560,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "13.560 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-14.31818MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-14.31818MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 14.31818,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "14.31818 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-16.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-16.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 16.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "16.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-16.384MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-16.384MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 16.384,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "16.384 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-16.9344MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-16.9344MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 16.9344,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "16.9344 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-18.432MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-18.432MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 18.432,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "18.432 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-19.200MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-19.200MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 19.200,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "19.200 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-20.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-20.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 20.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "20.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-24.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-24.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 24.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "24.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-24.576MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-24.576MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 24.576,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "24.576 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-25.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-25.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 25.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "25.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-26.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-26.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 26.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "26.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-27.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-27.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 27.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "27.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-27.120MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-27.120MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 27.120,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "27.120 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-30.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-30.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 30.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "30.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-32.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-32.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 32.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "32.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-36.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-36.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 36.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "36.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-38.400MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-38.400MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 38.400,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "38.400 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-40.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-40.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 40.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "40.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-48.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-48.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 48.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "48.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-10.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-10.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 10.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "10.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-50.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-50.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 50.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "50.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-36.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-36.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 36.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "36.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-16.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-16.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 16.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "16.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-24.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-24.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 24.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "24.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-10.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-10.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 10.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "10.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-13.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-13.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 13.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "13.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-32.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-32.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 32.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "32.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-38.400MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-38.400MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 38.400,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "38.400 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-50.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-50.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 50.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "50.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-26.000MAKV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-26.000MAKV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 26.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "26.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-26.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-26.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 26.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "26.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-27.120MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-27.120MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 27.120,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "27.120 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-19.200MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-19.200MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 19.200,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "19.200 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-25.000MAKV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-25.000MAKV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 25.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "25.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-27.000MAKV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-27.000MAKV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 27.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "27.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-37.400MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-37.400MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 37.400,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "37.400 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-25.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-25.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 25.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "25.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-40.000MAKV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-40.000MAKV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 40.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "40.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-40.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-40.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 40.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "40.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-27.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-27.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 27.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "27.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-24.000MAKV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-24.000MAKV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 24.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "24.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-20.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-20.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 20.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "20.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-12.288MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-12.288MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 12.288,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "12.288 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-30.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-30.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 30.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "30.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-48.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-48.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 48.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "48.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-12.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-12.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 12.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "12.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M25070033",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M26000028",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M20020003",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000196",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24070019",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24085001",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24000218",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25030004",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12270003",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000055",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M26070013",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M40000129",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M40000002",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M27000050",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25070010",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12000048",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25070060",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000003",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25070018",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M16000099",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000013",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25070025",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M48020003",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12070021",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M48000003",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000019",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M27100001",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12070015",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25070063",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M31270003",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M32030001",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M50070014",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24070016",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12070005",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12020002",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M38400010",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24000174",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000018",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24000138",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M18470004",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000041",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000016",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M48070001",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24077005",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25070006",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M16090001",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12000039",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M27170001",
+      "pins": [],
+      "constraints": []
+    }
+  ]
+}
+
+CLEANED:
+{
+  "ics": [
+    {
+      "name": "7M",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0",
+        "ESR",
+        "OPERATING_TEMPERATURE",
+        "STORAGE_TEMPERATURE"
+      ],
+      "constraints": [
+        {
+          "id": "7M_F0_MIN",
+          "pin": "",
+          "type": "min_frequency",
+          "value": 10,
+          "unit": "MHz",
+          "description": "Minimum operating frequency",
+          "keywords": [
+            "frequency range",
+            "10MHz minimum"
+          ]
+        },
+        {
+          "id": "7M_F0_MAX",
+          "pin": "",
+          "type": "max_frequency",
+          "value": 114,
+          "unit": "MHz",
+          "description": "Maximum operating frequency",
+          "keywords": [
+            "frequency range",
+            "114MHz maximum"
+          ]
+        },
+        {
+          "id": "7M_FT_A",
+          "pin": "",
+          "type": "frequency_tolerance",
+          "value": 30,
+          "unit": "ppm",
+          "description": "Frequency tolerance for grade A at 25°C",
+          "keywords": [
+            "frequency tolerance",
+            "±30 ppm",
+            "grade A"
+          ]
+        },
+        {
+          "id": "7M_FT_D",
+          "pin": "",
+          "type": "frequency_tolerance",
+          "value": 20,
+          "unit": "ppm",
+          "description": "Frequency tolerance for grade D at 25°C",
+          "keywords": [
+            "frequency tolerance",
+            "±20 ppm",
+            "grade D"
+          ]
+        },
+        {
+          "id": "7M_FT_E",
+          "pin": "",
+          "type": "frequency_tolerance",
+          "value": 10,
+          "unit": "ppm",
+          "description": "Frequency tolerance for grade E at 25°C",
+          "keywords": [
+            "frequency tolerance",
+            "±10 ppm",
+            "grade E"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_A",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 30,
+          "unit": "ppm",
+          "description": "Frequency stability for grade A over -20°C to +70°C",
+          "keywords": [
+            "frequency stability",
+            "±30 ppm",
+            "grade A"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_D",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 20,
+          "unit": "ppm",
+          "description": "Frequency stability for grade D over -20°C to +70°C",
+          "keywords": [
+            "frequency stability",
+            "±20 ppm",
+            "grade D"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_E",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 10,
+          "unit": "ppm",
+          "description": "Frequency stability for grade E over -20°C to +70°C",
+          "keywords": [
+            "frequency stability",
+            "±10 ppm",
+            "grade E"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_T",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 10,
+          "unit": "ppm",
+          "description": "Frequency stability for grade T over -30°C to +85°C",
+          "keywords": [
+            "frequency stability",
+            "±10 ppm",
+            "grade T"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_H",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 30,
+          "unit": "ppm",
+          "description": "Frequency stability for grade H over -40°C to +85°C",
+          "keywords": [
+            "frequency stability",
+            "±30 ppm",
+            "grade H"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_I",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 20,
+          "unit": "ppm",
+          "description": "Frequency stability for grade I over -40°C to +85°C",
+          "keywords": [
+            "frequency stability",
+            "±20 ppm",
+            "grade I"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_J",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 15,
+          "unit": "ppm",
+          "description": "Frequency stability for grade J over -40°C to +85°C",
+          "keywords": [
+            "frequency stability",
+            "±15 ppm",
+            "grade J"
+          ]
+        },
+        {
+          "id": "7M_FSTAB_K",
+          "pin": "",
+          "type": "frequency_stability",
+          "value": 60,
+          "unit": "ppm",
+          "description": "Frequency stability for grade K over -40°C to +125°C",
+          "keywords": [
+            "frequency stability",
+            "±60 ppm",
+            "grade K"
+          ]
+        },
+        {
+          "id": "7M_CL_6pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 6,
+          "unit": "pF",
+          "description": "Available load capacitance value 6 pF",
+          "keywords": [
+            "load capacitance",
+            "6 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_7pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 7,
+          "unit": "pF",
+          "description": "Available load capacitance value 7 pF",
+          "keywords": [
+            "load capacitance",
+            "7 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_8pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 8,
+          "unit": "pF",
+          "description": "Available load capacitance value 8 pF",
+          "keywords": [
+            "load capacitance",
+            "8 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_9pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 9,
+          "unit": "pF",
+          "description": "Available load capacitance value 9 pF",
+          "keywords": [
+            "load capacitance",
+            "9 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_10pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 10,
+          "unit": "pF",
+          "description": "Available load capacitance value 10 pF",
+          "keywords": [
+            "load capacitance",
+            "10 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_12pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 12,
+          "unit": "pF",
+          "description": "Available load capacitance value 12 pF",
+          "keywords": [
+            "load capacitance",
+            "12 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_16pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 16,
+          "unit": "pF",
+          "description": "Available load capacitance value 16 pF",
+          "keywords": [
+            "load capacitance",
+            "16 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_18pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 18,
+          "unit": "pF",
+          "description": "Available load capacitance value 18 pF",
+          "keywords": [
+            "load capacitance",
+            "18 pF"
+          ]
+        },
+        {
+          "id": "7M_CL_20pF",
+          "pin": "",
+          "type": "load_capacitance",
+          "value": 20,
+          "unit": "pF",
+          "description": "Available load capacitance value 20 pF",
+          "keywords": [
+            "load capacitance",
+            "20 pF"
+          ]
+        },
+        {
+          "id": "7M_ESR_10_12_MAX",
+          "pin": "",
+          "type": "max_impedance",
+          "value": 150,
+          "unit": "Ω",
+          "description": "Maximum motional resistance in the 10‑12 MHz range",
+          "keywords": [
+            "ESR",
+            "150Ω",
+            "10‑12 MHz"
+          ]
+        },
+        {
+          "id": "7M_ESR_12_16_MAX",
+          "pin": "",
+          "type": "max_impedance",
+          "value": 80,
+          "unit": "Ω",
+          "description": "Maximum motional resistance in the 12‑16 MHz range",
+          "keywords": [
+            "ESR",
+            "80Ω",
+            "12‑16 MHz"
+          ]
+        },
+        {
+          "id": "7M_ESR_16_20_MAX",
+          "pin": "",
+          "type": "max_impedance",
+          "value": 60,
+          "unit": "Ω",
+          "description": "Maximum motional resistance in the 16‑20 MHz range",
+          "keywords": [
+            "ESR",
+            "60Ω",
+            "16‑20 MHz"
+          ]
+        },
+        {
+          "id": "7M_ESR_20_64_MAX",
+          "pin": "",
+          "type": "max_impedance",
+          "value": 50,
+          "unit": "Ω",
+          "description": "Maximum motional resistance in the 20‑64 MHz range",
+          "keywords": [
+            "ESR",
+            "50Ω",
+            "20‑64 MHz"
+          ]
+        },
+        {
+          "id": "7M_ESR_80_114_MAX",
+          "pin": "",
+          "type": "max_impedance",
+          "value": 60,
+          "unit": "Ω",
+          "description": "Maximum motional resistance in the 80‑114 MHz range",
+          "keywords": [
+            "ESR",
+            "60Ω",
+            "80‑114 MHz"
+          ]
+        },
+        {
+          "id": "7M_DL_MIN",
+          "pin": "",
+          "type": "drive_level",
+          "value": 1,
+          "unit": "μW",
+          "description": "Minimum drive level",
+          "keywords": [
+            "drive level",
+            "1 μW",
+            "minimum"
+          ]
+        },
+        {
+          "id": "7M_DL_MAX",
+          "pin": "",
+          "type": "drive_level",
+          "value": 200,
+          "unit": "μW",
+          "description": "Maximum drive level",
+          "keywords": [
+            "drive level",
+            "200 μW",
+            "maximum"
+          ]
+        },
+        {
+          "id": "7M_DL_TYP",
+          "pin": "",
+          "type": "drive_level",
+          "value": 100,
+          "unit": "μW",
+          "description": "Typical drive level",
+          "keywords": [
+            "drive level",
+            "100 μW",
+            "typical"
+          ]
+        },
+        {
+          "id": "7M_C0_MAX",
+          "pin": "",
+          "type": "shunt_capacitance",
+          "value": 3,
+          "unit": "pF",
+          "description": "Maximum shunt capacitance",
+          "keywords": [
+            "shunt capacitance",
+            "3 pF max"
+          ]
+        },
+        {
+          "id": "7M_TOTR_MIN",
+          "pin": "",
+          "type": "operating_temperature_range",
+          "value": -20,
+          "unit": "°C",
+          "description": "Minimum operating temperature",
+          "keywords": [
+            "operating temperature",
+            "-20°C"
+          ]
+        },
+        {
+          "id": "7M_TOTR_MAX",
+          "pin": "",
+          "type": "operating_temperature_range",
+          "value": 70,
+          "unit": "°C",
+          "description": "Maximum operating temperature",
+          "keywords": [
+            "operating temperature",
+            "+70°C"
+          ]
+        },
+        {
+          "id": "7M_TSTR_MIN",
+          "pin": "",
+          "type": "storage_temperature_range",
+          "value": -40,
+          "unit": "°C",
+          "description": "Minimum storage temperature",
+          "keywords": [
+            "storage temperature",
+            "-40°C"
+          ]
+        },
+        {
+          "id": "7M_TSTR_MAX_85",
+          "pin": "",
+          "type": "storage_temperature_range",
+          "value": 85,
+          "unit": "°C",
+          "description": "Maximum storage temperature for standard range",
+          "keywords": [
+            "storage temperature",
+            "+85°C"
+          ]
+        },
+        {
+          "id": "7M_TSTR_MAX_125",
+          "pin": "",
+          "type": "storage_temperature_range",
+          "value": 125,
+          "unit": "°C",
+          "description": "Maximum storage temperature for extended range",
+          "keywords": [
+            "storage temperature",
+            "+125°C"
+          ]
+        },
+        {
+          "id": "7M_AGING_MAX",
+          "pin": "",
+          "type": "aging",
+          "value": 3,
+          "unit": "ppm",
+          "description": "Maximum aging at 25°C ±3°C, first year",
+          "keywords": [
+            "aging",
+            "±3 ppm"
+          ]
+        },
+        {
+          "id": "7M_DIM_LENGTH",
+          "pin": "",
+          "type": "length",
+          "value": 3.2,
+          "unit": "mm",
+          "description": "Crystal length",
+          "keywords": [
+            "dimension",
+            "length",
+            "3.2 mm"
+          ]
+        },
+        {
+          "id": "7M_DIM_WIDTH",
+          "pin": "",
+          "type": "width",
+          "value": 2.5,
+          "unit": "mm",
+          "description": "Crystal width",
+          "keywords": [
+            "dimension",
+            "width",
+            "2.5 mm"
+          ]
+        },
+        {
+          "id": "7M_DIM_HEIGHT",
+          "pin": "",
+          "type": "height",
+          "value": 0.7,
+          "unit": "mm",
+          "description": "Crystal height",
+          "keywords": [
+            "dimension",
+            "height",
+            "0.7 mm"
+          ]
+        },
+        {
+          "id": "7M_PACKAGING_METHOD",
+          "pin": "",
+          "type": "packaging_method",
+          "value": null,
+          "unit": null,
+          "description": "Packaging method: Tape & Reel",
+          "keywords": [
+            "packaging",
+            "tape & reel"
+          ]
+        },
+        {
+          "id": "7M_REFLOW_PEAK_TEMP",
+          "pin": "",
+          "type": "reflow_peak_temperature",
+          "value": 260,
+          "unit": "°C",
+          "description": "Peak temperature in reflow profile",
+          "keywords": [
+            "reflow",
+            "260°C"
+          ]
+        },
+        {
+          "id": "7M_REFLOW_MELT_TEMP",
+          "pin": "",
+          "type": "reflow_melt_temperature",
+          "value": 220,
+          "unit": "°C",
+          "description": "Solder melting point in reflow profile",
+          "keywords": [
+            "reflow",
+            "220°C",
+            "melting point"
+          ]
+        },
+        {
+          "id": "7M_REFLOW_PEAK_TIME",
+          "pin": "",
+          "type": "reflow_peak_time",
+          "value": 10,
+          "unit": "sec",
+          "description": "Minimum peak time at peak temperature",
+          "keywords": [
+            "reflow",
+            "10 sec"
+          ]
+        },
+        {
+          "id": "7M_REFLOW_MELT_TIME",
+          "pin": "",
+          "type": "reflow_melt_time",
+          "value": 60,
+          "unit": "sec",
+          "description": "Minimum time at solder melting temperature",
+          "keywords": [
+            "reflow",
+            "60 sec"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-12.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-12.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 12.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "12.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-12.288MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-12.288MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 12.288,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "12.288 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-13.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-13.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 13.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "13.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-13.560MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-13.560MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 13.560,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "13.560 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-14.31818MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-14.31818MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 14.31818,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "14.31818 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-16.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-16.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 16.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "16.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-16.384MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-16.384MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 16.384,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "16.384 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-16.9344MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-16.9344MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 16.9344,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "16.9344 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-18.432MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-18.432MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 18.432,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "18.432 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-19.200MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-19.200MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 19.200,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "19.200 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-20.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-20.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 20.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "20.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-24.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-24.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 24.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "24.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-24.576MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-24.576MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 24.576,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "24.576 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-25.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-25.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 25.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "25.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-26.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-26.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 26.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "26.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-27.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-27.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 27.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "27.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-27.120MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-27.120MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 27.120,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "27.120 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-30.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-30.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 30.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "30.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-32.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-32.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 32.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "32.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-36.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-36.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 36.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "36.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-38.400MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-38.400MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 38.400,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "38.400 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-40.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-40.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 40.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "40.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-48.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-48.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 48.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "48.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-10.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-10.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 10.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "10.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-50.000MAAJ-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-50.000MAAJ-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 50.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "50.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-36.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-36.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 36.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "36.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-16.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-16.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 16.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "16.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-24.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-24.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 24.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "24.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-10.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-10.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 10.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "10.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-13.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-13.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 13.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "13.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-32.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-32.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 32.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "32.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-38.400MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-38.400MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 38.400,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "38.400 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-50.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-50.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 50.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "50.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-26.000MAKV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-26.000MAKV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 26.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "26.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-26.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-26.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 26.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "26.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-27.120MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-27.120MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 27.120,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "27.120 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-19.200MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-19.200MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 19.200,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "19.200 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-25.000MAKV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-25.000MAKV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 25.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "25.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-27.000MAKV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-27.000MAKV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 27.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "27.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-37.400MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-37.400MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 37.400,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "37.400 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-25.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-25.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 25.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "25.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-40.000MAKV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-40.000MAKV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 40.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "40.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-40.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-40.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 40.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "40.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-27.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-27.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 27.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "27.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-24.000MAKV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-24.000MAKV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 24.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "24.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-20.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-20.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 20.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "20.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-12.288MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-12.288MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 12.288,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "12.288 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-30.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-30.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 30.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "30.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-48.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-48.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 48.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "48.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M-12.000MAHV-T",
+      "pins": [
+        "F0",
+        "CL",
+        "DL",
+        "C0"
+      ],
+      "constraints": [
+        {
+          "id": "7M-12.000MAHV-T_F0",
+          "pin": "",
+          "type": "frequency",
+          "value": 12.000,
+          "unit": "MHz",
+          "description": "Fundamental frequency",
+          "keywords": [
+            "12.000 MHz",
+            "frequency"
+          ]
+        }
+      ]
+    },
+    {
+      "name": "7M25070033",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M26000028",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M20020003",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000196",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24070019",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24085001",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24000218",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25030004",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12270003",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000055",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M26070013",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M40000129",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M40000002",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M27000050",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25070010",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12000048",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25070060",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000003",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25070018",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M16000099",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000013",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25070025",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M48020003",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12070021",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M48000003",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000019",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M27100001",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12070015",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25070063",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M31270003",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M32030001",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M50070014",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24070016",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12070005",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12020002",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M38400010",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24000174",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000018",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24000138",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M18470004",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000041",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25000016",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M48070001",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M24077005",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M25070006",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M16090001",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M12000039",
+      "pins": [],
+      "constraints": []
+    },
+    {
+      "name": "7M27170001",
+      "pins": [],
+      "constraints": []
+    }
+  ]
+}
