@@ -1,0 +1,20 @@
+"Parameter","Symbol","Test Conditions","Min
+(Note 6)","Typ","Max
+(Note 6)","Unit"
+"Output Constant and Hiccup Current 
+Limit Set Point at ISEN+/- Input","VAVOCP_ISEN","VISEN+ - VISEN-, 12V common-mode
+applied to ISEN+/- pins,
+RIMON_OUT = 40.2k, TJ = -40°C to +125°C","44","51","64","mV"
+"","","VISEN+ - VISEN-, 12V common-mode 
+applied to ISEN+/- pins, 
+RIMON_OUT = 40.2k, TJ = -40°C to +85°C","44","51","60","mV"
+"Hiccup OCP Off-Time","tHICC_OFF","","","50","","ms"
+"Over-Temperature","","","","","",""
+"160
+°C
+Over-Temperature Shutdown
+TOT-TH","","","","","",""
+"15
+°C
+Over-Temperature Hysteresis
+TOT-HYS","","","","","",""

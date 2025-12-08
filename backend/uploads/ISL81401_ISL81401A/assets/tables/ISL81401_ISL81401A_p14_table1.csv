@@ -1,0 +1,88 @@
+"Min
+Max
+Parameter
+Symbol
+Test Conditions
+(Note 6)
+Typ
+(Note 6)
+Unit","","","","","",""
+"VIN UVLO","","","","","",""
+"3.20
+3.50
+3.85
+V
+VIN Rising UVLO Threshold (Note 10)
+VUVLOTHR
+VIN voltage, 0mA on VCC5V and VDD","","","","","",""
+"3.0
+3.2
+3.4
+V
+VIN Falling UVLO Threshold
+VUVLOTHF
+VIN voltage, 0mA on VCC5V and VDD","","","","","",""
+"VCC5V Power-On Reset","","","","","",""
+"VCC5V voltage, 0mA on VCC5V and VDD
+3.7
+4.0
+4.3
+V
+VCC5V Rising POR Threshold
+VPORTHR","","","","","",""
+"VCC5V voltage, 0mA on VCC5V and VDD
+3.30
+3.55
+3.75
+V
+VCC5V Falling POR Threshold
+VPORTHF","","","","","",""
+"EN/UVLO Threshold","","","","","",""
+"EN Rise Threshold","VENSS_THR","VIN > 5.6V","0.75","1.05","1.30","V"
+"EN Fall Threshold","VENSS_THF","VIN > 5.6V","0.60","0.90","1.10","V"
+"EN Hysteresis","VENSS_HYST","VIN > 5.6V","70","150","300","mV"
+"UVLO Rise Threshold","VUVLO_THR","VIN > 5.6V","1.77","1.80","1.83","V"
+"UVLO Hysteresis Current","IUVLO_HYST","VIN = 12V, EN/UVLO = 1.815V","2.5","4.2","5.5","µA"
+"Soft-Start Current","","","","","",""
+"SS/TRK = 0V
+2.00
+µA
+SS/TRK Soft-Start Charge Current
+ISS","","","","","",""
+"Default Internal Minimum Soft-Starting","","","","","",""
+"SS/TRK open
+1.7
+ms
+Default Internal Output Ramping Time
+tSS_MIN","","","","","",""
+"Power-Good Monitors","","","","","",""
+"PGOOD Upper Threshold","VPGOV","","107","109","112","%"
+"PGOOD Lower Threshold","VPGUV","","87","90","92","%"
+"PGOOD Low Level Voltage","VPGLOW","I_SINK = 2mA","","","0.35","V"
+"PGOOD Leakage Current","IPGLKG","PGOOD = 5V","","0","150","nA"
+"PGOOD Timing","","","","","",""
+"1.1
+5
+ms
+VOUT Rising Threshold to PGOOD 
+tPGR
+Rising (Note 9)","","","","","",""
+"80
+µs
+VOUT Falling Threshold to PGOOD 
+tPGF
+Falling","","","","","",""
+"Reference Section","","","","","",""
+"Internal Voltage Loop Reference 
+Voltage","VREFV","","","0.800","","V"
+"Reference Voltage Accuracy","","TA = 0°C to +85°C","-0.75","","+0.75","%"
+"","","TA = -40°C to +125°C","-1.00","","+1.00","%"
+"Internal Current Loop Reference 
+Voltage","VREFI","","","1.200","","V"
+"Reference Voltage Accuracy","","TA = 0°C to +85°C","-0.75","","+0.75","%"
+"","","TA = -40°C to +125°C","-1.00","","+1.00","%"
+"PWM Controller Error Amplifiers","","","","","",""
+"FB_OUT Pin Bias Current","IFBOUTLKG","","-50","0","+50","nA"
+"FB_OUT Error Amp GM","Gm1","","","1.75","","mS"
+"FB_OUT Error Amp Voltage Gain","AV1","","","82","","dB"
+"FB_OUT Error Amp Gain-BW Product","GBW1","","","8","","MHz"

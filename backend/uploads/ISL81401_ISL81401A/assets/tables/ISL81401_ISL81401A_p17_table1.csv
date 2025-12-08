@@ -1,0 +1,50 @@
+"Parameter","Symbol","Test Conditions","Min
+(Note 6)","Typ","Max
+(Note 6)","Unit"
+"Burst Mode Peak FB Voltage Limit 
+Set Point","VBST-VFB-UTH","","","0.82","","V"
+"Burst Mode Exit FB Voltage Set Point","VBST-VFB-LTH","","","0.78","","V"
+"PWM Gate Drivers","","","","","",""
+"Driver 1, 2 BOOT Refresh Trip 
+Voltage","VBOOTRF1,2","BOOT voltage - PHASE voltage","3.45","3.9","4.35","V"
+"Driver 1, 2 Source and Upper Sink 
+Current","IGSRC1,2","","","2000","","mA"
+"Driver 1, 2 Lower Sink Current","IGSNK1,2","","","3000","","mA"
+"Driver 1, 2 Upper Drive Pull-Up","RUG_UP1,2","","","2.2","","Ω"
+"Driver 1, 2 Upper Drive Pull-Down","RUG_DN1,2","","","1.7","","Ω"
+"Driver 1, 2 Lower Drive Pull-Up","RLG_UP1,2","","","3","","Ω"
+"Driver 1, 2 Lower Drive Pull-Down","RLG_DN","","","2","","Ω"
+"Driver 1, 2 Upper Drive Rise Time","tGR_UP","COUT = 1000pF","","10","","ns"
+"Driver 1, 2 Upper Drive Fall Time","tGF_UP","COUT = 1000pF","","10","","ns"
+"Driver 1, 2 Lower Drive Rise Time","tGR_DN","COUT = 1000pF","","10","","ns"
+"Driver 1, 2 Lower Drive Fall Time","tGF_DN","COUT = 1000pF","","10","","ns"
+"Overvoltage Protection","","","","","",""
+"112
+114
+116
+%
+Output OVP Threshold
+VOVTH_OUT","","","","","",""
+"Overcurrent Protection","","","","","",""
+"LG2/OC_MODE Current Source","IMODELG2","","7.5","10","12.5","µA"
+"LG2/OC_MODE Threshold Low","VMODETHLOC","","0.26","","","V"
+"LG2/OC_MODE Threshold High","VMODETHHOC","","","","0.34","V"
+"Pulse-by-Pulse Peak Current Limit 
+Input Shunt Set Point","VOCSET-CS","VCS+ - VCS-, 12V common-mode voltage 
+applied to CS+/- pins","73","83","93","mV"
+"Hiccup Peak Current Limit Input 
+Shunt Set Point","VOCSET-CS-HIC","VCS+ - VCS-","","100","","mV"
+"Pulse-by-Pulse Negative Peak 
+Current Limit Output Shunt Set Point","VOCSET-ISEN","VISEN+ - VISEN-, 12V common-mode 
+voltage applied to ISEN+/- pins","-70","-59","-48","mV"
+"Hiccup and Current Input Constant 
+Limit Set Point","VIMONINCC","IMON_IN Pin Voltage","1.185","1.2","1.215","V"
+"Input Constant and Hiccup Current 
+Limit Set Point at CS+/- Input","VAVOCP_CS","VCS+ - VCS-, 12V common-mode applied 
+to CS+/- pins, RIMON_IN = 40.2k, 
+TJ = -40°C to +125°C","44","51","64","mV"
+"","","VCS+ - VCS-, 12V common-mode applied 
+to CS+/- pins, RIMON_IN = 40.2k, 
+TJ = -40°C to +85°C","44","51","60","mV"
+"Output Constant and Hiccup Current 
+Limit Set Point","VIMONOUTCC","IMON_OUT Pin Voltage","1.185","1.2","1.215","V"

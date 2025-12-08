@@ -1,0 +1,22 @@
+"Item","","7M","Conditions"
+"Frequency Range","F0","10MHz ~ 114MHz",""
+"Frequency Tolerance","Ftol","±30ppm, ±20ppm, ±10ppm","at 25°C"
+"Frequency Stability over
+Operating Temperature Range
+(refer to 25°C)","Fstab","±30 ppm","-20°C ~ +70°C"
+"","","±20 ppm",""
+"","","±10 ppm",""
+"","","±10 ppm","-30°C ~ +85°C"
+"","","±30 ppm","-40°C ~ +85°C"
+"","","±20 ppm",""
+"","","±15 ppm",""
+"","","±60 ppm","-40°C ~ +125°C"
+"Operating Temperature Range","TOTR","-20°C ~ +70°C",""
+"","","-40°C ~ +85°C",""
+"","","-40°C ~ +125°C",""
+"Shunt Capacitance","C0","3pF Max.",""
+"Drive Level","DL","1 ~ 200μW (100μW Typ.)",""
+"Load Capacitance","CL","6pF, 7pF, 8pF, 9pF, 10pF
+12pF, 16pF, 18pF, 20pF",""
+"Aging (at 25°C ± 3°C, first year)","Faging","±3ppm Max.","Note [1]"
+"Storage Temperature Range","TSTR","-40°C ~ +85°C",""

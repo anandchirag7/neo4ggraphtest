@@ -1,0 +1,6 @@
+"Parameter","Minimum","Maximum","Unit"
+"Temperature","-40","+125","°C"
+"VIN to GND","4.5","40","V"
+"VCC5V, EN/UVLO, FB_IN to GND","0","5.25","V"
+"VDD to GND","0","5.6","V"
+"EXTBIAS to GND","0","36","V"

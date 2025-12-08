@@ -1,0 +1,8 @@
+"Device","VIN 
+Op/Maximum 
+(V)","VDD (V)","Current 
+Direction","Parallelable","Dithering","Removed Pins","Pin 12"
+"ISL81401","40/45","5.3","Bidirectional","Yes","Yes","BSTEN, CLKEN","MODE"
+"ISL81401A","40/45","5.3","Unidirectional","No","No","BSTEN, CLKEN, 
+FB_IN, CLKOUT","MODE"
+"ISL81601","60/70","8","Bidirectional","Yes","Yes","None","OV"

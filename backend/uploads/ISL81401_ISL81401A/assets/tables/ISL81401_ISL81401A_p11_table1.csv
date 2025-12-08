@@ -1,0 +1,64 @@
+"Pin 
+Number","Pin Name
+(ISL81401)","Pin Name
+(ISL81401A)","Function"
+"18","BOOT2","BOOT2","Bootstrap pin to provide bias for the boost high-side driver. The positive terminal of the 
+bootstrap capacitor connects to this pin. Connect a bootstrap diode between this pin and VDD 
+to create the bias for the high-side driver. The BOOT2 to PHASE2 voltage is monitored 
+internally. When the voltage drops to 3.9V at no switching condition, a minimum off-time pulse is 
+issued to turn off UG2 and turn on LG2 to refresh the bootstrap capacitor and maintain the 
+high-side driver bias voltage."
+"19","LG2/
+OC_MODE","LG2/
+OC_MODE","Low-side MOSFET gate driver output controlled by the boost PWM signal and OCP mode set 
+pin. The OCP mode is set by a resistor connected between the pin and ground during the 
+initiation stage before soft-start. During the initiation stage, the pin sources out 10µA current to 
+set the voltage on the pin. If the pin voltage is less than 0.3V, the OCP is set to constant current 
+mode. If the pin voltage is higher than 0.3V, the OCP is set to Hiccup mode."
+"20","VDD","VDD","Output of the internal 5.3V linear regulator supplied by either VIN or EXTBIAS. This output 
+supplies bias for the IC low-side drivers and the boot circuitries for the high-side drivers. The 
+VDD pin must always be decoupled to the PGND pin with a minimum 4.7µF ceramic capacitor 
+placed very close to the pin."
+"21","PGND","PGND","Power ground connection. This pin should be connected to the sources of the lower MOSFETs 
+and the (-) terminals of the VDD decoupling capacitors."
+"22","LG1","LG1","Low-side MOSFET gate driver output controlled by the PWM Buck signal."
+"23","BOOT1","BOOT1","Bootstrap pin to provide bias for the buck high-side driver. The positive terminal of the bootstrap 
+capacitor connects to this pin. Connect a bootstrap diode between this pin and VDD to create 
+the bias for the high-side driver. The BOOT1 to PHASE1 voltage is monitored internally. When 
+the voltage drops to 3.9V at no switching condition, a minimum off-time pulse is issued to turn 
+off UG1 and turn on LG1 to refresh the bootstrap capacitor and maintain the high-side driver 
+bias voltage."
+"24","PHASE1","PHASE1","Phase node connection of the buck converter. This pin is connected to the junction of the upper 
+MOSFET’s source, filter inductor, and lower MOSFET’s drain of the buck converter."
+"25","UG1","UG1","High-side MOSFET gate driver output controlled by the buck PWM signal."
+"26","EXTBIAS","EXTBIAS","External bias input for the optional VDD LDO. There is an internal switch to disconnect the VIN 
+LDO when EXTBIAS voltage is higher than typical 4.8V. Decouple this pin to ground with a 
+10µF ceramic capacitor when it is in use, otherwise tie this pin to ground. DO NOT float this pin."
+"27","VIN","VIN","Tie this pin to the input rail using a 5Ω to 10Ω resistor. It provides power to the internal LDO for 
+VDD. Decouple this pin with a small ceramic capacitor (10nF to 1µF) to ground."
+"28","CS+","CS+","Input current sense signal positive input pin."
+"29","CS-","CS-","Input current sense signal negative input pin."
+"30","EN/
+UVLO","EN/
+UVLO","This pin provides enable/disable and accurate UVLO functions. The output is disabled when the 
+pin is pulled to ground. When the voltage on the pin reaches 1.3V, the VDD and VCC5V LDOs 
+become active. When the voltage on the pin reaches 1.8V, the PWM modulator is enabled. 
+When the pin is floating, it is enabled in default by internal pull-up."
+"31","IMON_IN","IMON_IN","Input current monitor. The current from this pin is proportional to the differential voltage between 
+the CS+ and CS- pins. Connect a resistor and capacitor network between the pin and SGND to 
+make the pin voltage proportional to the average input current. When the pin voltage reaches 
+1.2V, the internal average current limit loop reduces the output voltage to keep the input current 
+constant when constant current OCP mode is set or the converter shuts down when hiccup 
+OCP mode is set.
+When the input current monitor function is not used, tie this pin to VCC5V or SGND to set up the 
+phase shift for interleaving parallel operation."
+"32","NC","NC","No connection pin."
+"-","SGND
+EPAD","SGND
+EPAD","Small-signal ground common to all control circuitry. Route this pin separately from the high 
+current ground (PGND). SGND and PGND can be tied together if there is one solid ground 
+plane with no noisy currents around the chip. All voltage levels are measured with respect to this 
+pin. 
+EPAD at ground potential. EPAD is connected to SGND internally. However, it is highly 
+recommended to solder it directly to the ground plane for better thermal performance and noise 
+immunity."

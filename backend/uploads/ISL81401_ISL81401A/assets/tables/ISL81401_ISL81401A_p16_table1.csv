@@ -1,0 +1,45 @@
+"Parameter","Symbol","Test Conditions","Min
+(Note 6)","Typ","Max
+(Note 6)","Unit"
+"IMON_OUT Current","","ISEN+ = 12V. ISEN- = 11.96V","25.5","27.6","29","µA"
+"Output Current Sense Voltage to 
+IMON_OUT Current Source Gain","GmISEN","12V common-mode voltage applied to 
+ISEN+/- pins, 0mV to 40mV differential 
+voltage","170","200","220","µS"
+"IMON_OUT Error Amp GM","Gm4","","","12","","µS"
+"IMON_OUT Error Amp Voltage Gain","AV4","","","72","","dB"
+"IMON_OUT Error Amp Gain-BW 
+Product","GBW4","","","5","","MHz"
+"Switching Frequency and Synchronization","","","","","",""
+"Switching Frequency","fSW","RT = 144kΩ","220","245","265","kHz"
+"","","RT = 72kΩ","420","450","485","kHz"
+"","","RT Open or to VCC5V","90","120","145","kHz"
+"","","RT = 0V","470","575","650","kHz"
+"RT Voltage","VRT","RT = 72kΩ","","580","","mV"
+"SYNC Synchronization Range","fSYNC","","140","","600","kHz"
+"SYNC Input Logic High","VSYNCH","","3.2","","","V"
+"SYNC Input Logic Low","VSYNCL","","","","0.5","V"
+"Clock Output and Frequency Dither","","","","","",""
+"CLKOUT Output High","VCLKH","ISOURCE = 1mA, VCC5V = 5V","4.55","","","V"
+"CLKOUT Output Low","VCLKL","ISINK = 1mA","","","0.3","V"
+"CLKOUT Frequency","fCLK","RT = 72kΩ","420","450","485","kHz"
+"Dither Mode Setting Current Source","IDITHER_MODE_SO","","","10","","µA"
+"Dither Mode Setting Threshold Low","VDITHER_MODE_L","","0.26","","","V"
+"Dither Mode Setting Threshold High","VDITHER_MODE_H","","","","0.34","V"
+"Dither Source Current","IDITHERSO","","","8","","µA"
+"Dither Sink Current","IDITHERSI","","","10","","µA"
+"Dither High Threshold Voltage","VDITHERH","","","2.2","","V"
+"Dither Low Threshold Voltage","VDITHERL","","","1.05","","V"
+"Diode Emulation Mode Detection","","","","","",""
+"MODE Input Logic High","","","3.2","","","V"
+"MODE Input Logic High","","","","","1","V"
+"Buck Mode Diode Emulation Phase 
+Threshold (Note 11)","VCROSS1","VIN = 12V","","2","","mV"
+"Boost Mode Diode Emulation Shunt 
+Threshold (Note 12)","VCROSS2","VIN = 12V","","-2","","mV"
+"Diode Emulation Burst Mode","","","","","",""
+"Burst Mode Enter Threshold","VIMONOUTBSTEN","IMON_OUT pin voltage","0.815","0.84","0.855","V"
+"Burst Mode Exit Threshold","VMONOUTBSTEX","IMON_OUT pin voltage","0.86","0.88","0.89","V"
+"Burst Mode Peak Current Limit Input 
+Shunt Set Point","VBST-CS","VCS+ - VCS-, 12V common-mode voltage 
+applied to CS+/- pins","16","27","39","mV"

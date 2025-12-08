@@ -1,0 +1,9 @@
+"Characteristic","Symbol","Min","Typ","Max","Unit","Test Condition"
+"B220/A, B230/A, B240/A 
+Forward Voltage Drop 
+B250/A, B260/A","VF","—","—","0.50 
+0.70","V","IF = 2.0A, TA = +25°C"
+"Leakage Current (Note 6)","IR","—","—","0.5 
+20","mA","@ Rated VR, TA = +25°C 
+@ Rated VR, TA = +100°C"
+"Total Capacitance","CT","—","—","200","pF","VR = 40V, f = 1MHz"

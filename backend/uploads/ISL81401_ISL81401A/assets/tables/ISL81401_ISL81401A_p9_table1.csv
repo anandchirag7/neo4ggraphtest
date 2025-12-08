@@ -1,0 +1,16 @@
+"Pin 
+Number","Pin Name
+(ISL81401)","Pin Name
+(ISL81401A)","Function"
+"1","NC","NC","No connection pin."
+"2","FB_IN","NC","Input voltage feedback pin for reverse direction operation. Use a resistor divider to feed the 
+input voltage back to this pin. When the input voltage drops to the pin voltage below 0.8V, the 
+internal control loop reduces the duty cycle to sink in current from output to input to keep the pin 
+voltage regulated at 0.8V.
+Keep the pin voltage below 0.3V to disable the reverse direction operation.
+When the reverse operation function is not used, tie this pin to VCC5V or SGND to set up the 
+phase shift for the interleaving parallel operation."
+"3","VCC5V","VCC5V","Output of the internal 5V linear regulator. This output supplies bias for the IC. The VCC5V pin 
+must always be decoupled to SGND with a minimum of 4.7µF ceramic capacitor placed very 
+close to the pin."
+"4","NC","NC","No connection pin."

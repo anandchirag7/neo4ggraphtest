@@ -1,0 +1,19 @@
+"BSOLUTE MAXIMUM RATINGS (TA = 25°C  unless otherwise noted)","","",""
+"PARAMETER","SYMBOL","B0520LW 
+B0530W 
+B0540W","UNIT"
+"Marking code on the device","","SD 
+SE 
+SF",""
+"Power Dissipation","PD","410","mW"
+"Repetitive peak reverse voltage","VRRM","20 
+30 
+40","V"
+"Reverse voltage, total rms value","VR(RMS)","14 
+21 
+28","V"
+"Forward current","IF","500","mA"
+"Surge peak forward current, 8.3ms single  
+half sine-wave superimposed on rated load","IFSM","5.5","A"
+"Junction temperature","TJ","- 55 to +125","°C"
+"Storage temperature","TSTG","- 55 to +125","°C"

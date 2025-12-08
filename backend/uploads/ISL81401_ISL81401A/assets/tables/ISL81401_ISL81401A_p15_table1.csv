@@ -1,0 +1,46 @@
+"Parameter","Symbol","Test Conditions","Min
+(Note 6)","Typ","Max
+(Note 6)","Unit"
+"FB_OUT Error Amp Output Current 
+Capability","","","","±310","","µA"
+"COMP Max High Voltage","VCOMP_HIGH","FB_OUT = 0V","","3.8","","V"
+"COMP Min Low Voltage","VCOMP_LOW","FB_OUT = 1V","","0.01","","V"
+"FB_IN Pin Bias Current","IFBINLKG","","-50","0","+50","nA"
+"FB_IN Error Amp GM","Gm2","","","12","","µS"
+"FB_IN Error Amp Voltage Gain","AV2","","","72","","dB"
+"FB_IN Error Amp Gain-BW Product","GBW2","","","5","","MHz"
+"FB_IN Active Range (Note 10)","VFB_IN_ACT","VCC5V = 5V","0","","4.3","V"
+"FB_IN Logic Low Threshold (Note 10)","VFB_IN_L","","0.2","","","V"
+"FB_IN Logic High Threshold (Note 10)","VFB_IN_H","VCC5V = 5V","","","4.7","V"
+"PWM Regulator","","","","","",""
+"Buck Mode Minimum Off-Time","tOFF_MIN1","","","220","","ns"
+"Buck Mode Minimum On-Time","tON_MIN1","","","100","","ns"
+"Boost Mode Minimum Off-Time","tOFF_MIN2","","","180","","ns"
+"Boost Mode Minimum On-Time","tON_MIN2","","","140","","ns"
+"Buck Mode Peak-to-Peak Sawtooth 
+Amplitude","DVRAMP1","VIN = VOUT = 12V, fSW = 300kHz","","1.0","","V"
+"Boost Mode Peak-to-Peak Sawtooth 
+Amplitude","DVRAMP2","VIN = VOUT = 12V, fSW = 300kHz","","0.93","","V"
+"Buck Mode Ramp Offset","VROFFSET1","","0.88","0.95","1.11","V"
+"Boost Mode Ramp Offset","VROFFSET2","","2.84","3.15","3.7","V"
+"Current Sense, Current Monitors, and Average Current Loop","","","","","",""
+"Input Current Sense Differential 
+Voltage Range","VCS+ - VCS-","","-80","","+150","mV"
+"Input Current Sense Common-Mode 
+Voltage Range","CMIRCS","","0","","40","V"
+"IMON_IN Offset Current","ICSOFFSET","CS+ = CS- = 12V","17.5","20","22","µA"
+"Input Current Sense Voltage to 
+IMON_IN Current Source Gain","GmCS","12V common-mode voltage applied to 
+CS+/- pins, 0 to 40mV differential voltage","170","200","220","µS"
+"IMON_IN Error Amp GM","Gm3","","","12","","µS"
+"IMON_IN Error Amp Voltage Gain","AV3","","","72","","dB"
+"IMON_IN Active Range (Note 10)","VIMON_IN_ACT","VCC5V = 5V","0","","4.3","V"
+"IMON_IN Logic High Threshold 
+(Note 10)","VIMON_IN_H","VCC5V = 5V","","","4.7","V"
+"IMON_IN Error Amp Gain-BW 
+Product","GBW3","","","5","","MHz"
+"Output Current Sense Differential 
+Voltage Range","VISEN+ - VISEN-","","-80","","+150","mV"
+"Output Current Sense 
+Common-Mode Voltage Range","CMIRISEN","","0","","40","V"
+"IMON_OUT Offset Current","IISENOFFSET","ISEN+ = ISEN- = 12V","17.5","20","22","µA"

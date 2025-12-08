@@ -1,0 +1,18 @@
+"Parameter","Minimum","Maximum","Unit"
+"VCC5V, EN/UVLO, FB_IN to GND","-0.3","+5.9","V"
+"VDD to GND","-0.3","+9","V"
+"EXTBIAS to GND","-0.3","+40","V"
+"VIN, CS+, CS-, ISEN+, ISEN- to GND","-0.3","+45","V"
+"BOOT1, 2/UG1, 2 to PHASE1, 2","-0.3","VDD + 0.3","V"
+"PHASE1, 2 to GND","-5 (<20ns)/
+-0.3 (DC)","+45","V"
+"MODE, FB_OUT, SS/TRK, COMP, RT/SYNC, PLL_COMP, 
+CLKOUT/DITHER, PGOOD, IMON_IN, IMON_OUT to GND","-0.3","VCC5V + 0.3","V"
+"LG1, LG2/OC_MODE to GND","-0.3","VDD + 0.3","V"
+"CS+ to CS- and ISEN+ to ISEN-","-0.3","+0.3","V"
+"VCC5V, VDD Short-Circuit to GND Duration","1","","s"
+"ESD Ratings","Value","","Unit"
+"Human Body Model (Tested per JS-001-2017)","2","","kV"
+"Machine Model (Tested per JESD22-A115C)","150","","V"
+"Charge Device Model (Tested per JS-002-2014)","1.5","","kV"
+"Latch-Up (Tested per JESD78E; Class II, Level A, +125°C (TJ))","100","","mA"

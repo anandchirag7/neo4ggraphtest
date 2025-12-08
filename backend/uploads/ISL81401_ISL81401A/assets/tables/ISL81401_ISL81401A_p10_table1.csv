@@ -1,0 +1,74 @@
+"Pin 
+Number","Pin Name
+(ISL81401)","Pin Name
+(ISL81401A)","Function"
+"5","RT/SYNC","RT/SYNC","A resistor from this pin to ground adjusts the default switching frequency from 100kHz to 
+600kHz. The default switching frequency of the PWM controller is determined by the resistor RT 
+as shown in Equation 1.
+34.7
+
+
+(EQ. 1)
+4.78
+=
+-
+-
+-
+-
+-------
+–
+
+k
+RT
+
+
+fSW
+where fSW is the switching frequency in MHz.
+When this pin is open or tied to VCC5V, the fSW is set to 100kHz. When this pin is tied to GND, 
+the fSW is set to 550kHz. 
+When an external clock signal is applied to this pin, the internal frequency is synchronized to the 
+external clock frequency."
+"6","PLL_COMP","PLL_COMP","Compensation pin for the internal PLL circuit. A compensation network shown in the “Typical 
+Application Diagram” on page 2 is required. RPLL(2.7kΩ), CPLL1 (10nF), and CPLL2 (820pF) are 
+recommended."
+"7","CLKOUT/
+DITHER","NC","Dual function pin. When a capacitor is not connected to this pin, it provides a clock signal to 
+synchronize the other ISL81401. The phase shift of the clock signal is set by the FB_IN and 
+IMON_IN pin voltages.
+When a capacitor is connected to this pin, the clock out function is disabled and the frequency 
+dither function is enabled before the soft-start. The capacitor is charged and discharged by 
+internal current sources. As the voltage on the pin ramps up and down, the oscillator frequency 
+is modulated between –15% and +15% of the nominal frequency set by the RT resistor. The 
+frequency dither function is disabled in the external Sync mode or if the RT pin is open or 
+shorted."
+"8","SS/TRK","SS/TRK","Dual function pin. When used for soft-starting control, a soft-start capacitor is connected from 
+this pin to ground. A regulated 2µA soft-starting current charges up the soft-start capacitor and 
+ramps up the pin voltage. The pin voltage sets the reference of the output voltage control loop 
+during soft-start. The value of the soft-start capacitor sets the output voltage ramp up slope.
+When used for tracking control, an external supply rail is configured as the master and the 
+output voltage of the master supply is applied to this pin using a resistor divider. The output 
+voltage tracks the master supply voltage."
+"9","COMP","COMP","Voltage error GM amplifier output. It sets the reference of the inner current loop. The feedback 
+compensation network is connected between the COMP and SGND pins. When the COMP pin 
+is pulled below 1V, the PWM duty cycle reduces to 0%."
+"10","FB_OUT","FB_OUT","Output voltage feedback input. Connect FB_OUT to a resistive voltage divider between the 
+output and SGND to adjust the output voltage. The FB_OUT pin voltage is regulated to the 
+internal 0.8V reference."
+"11","IMON_OUT","IMON_OUT","Output current monitor. The current from this pin is proportional to the differential voltage 
+between the ISEN+ and ISEN- pins. Connect a resistor and capacitor network between the pin 
+and SGND to make the pin voltage proportional to the average output current. When the pin 
+voltage reaches 1.2V, the internal average current limit loop reduces the output voltage to keep 
+the output current constant when constant current OCP mode is set or the converter shuts down 
+when hiccup OCP mode is set.
+In DEM Burst mode, when this pin voltage is less than 840mV, the controller runs in Burst mode. 
+When this pin voltage is higher than 880mV, the controller exits Burst mode. When a higher 
+resistance on this pin is used to set its voltage higher than 880mV at no load condition, the 
+controller runs in DEM mode with no burst operation."
+"12","MODE","MODE","Input pin. Forces CCM when low or floating and allows DEM when high."
+"13","ISEN-","ISEN-","Output current sense signal negative input pin."
+"14","ISEN+","ISEN+","Output current sense signal positive input pin."
+"15","PGOOD","PGOOD","Open-drain logic output used to indicate the status of output voltage. This pin is pulled low when 
+the output is not within ±10% of the nominal voltage or the EN pin is pulled low."
+"16","UG2","UG2","High-side MOSFET gate driver output controlled by the boost PWM signal."
+"17","PHASE2","PHASE2","Phase node connection of the boost converter. This pin is connected to the junction of the upper 
+MOSFET’s source, filter inductor, and lower MOSFET’s drain of the boost converter."

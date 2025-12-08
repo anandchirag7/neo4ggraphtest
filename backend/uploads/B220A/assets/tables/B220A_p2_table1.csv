@@ -1,0 +1,10 @@
+"Characteristic","Symbol","B220/A","B230/A","B240/A","B250/A","B260/A","Unit"
+"Peak Repetitive Reverse Voltage 
+Working Peak Reverse Voltage 
+DC Blocking Voltage","VRRM 
+VRWM 
+VR","20","30","40","50","60","V"
+"RMS Reverse Voltage","VR(RMS)","14","21","28","35","42","V"
+"Average Rectified Output Current","IO","2.0","","","","","A"
+"Non-Repetitive Peak Forward Surge Current, 8.3ms  
+Single Half Sine-Wave Superimposed on Rated Load","IFSM","50","","","","","A"

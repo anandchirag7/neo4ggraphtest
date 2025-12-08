@@ -1,0 +1,64 @@
+"Min
+Max
+Parameter
+Symbol
+Test Conditions
+(Note 6)
+Typ
+(Note 6)
+Unit","","","","","",""
+"VIN Supply","","","","","",""
+"4.5 
+40.0
+V
+Input Voltage Range
+VIN","","","","","",""
+"VIN Supply Current","","","","","",""
+"EN = 0V, PGOOD is floating
+2.7
+6.0
+µA
+Shutdown Current (Note 7)
+IVINQ","","","","","",""
+"PGOOD is floating
+4.7
+6.0
+mA
+Operating Current (Note 8)
+IVINOP","","","","","",""
+"VCC5V Supply","","","","","",""
+"Internal LDO Output Voltage","VCC5V","VIN = 8V, IL = 0mA","4.70","5.10","5.25","V"
+"","","VIN = 40V, IL = 0mA","4.70","5.10","5.25","V"
+"","","VIN = 4.5V, IL = 5mA","4.00","4.25","","V"
+"","","VIN > 5.6V, IL = 10mA","4.65","5.00","","V"
+"Maximum Supply Current of 
+Internal LDO","IVCC_MAX","VVCC5V = 0V, VIN = 8V","","120","","mA"
+"VDD Supply","","","","","",""
+"Internal LDO Output Voltage","VDD","VIN = 12V, EXTBIAS = 0V, IL = 0mA","5","5.3","5.6","V"
+"","","VIN = 40V, EXTBIAS = 0V, IL = 0mA","5","5.3","5.6","V"
+"","","VIN = 4.5V, EXTBIAS = 12V, IL = 0mA","5","5.3","5.6","V"
+"","","VIN = 40V, EXTBIAS = 12V, IL = 0mA","5","5.3","5.6","V"
+"","","VIN = 4.5V, EXTBIAS = 0V, IL = 30mA","3.9","4.3","","V"
+"","","VIN = 4.5V, EXTBIAS = 7.8V, IL = 30mA","4.8","5.2","","V"
+"","","VIN > 8.6V, EXTBIAS = 0V, IL = 75mA","4.8","5.2","","V"
+"","","VIN = 4.5V, EXTBIAS > 9.0V, IL = 75mA","4.8","5.2","","V"
+"Maximum Supply Current of 
+Internal LDO","IVDD_MAX","VVDD = 0V, EXTBIAS = 0V, VIN = 12V","","120","","mA"
+"","","VVDD = 4.5V, EXTBIAS = 12V, VIN = 4.5V","","160","","mA"
+"EXTBIAS Supply","","","","","",""
+"EXTBIAS voltage
+4.5
+4.8
+5
+V
+Switch Over Threshold Voltage, 
+VEXT_THR
+Rising","","","","","",""
+"Switch Over Threshold Voltage, 
+EXTBIAS voltage
+4.25
+4.45
+4.7
+V
+VEXT_THF
+Falling","","","","","",""
