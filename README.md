@@ -1,4 +1,3 @@
-
 # Enterprise KB App
 
 This is a minimal end-to-end example of an enterprise knowledge base app:
@@ -66,5 +65,3 @@ cd frontend
 npm install
 npm start
 ```
-
-The app assumes the backend is at `http://localhost:8000`.
