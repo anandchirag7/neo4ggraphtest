@@ -1,5 +1,6 @@
 
 from typing import Dict, Any, List
+import json
 import psycopg2
 from psycopg2.extras import DictCursor
 from pathlib import Path
@@ -8,61 +9,6 @@ from models.neo4j_client import search_context_for_question
 from llm.prompt_generator import build_prompt
 from llm.answer_llm import answer_llm
 
-def _resolve_image_path(doc_id: str, image_path: str) -> str:
-    """
-    Resolve the actual image path from various possible storage locations.
-    Handles both:
-    - backend/uploads/{doc_id}/assets/images/{filename}
-    - backend/static/{doc_id_with_suffix}/images/{filename}
-    
-    Returns the path relative to the static directory for URL generation.
-    """
-    if not image_path:
-        return None
-    
-    # Extract just the filename from the path
-    filename = Path(image_path).name
-    
-    # Try to find the image in static directory
-    # Pattern 1: static/{doc_id}/images/{filename}
-    static_path_1 = STATIC_DIR / doc_id / "images" / filename
-    if static_path_1.exists():
-        return f"{doc_id}/images/{filename}"
-    
-    # Pattern 2: static/{doc_id_with_suffix}/images/{filename_with_suffix}
-    # Look for directories that start with the doc_id
-    if STATIC_DIR.exists():
-        for subdir in STATIC_DIR.iterdir():
-            if subdir.is_dir() and subdir.name.startswith(doc_id):
-                # Check if image exists in this directory
-                img_dir = subdir / "images"
-                if img_dir.exists():
-                    # Try exact filename first
-                    img_path = img_dir / filename
-                    if img_path.exists():
-                        return f"{subdir.name}/images/{filename}"
-                    
-                    # Try filename with doc_id prefix
-                    prefixed_filename = f"{subdir.name}_{filename.split('_', 1)[-1] if '_' in filename else filename}"
-                    img_path_prefixed = img_dir / prefixed_filename
-                    if img_path_prefixed.exists():
-                        return f"{subdir.name}/images/{prefixed_filename}"
-    
-    # Pattern 3: uploads/{doc_id}/assets/images/{filename}
-    upload_path = UPLOAD_DIR / doc_id / "assets" / "images" / filename
-    if upload_path.exists():
-        # Copy to static directory for serving
-        target_dir = STATIC_DIR / doc_id / "images"
-        target_dir.mkdir(parents=True, exist_ok=True)
-        target_file = target_dir / filename
-        if not target_file.exists():
-            import shutil
-            shutil.copy2(upload_path, target_file)
-        return f"{doc_id}/images/{filename}"
-    
-    # If all else fails, return the original path structure
-    # This will at least show what was expected
-    return image_path.replace("backend\\uploads\\", "").replace("backend/uploads/", "").replace("\\", "/")
 
 def _pg_conn():
     return psycopg2.connect(
@@ -75,54 +21,62 @@ def _pg_conn():
 
 def _search_pgvector(question: str, top_k: int = 10) -> List[Dict[str, Any]]:
     """
-    Fallback: if pgvector not yet populated, returns empty list.
+    Hybrid search: Cosine (<=>) and Euclidean (<->).
+    1. Get Top 10 Cosine.
+    2. Get Top 10 Euclidean.
+    3. Take Top 2 from each.
+    4. Combine/Dedupe -> Take Top 2.
+    5. Write to rag_chunks.json.
     """
     conn = _pg_conn()
     cur = conn.cursor(cursor_factory=DictCursor)
     try:
-        cur.execute(
-            """
-            SELECT EXISTS (
-                SELECT FROM information_schema.tables
-                WHERE table_name = 'rag_chunks'
-            );
-            """
-        )
-        exists = cur.fetchone()[0]
-        if not exists:
-            conn.close()
-            return []
-
         from llm.embeddings import embed_text
         q_emb = embed_text(question)
         emb_literal = "[" + ",".join(str(x) for x in q_emb) + "]"
 
-        cur.execute(
-            """
-            SELECT
-                doc_id, pin, source, page_number, node_id, text, embedding <=> %s::vector AS distance
-            FROM rag_chunks
-            ORDER BY embedding <=> %s::vector
-            LIMIT %s;
-            """,
-            (emb_literal, emb_literal, top_k),
-        )
-        rows = cur.fetchall()
-        conn.close()
-        return [
-            dict(
-                doc_id=r["doc_id"],
-                pin=r["pin"],
-                source=r["source"],
-                page=r["page_number"],
-                node_id=r["node_id"],
-                text=r["text"],
-                distance=float(r["distance"]),
-                image_path=None,
+        def run_query(operator, limit):
+            cur.execute(
+                f"""
+                SELECT
+                    doc_id, pin, source, page_number, node_id, text, embedding {operator} %s::vector AS distance
+                FROM rag_chunks
+                ORDER BY distance ASC
+                LIMIT %s;
+                """,
+                (emb_literal, limit),
             )
-            for r in rows
-        ]
-    except Exception:
+            return [dict(r) for r in cur.fetchall()]
+
+        # 1. Top 10 Cosine
+        cosine_10 = run_query("<=>", 10)
+        
+        # 2. Top 10 Euclidean
+        euclidean_10 = run_query("<->", 10)
+
+        # "Store all the 20 chunks"
+        # We will NOT deduplicate, because we want to see the distance variance for the same chunk across metrics.
+        all_results = cosine_10 + euclidean_10
+
+        # Write to JSON
+        with open("rag_chunks.json", "w") as f:
+            for r in all_results:
+                record = {
+                    "distance": float(r["distance"]), # First column
+                    "doc_id": r["doc_id"],
+                    "pin": r["pin"],
+                    "source": r["source"],
+                    "page_number": r["page_number"],
+                    "node_id": r["node_id"],
+                    "text": r["text"]
+                }
+                f.write(json.dumps(record) + "\n")
+        
+        conn.close()
+        return all_results
+
+    except Exception as e:
+        print(f"Error in vector search: {e}")
         conn.close()
         return []
 
@@ -213,3 +167,6 @@ def rag_answer(question: str) -> Dict[str, Any]:
         "documents": docs,
         "contexts": [c.get("text", "") for c in context_chunks] # Added for Ragas evaluation
     }
+
+
+_search_pgvector(question = "give me ordering info for 7m?")

@@ -1,0 +1,17 @@
+{
+  "doc_id": "TEST_PRODUCT",
+  "source_file": "datasheets_extracted\\TEST_PRODUCT",
+  "num_pages": 1,
+  "assets_dir": "",
+  "pages": [
+    {
+      "page_number": 2,
+      "raw_text": "[SECTION: Description]\nSECTION: Description\nThis page describes the device but has no tables.\nJust plain text.",
+      "images": [],
+      "tables": [],
+      "figure_references": [],
+      "table_references": [],
+      "references": []
+    }
+  ]
+}

@@ -1,8 +1,44 @@
-# Ignore Python cache and virtualenv
+# Python
 __pycache__/
-*.pyc
-venv/
-*.sqlite3
+*.py[cod]
+*$py.class
+*.so
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+*.egg-info/
+.installed.cfg
+*.egg
 
-# Ignore uploads and static files
+# Virtual Environment
+venv/
+env/
+ENV/
+
+# Environment Variables
+.env
+.env.local
+.env.*
+
+# IDEs
+.vscode/
+.idea/
+
+# Backend specific
+backend/input_data/
+backend/rag_chunks.json
+backend/__pycache__/
+backend/evaluation/evaluation_metrics.json
+
+# Node/Frontend
 node_modules/

@@ -1,0 +1,70 @@
+[HEADER]
+Manufacturer: TXC
+Series: 7M
+Component Type: MHz Crystal
+
+[FEATURES]
+- Frequency range: 10MHz to 114MHz
+- Ceramic SMD package
+- Seam sealing
+- External dimensions (mm): L: 3.2 x W: 2.5 x H: 0.7
+- RoHS compliant & Pb free
+
+[ELECTRICAL CHARACTERISTICS TABLE]
+1. Frequency Range (F0):
+   - Specification: 10MHz ~ 114MHz
+
+2. Frequency Tolerance (F_tol) at 25°C:
+   - Specification: ±30ppm, ±20ppm, ±10ppm
+
+3. Frequency Stability over Operating Temperature Range (F_stab) (refer to 25°C):
+   - ±30 ppm, ±20 ppm, ±10 ppm over -20°C ~ +70°C
+   - ±30 ppm, ±20 ppm, ±15 ppm over -40°C ~ +85°C
+   - ±60 ppm over -40°C ~ +125°C
+
+4. Operating Temperature Range (T_OTR):
+   - -20°C ~ +70°C
+   - -40°C ~ +85°C
+   - -40°C ~ +125°C
+
+5. Shunt Capacitance (C0):
+   - 3pF Max.
+
+6. Drive Level (D_L):
+   - Range: 1~200µW
+   - Typical: 100µW
+
+7. Load Capacitance (C_L):
+   - Standard values: 6pF, 7pF, 8pF, 9pF, 10pF, 12pF, 16pF, 18pF, 20pF
+
+8. Aging (at 25°C ±3°C, first year) (F_aging):
+   - ±3ppm Max. (See Note [1])
+
+9. Storage Temperature Range (T_STR):
+   - -40°C ~ +85°C
+
+[APPLICATIONS]
+- Bluetooth, Wireless LAN
+- Cellular phone, Pager, DSC
+- Display, TV
+- Computer peripherals
+- Consumer products
+
+[NOTES]
+[1] Please contact us for low aging +/-1ppm grade crystals.
+
+[MOTIONAL RESISTANCE (ESR) TABLE]
+Configuration: Fundamental
+- 10~12 MHz: 1500 Ohms Max.
+- 12~16 MHz: 800 Ohms Max.
+- 16~20 MHz: 600 Ohms Max.
+- 20~64 MHz: 500 Ohms Max.
+
+Configuration: 3rd Overtone
+- 60~80 MHz: 800 Ohms Max.
+- 80~114 MHz: 600 Ohms Max.
+
+[FOOTER]
+Rev. 1.09
+Page 1
+Website: www.txccrystal.com

@@ -1,0 +1,35 @@
+================================================================================
+--- PAGE METADATA ---
+Part Number: Not specified
+Manufacturer: Not specified
+================================================================================
+
+[PAGE TITLE]
+DIODES - LONGITUDE MODULATION DIODE
+
+[DOCUMENT INFO]
+- Publication: MALWARE THREAT INTELLIGENCE ASSOCIATION  
+- Coverage Years: 1970‑2017  
+- Date: 3rd July 2017  
+
+[DIAGRAM INFERENCE]
+- **Type:** Voltage vs. Current characteristic curve for the Longitude Modulation Diode.  
+- **X‑axis:** Current (A)  
+- **Y‑axis:** Voltage (V)  
+- **Legend (left side):** Different diode types are identified with distinct markers/colors.  
+- **Graph Content:** Shows forward‑bias region, breakdown voltage, and leakage characteristics of the modulation diode.  
+- **Visual Style:** Blue background with white grid lines and white‑on‑blue data lines, enhancing contrast and readability.  
+
+[TABLE: SPECIFICATIONS]
+| Part Number | Date of Manufacture | Recommended Operating Conditions |
+|-------------|----------------------|-----------------------------------|
+| (data not provided) | (data not provided) | (data not provided) |
+
+[KEY POINTS]
+- The table on the right side of the page lists essential part identification and operating limits.  
+- Observing the recommended operating conditions is critical for reliable performance and longevity of the diode.  
+- The blue‑and‑white color scheme improves readability and highlights important technical data.  
+
+[VISUAL LAYOUT NOTES]
+- **Background colors:** Predominantly blue with white accents.  
+- **Page layout:** Diagram occupies the left side; specification table occupies the right side, allowing quick visual reference between performance curves and part data.

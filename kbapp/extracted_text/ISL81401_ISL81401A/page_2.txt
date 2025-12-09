@@ -1,0 +1,59 @@
+================================================================================
+--- PAGE METADATA ---
+Part Number: (Not specified)
+Manufacturer: RENESAS
+================================================================================
+
+[DOCUMENT TITLE]
+RENESAS Type A-209A Power Supply Schematic Diagram – Revision TP-3506  
+Date: April 2017  
+
+[OVERVIEW]
+The Type A‑209A power supply is a dual‑output unit providing two regulated DC voltages (VOUT_DC1, VOUT_DC2) and one regulated AC voltage (VOUT_AC). The design incorporates two primary FET windings (PWR1_FET, PWR2_FET) and three secondary windings that feed the output terminals. Voltage levels are set and trimmed using dedicated reference resistors.
+
+[KEY PARAMETERS]
+Rated voltage (VR): 48 V DC  
+Maximum input voltage tolerance: ±5 % of rated value  
+DC output regulation: ±4 % (VOUT_DC1, VOUT_DC2)  
+AC output regulation: ±3 % (VOUT_AC)  
+Voltage reference tolerance (both DC and AC): ±5 % around VR  
+
+[TABLE: RESISTOR SETTINGS]
+| Function                     | Reference Designator(s)            | Tolerance Setting |
+|------------------------------|------------------------------------|-------------------|
+| DC output level trim         | RREF_DC1, RREF_DC2                 | ±25 % of VR       |
+| DC voltage reference (VREF) | RREF_DC_REFS1, RREF_DC_REFS2       | ±5 % of VR        |
+| AC voltage reference (VREF) | RREF_AC_REFS1, RREF_AC_REFS2       | ±5 % of VR        |
+| Input voltage trim           | RINPUT_DC1, RINPUT_DC2            | ±5 % of rated     |
+| Short‑circuit protection     | TP_SCT_SHR (CTRL_SHR SWITCH)       | –                 |
+
+[OUTPUT WINDINGS]
+- Primary windings: PWR1_FET, PWR2_FET  
+- Secondary windings:  
+  * VOUT_DC1 – DC output, regulated to 48 V DC ±25 %  
+  * VOUT_DC2 – DC output, regulated to 48 V DC ±25 %  
+  * VOUT_AC – AC output, regulated to 48 V DC equivalent ±3 %  
+
+[PROTECTION FEATURES]
+- Short‑circuit protection is implemented via the TP_SCT_SHR circuit, controlled by the CTRL_SHR switch.  
+
+[REGULATION DETAILS]
+- **DC Outputs (VOUT_DC1, VOUT_DC2)**  
+  * Regulation: ±4 %  
+  * Reference voltage (VREF_DC) set by RREF_DC_REFS1 & RREF_DC_REFS2 (±5 % of VR)  
+
+- **AC Output (VOUT_AC)**  
+  * Regulation: ±3 %  
+  * Reference voltage (VREF_AC) set by RREF_AC_REFS1 & RREF_AC_REFS2 (±5 % of VR)  
+
+[DIAGRAM INFERENCE]
+The schematic (Figure 4) shows the following logical layout:
+1. Two primary FET switches (PWR1_FET, PWR2_FET) receive the input voltage, which can be trimmed by RINPUT_DC1 and RINPUT_DC2 to stay within ±5 % of the 48 V rating.
+2. The primary side feeds three secondary windings:
+   - Two identical DC windings delivering VOUT_DC1 and VOUT_DC2. Each DC output is trimmed by its own resistor pair (RREF_DC1, RREF_DC2) to achieve a ±25 % spread around the nominal 48 V.
+   - One AC winding delivering VOUT_AC, regulated separately.
+3. Voltage reference networks (VREF_DC and VREF_AC) are built from resistor pairs (RREF_DC_REFS1/2 and RREF_AC_REFS1/2) providing a reference that is ±5 % of the rated voltage.
+4. The short‑circuit protection block (TP_SCT_SHR) monitors the output currents and, when a fault is detected, activates the CTRL_SHR switch to disconnect the offending output.
+5. All regulation loops feed back to their respective reference networks to maintain the specified ±4 % (DC) and ±3 % (AC) output tolerances.  
+
+The diagram likely includes standard symbols for FETs, resistors, reference voltage generators, and a protection comparator driving the CTRL_SHR switch. Dimensions, pin numbers, and exact component values are not provided in the text excerpt.

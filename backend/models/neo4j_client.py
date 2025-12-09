@@ -100,27 +100,54 @@ def get_chunks_for_doc(doc_id: str) -> List[Dict[str, Any]]:
     driver.close()
     return chunks
 
-def search_context_for_question(question: str) -> List[Dict[str, Any]]:
+def search_context_for_question(question: str, doc_ids: List[str] = None) -> List[Dict[str, Any]]:
     """
-    Very simple heuristic: fetch all TextBlocks, Figures, and Tables from all docs as base context.
-    In a production system you'd use more selective logic and ontology.
+    Fetch context from Neo4j.
+    If `doc_ids` is provided, filters to only those documents.
+    Otherwise fetches broadly (beware of scale).
     """
     driver = _driver()
     chunks: List[Dict[str, Any]] = []
+    
+    # Build query dynamically based on whether we filtering by doc_id
+    where_clause = ""
+    if doc_ids:
+        where_clause = "WHERE d.doc_id IN $doc_ids"
+        
     with driver.session() as session:
-        q = """
+        q = f"""
         MATCH (d:Document)-[:HAS_PAGE]->(p:Page)
+        {where_clause}
         OPTIONAL MATCH (p)-[:HAS_TEXT_BLOCK]->(t:TextBlock)
         OPTIONAL MATCH (p)-[:HAS_FIGURE]->(f:Figure)
         OPTIONAL MATCH (p)-[:HAS_TABLE]->(tbl:Table)
-        RETURN d.doc_id AS doc_id, p.page_number AS page,
+        RETURN d.doc_id AS doc_id, p.page_number AS page, 
+               COALESCE(p.natural_language_context, p.text) AS page_text,
                t.id AS tb_id, t.summary AS tb_text,
                f.figure_id AS fig_id, f.title AS fig_title, f.path AS fig_path,
                tbl.table_id AS tbl_id, tbl.data AS tbl_data, tbl.title AS tbl_title
         """
-        for r in session.run(q):
+        # Pass doc_ids as parameter (safe handling by driver)
+        params = {"doc_ids": doc_ids} if doc_ids else {}
+        
+        for r in session.run(q, **params):
             doc_id = r["doc_id"]
             page = r["page"]
+            
+            # 0. Full detailed page text (Best for tables/lists)
+            if r["page_text"]:
+                 chunks.append(
+                    {
+                        "doc_id": doc_id,
+                        "source": "FullPage",
+                        "page": page,
+                        "pin": None,
+                        "node_id": f"page_{page}",
+                        "text": r["page_text"],
+                        "image_path": None,
+                    }
+                )
+
             if r["tb_id"] and r["tb_text"]:
                 chunks.append(
                     {

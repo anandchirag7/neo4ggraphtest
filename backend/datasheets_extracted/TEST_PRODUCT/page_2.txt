@@ -1,0 +1,3 @@
+SECTION: Description
+This page describes the device but has no tables.
+Just plain text.

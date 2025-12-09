@@ -1,0 +1,63 @@
+[DIMENSIONS & PHYSICAL LAYOUT]
+Unit: mm
+Length: 3.20 ± 0.1
+Width: 2.50 ± 0.1
+Height: 0.70 ± 0.1
+
+[PIN CONFIGURATION / CONNECTION]
+(Inferred from "Crystal Connection - Top View" diagram)
+- Pin 1: Crystal (Input/Output)
+- Pin 2: GND (Cover)
+- Pin 3: Crystal (Input/Output)
+- Pin 4: GND (Cover)
+
+[SUGGESTED LAND PATTERN / LAYOUT]
+(Inferred from Top View Suggested Layout diagram)
+- Pad Spacing (Lengthwise): 1.4mm pads with 0.8mm gap
+- Pad Spacing (Widthwise): 1.2mm pads with 0.5mm gap
+
+[ORDERING INFORMATION / PART NUMBER DECODER]
+Example Part Number: 7M 20.000M A H E T
+
+1. Series Code:
+   - 7M (MHz Crystal)
+
+2. Frequency:
+   - In Hz (e.g., 20.000M)
+
+3. Load Capacitance Code (3rd Variable):
+   - B: 6 pF
+   - Y: 7 pF
+   - V: 8 pF
+   - C: 9 pF
+   - Q: 10 pF
+   - E: 12 pF
+   - I: 16 pF
+   - J: 18 pF
+   - K: 20 pF
+
+4. Frequency Tolerance Code (at 25°C) (4th Variable):
+   - A: ±30 ppm
+   - D: ±20 ppm
+   - E: ±10 ppm
+
+5. Frequency Stability Code (over Temp) (5th Variable):
+   - F: ±20 ppm (-20°C ~ +70°C)
+   - G: ±30 ppm (-20°C ~ +70°C)
+   - H: ±10 ppm (-20°C ~ +70°C)
+   - I: ±10 ppm (-30°C ~ +85°C)
+   - J: ±30 ppm (-40°C ~ +85°C)
+   - K: ±20 ppm (-40°C ~ +85°C)
+   - L: ±15 ppm (-40°C ~ +85°C)
+   - M: ±60 ppm (-40°C ~ +125°C)
+
+6. Packaging Code (6th Variable):
+   - T: Tape & Reel
+
+[NOTE ON FREQUENCIES]
+- "Please contact us for available frequencies"
+
+[FOOTER]
+Rev. 1.09
+Page 2
+Website: www.txccrystal.com

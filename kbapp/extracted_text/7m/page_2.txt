@@ -1,0 +1,16 @@
+================================================================================
+--- PAGE METADATA ---
+Part Number: TXV CRYSTAL 7xM
+Manufacturer: TE Connectivity
+================================================================================
+
+[INTRODUCTION]
+TXV Crystal is a titanium‑vane unit (TVU) component. This data sheet provides the technical specifications for the TXV Crystal series.
+
+[REFERENCE]
+For additional information, visit the product page:
+www.te.com/en/components/titanium-vane-unit-technical-specifications.html
+or contact TE Connectivity directly with your request.
+
+[DIAGRAM INFERENCE]
+No graphical data or pinout diagrams are included on this page.

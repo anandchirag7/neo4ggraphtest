@@ -96,7 +96,7 @@ def build_prompt(
 ) -> str:
     context_str = _format_context_chunks(context_chunks)
     constraints_str = _format_constraints(constraints)
-    ontology_str = _format_ontology_hints(ontology_hints)
+    # ontology_str = _format_ontology_hints(ontology_hints) # Optional, keeping it simple for now
 
     if answer_length_hint == "short":
         length_instructions = "Aim for 3-6 concise bullet points or <=150 words."
@@ -105,33 +105,53 @@ def build_prompt(
     else:
         length_instructions = "Aim for 150-300 words, concise but clear."
 
-    user_message = textwrap.dedent(f"""
-        SYSTEM (for downstream LLM):
-        You are an expert electronics/datasheet assistant. Obey all datasheet constraints and never invent values.
+    # DETERMINISTIC PROMPT (No intermediate LLM)
+    # This ensures 100% faithfulness to the retrieved context.
+    
+    final_prompt = textwrap.dedent(f"""
+        SYSTEM:
+        You are an expert technical assistant.
+        
+        ### GOAL:
+        Produce a **comprehensive, self-contained** answer.
+        The answer must be written such that if the user did NOT see the question, they would still know exactly what is being answered.
+
+        ### GUIDELINES:
+        1. **Include Context**: Explicitly mention the product name, parameter name, and conditions from the question.
+        2. **Faithfulness**: **COPY text exactly** from the context. Do not correct OCR errors. If the context says "97AFRZ", you write "97AFRZ".
+        3. **No Fluff**: **ABSOLUTELY NO PREAMBLE**. Do not say "The provided text contains..." or "Based on the chunks...". Start the answer IMMEDIATELY.
+        4. **Structure**: Use a dense paragraph for explanations, or **bullet points** for lists (like ordering codes or pins).
+
+        ### EXAMPLES:
+
+        **Context**: 
+        [1] [DOC WidgetX] node_id=node_10 Text: The WidgetX Pro operates from 10Hz to 50Hz.
+        
+        **User Question**: What is the frequency range?
+        **Ideal Answer**: The WidgetX Pro device operates with a frequency range extending from 10Hz to 50Hz.
+
+        **Context**:
+        [2] [DOC WidgetX] node_id=node_99 Text: Ordering Information: WX-100-A (Box, 50pcs), WX-200-B (Crate, 10pcs).
+        
+        **User Question**: How do I order the WidgetX?
+        **Ideal Answer**: The ordering options found in the text are:
+        * **WX-100-A**: Box, 50pcs
+        * **WX-200-B**: Crate, 10pcs
+
+        ### END EXAMPLES
 
         USER QUESTION:
         {user_question}
 
-        CONTEXT CHUNKS:
-        {context_str}
-
         HARD CONSTRAINTS:
         {constraints_str}
 
-        ONTOLOGY HINTS:
-        {ontology_str}
+        CONTEXT CHUNKS:
+        {context_str}
 
         TASK:
-        - Answer the USER QUESTION using only the provided context and constraints.
-        - {length_instructions}
-        - If figures/images are referenced, mention their node IDs and image paths.
-        - If multiple documents contribute, clearly separate them by document ID.
-        - If information is insufficient, say so.
+        Answer the USER QUESTION following the GUIDELINES above.
+        {length_instructions}
     """).strip()
 
-    # Call same LLM as final but in "prompt-generator mode"
-    # In a more advanced setup, you'd use a separate smaller model here.
-    generated_prompt = call_prompt_llm(
-        f"{PROMPT_GENERATOR_SYSTEM}\n\nUSER INPUT:\n{user_message}"
-    )
-    return generated_prompt
+    return final_prompt

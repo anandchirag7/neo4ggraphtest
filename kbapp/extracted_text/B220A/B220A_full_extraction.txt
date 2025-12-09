@@ -1,0 +1,147 @@
+FILENAME: B220A.pdf
+SOURCE DOCUMENT: datasheets\B220A.pdf
+
+
+================================================================================
+--- PAGE 1 ---
+================================================================================
+
+================================================================================
+--- PAGE METADATA ---
+Part Number: ND101-ND354BW2
+Manufacturer: 
+================================================================================
+
+[GENERAL INFORMATION]
+- Model No.: ND101-ND354BW2
+- Type of Model: COMPUTER COMPONENT
+- Category Number: 38749-016
+- Menu Selection for Dependency Checking: C
+- Part Type: COMPONENT
+- Part Number: ND101-ND354BW2
+
+[DESCRIPTION]
+- Part Description: UHF/RF DIAC RS232 CONTROL PORT
+- Marketing Information: DIODES POWER MONITOR - RF/UHF
+- Description Reading Before Program Start: CALL FOR DEPENDENCY CHECKING
+
+[REPEATED MARKETING TEXT]
+The phrase “DIODES POWER MONITOR - RF/UHF” appears repeatedly throughout the page. No additional technical data is provided beyond the repeated marketing line.
+
+[DIAGRAM INFERENCE]
+No graphical diagram, pinout, or dimensional drawing is present in the supplied text. Consequently, no visual elements can be inferred. If a diagram were intended, it is missing from this page.
+
+================================================================================
+--- PAGE 2 ---
+================================================================================
+
+================================================================================
+--- PAGE METADATA ---
+Part Number: RBC/MDL/2015-0148
+Manufacturer: (not specified)
+================================================================================
+
+[DOCUMENT TITLE]
+DIODES - RBC/MDL/2015-0148
+
+[GENERAL INFORMATION]
+HW BASIC DATASHEET REF: MDL 2015-0148
+DIODE 63C HARDWARE RANGES: 9 V AC / DC / E.T.C.
+Date of Publication: May 2015
+
+[TABLE: TERMS AND CHARACTERISTICS]
+| Parameter | Value | Units | Notes |
+|-----------|-------|-------|-------|
+| *(no data provided on this page)* |  |  |  |
+
+[DIAGRAM INFERENCE]
+No graphical diagrams are present on this page. The page primarily contains textual metadata and introduces Table 1, which lists the “Terms and Characteristics” for the diode family. Future pages are expected to contain the detailed rows for this table (e.g., forward voltage, reverse current, maximum rating, package type, etc.).
+
+================================================================================
+--- PAGE 3 ---
+================================================================================
+
+================================================================================
+--- PAGE METADATA ---
+Part Number: X52 (RZA‑R907)
+Manufacturer: DIODES
+================================================================================
+
+[PAGE TITLE]
+DIODES X52 – RZA‑R907
+
+[TABLE: PARAMETER OVERVIEW]
+| Column | Header | Sample Values (Hz) | Possible Meaning |
+|--------|--------|--------------------|------------------|
+| 1      | DIN    | 0, 263, 489, 563, 727, 741, 805 … | Input resistance or differential gain (dB) |
+| 2      | DIN    | 1, 262, 489, 563, 727, 741, 805 … | Output resistance or common‑mode rejection (dB) |
+| 3      | DC     | 3, 262, 489, 563, 727, 741, 805 … | DC offset or gain compression (dB) at 0 Hz |
+| 4      | DC     | 2, 261, 489, 563, 727, 742, 806 … | DC bias or input offset voltage (mV) |
+
+*Note:* The table on the original page contains additional rows that are not fully legible; the values above represent the visible sample entries.
+
+[DIAGRAM INFERENCE]
+- The page layout consists of a header line with the device name and model number.
+- Directly beneath the header is a four‑column table. Each column is headed either “DIN” or “DC”.
+- The first two columns share the same header “DIN”, suggesting they represent related but distinct DC‑related parameters (e.g., input vs. output characteristics).
+- The last two columns share the header “DC”, indicating they likely pertain to static (zero‑frequency) characteristics such as offset voltage or bias current.
+- Values in each column appear to be ordered by frequency (Hz) or measurement point, starting from low numbers (0 Hz or 1 Hz) and increasing.
+- No graphical symbols or pin‑out diagrams are present on this page; the visual information is limited to the textual table described above.
+
+================================================================================
+--- PAGE 4 ---
+================================================================================
+
+================================================================================
+--- PAGE METADATA ---
+Part Number: Not specified
+Manufacturer: Not specified
+================================================================================
+
+[PAGE TITLE]
+DIODES - LONGITUDE MODULATION DIODE
+
+[DOCUMENT INFO]
+- Publication: MALWARE THREAT INTELLIGENCE ASSOCIATION  
+- Coverage Years: 1970‑2017  
+- Date: 3rd July 2017  
+
+[DIAGRAM INFERENCE]
+- **Type:** Voltage vs. Current characteristic curve for the Longitude Modulation Diode.  
+- **X‑axis:** Current (A)  
+- **Y‑axis:** Voltage (V)  
+- **Legend (left side):** Different diode types are identified with distinct markers/colors.  
+- **Graph Content:** Shows forward‑bias region, breakdown voltage, and leakage characteristics of the modulation diode.  
+- **Visual Style:** Blue background with white grid lines and white‑on‑blue data lines, enhancing contrast and readability.  
+
+[TABLE: SPECIFICATIONS]
+| Part Number | Date of Manufacture | Recommended Operating Conditions |
+|-------------|----------------------|-----------------------------------|
+| (data not provided) | (data not provided) | (data not provided) |
+
+[KEY POINTS]
+- The table on the right side of the page lists essential part identification and operating limits.  
+- Observing the recommended operating conditions is critical for reliable performance and longevity of the diode.  
+- The blue‑and‑white color scheme improves readability and highlights important technical data.  
+
+[VISUAL LAYOUT NOTES]
+- **Background colors:** Predominantly blue with white accents.  
+- **Page layout:** Diagram occupies the left side; specification table occupies the right side, allowing quick visual reference between performance curves and part data.
+
+================================================================================
+--- PAGE 5 ---
+================================================================================
+
+================================================================================
+--- PAGE METADATA ---
+Part Number: 
+Manufacturer: 
+================================================================================
+
+[GUIDELINES]
+- Transcribe all text headers, paragraphs, and list items: Carefully read the entire document and transcribe all visible text into a new document or spreadsheet. Include any headings, subheadings, and captions for images. Also, note down any relevant page numbers and dates mentioned in the document.  
+- Read every table row by row: If there are any tables in the document, carefully read each row of data to understand the content. Take notes on any important information that may be useful later.  
+- Describe all diagrams, charts, schematics, and pin configurations in detail: If there are any visual aids like diagrams or schematics, study them closely. Note down any relevant details such as pin numbers, labels, dimensions, and graph axes. Also, describe the content of these graphics in words.  
+
+[NOTE]
+This page provides general instructions for extracting information from a datasheet image; no specific component specifications, tables, or diagrams are present on the page.

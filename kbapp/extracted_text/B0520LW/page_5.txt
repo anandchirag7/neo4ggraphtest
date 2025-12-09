@@ -1,0 +1,49 @@
+================================================================================
+--- PAGE METADATA ---
+Part Number: LM2576
+Manufacturer: Texas Instruments
+================================================================================
+
+[OVERVIEW]
+The LM2576 is a high‑efficiency, wide‑input‑range switching voltage regulator designed for demanding mobile applications. It operates from a supply voltage of 4 V to 24 V and can deliver up to 8 A of load current while maintaining a low quiescent current (< 5 mA). The device is offered in several compact packages: SOT‑223, DFN‑5, SOD‑726 (P), and TSSOP‑16.
+
+[KEY FEATURES]
+- **Wide Input Voltage Range:** 4 V – 24 V (±3 V tolerance)  
+- **High Output Current Capability:** Up to 8 A continuous load current  
+- **Low Quiescent Current:** < 5 mA, suitable for battery‑powered designs  
+- **High Efficiency:** Switched‑mode operation with low losses in MOSFETs, magnetic components, and output transistor  
+- **Adaptive Load Regulation:** Provides excellent load regulation across the operating range  
+- **Compact Footprint:** Available in SOT‑223, DFN‑5, SOD‑726 (P), and TSSOP‑16 packages  
+- **Maximum Continuous Input Power:** 15 W (as demonstrated with LTSpice simulation)  
+
+[APPLICATIONS]
+- Mobile power supplies
+- Battery‑operated equipment
+- Portable electronics requiring efficient DC‑DC conversion
+- Systems where space and thermal dissipation are critical
+
+[PACKAGE OPTIONS]
+- **SOT‑223:** 3‑lead surface‑mount package, commonly used for low‑profile designs.  
+- **DFN‑5:** 5‑lead dual‑flat‑no‑lead package, offering a small footprint with thermal pad.  
+- **SOD‑726 (P):** 6‑lead small outline diode package, suitable for compact layouts.  
+- **TSSOP‑16:** 16‑lead thin‑shrink small‑outline package, providing additional pins for optional functions.
+
+[DIAGRAM INFERENCE]
+The datasheet image likely includes a pin‑out diagram for each package variant. Based on standard LM2576 documentation, the typical pin functions are:
+
+- **VIN:** Input voltage (4 V – 24 V)  
+- **GND:** Ground reference for the regulator and external components  
+- **SW (Switch):** Connection to the external power inductor; this pin drives the switching MOSFET  
+- **FB (Feedback):** Receives voltage from the output voltage divider to set the regulated output voltage  
+- **VOUT:** Regulated output voltage (adjustable via external resistors)  
+
+For the **TSSOP‑16** version, additional pins may include:
+- **EN (Enable):** Logic input to turn the regulator on/off  
+- **NC (No Connect):** Unused pins that should be left floating  
+
+The **DFN‑5** and **SOT‑223** packages typically expose only the essential pins (VIN, GND, SW, FB, VOUT). The **SOD‑726 (P)** package may combine some functions (e.g., VIN and SW) into a single pin due to its reduced pin count.
+
+Thermal considerations:
+- Packages with exposed thermal pads (DFN‑5, SOT‑223) should be soldered to a copper pour on the PCB to aid heat dissipation, especially when delivering the maximum 8 A load current.  
+
+Overall, the LM2576 provides a versatile, high‑performance solution for converting a wide range of input voltages to a stable, efficient output in space‑constrained applications.

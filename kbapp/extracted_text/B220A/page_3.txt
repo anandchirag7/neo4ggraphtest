@@ -1,0 +1,26 @@
+================================================================================
+--- PAGE METADATA ---
+Part Number: X52 (RZA‑R907)
+Manufacturer: DIODES
+================================================================================
+
+[PAGE TITLE]
+DIODES X52 – RZA‑R907
+
+[TABLE: PARAMETER OVERVIEW]
+| Column | Header | Sample Values (Hz) | Possible Meaning |
+|--------|--------|--------------------|------------------|
+| 1      | DIN    | 0, 263, 489, 563, 727, 741, 805 … | Input resistance or differential gain (dB) |
+| 2      | DIN    | 1, 262, 489, 563, 727, 741, 805 … | Output resistance or common‑mode rejection (dB) |
+| 3      | DC     | 3, 262, 489, 563, 727, 741, 805 … | DC offset or gain compression (dB) at 0 Hz |
+| 4      | DC     | 2, 261, 489, 563, 727, 742, 806 … | DC bias or input offset voltage (mV) |
+
+*Note:* The table on the original page contains additional rows that are not fully legible; the values above represent the visible sample entries.
+
+[DIAGRAM INFERENCE]
+- The page layout consists of a header line with the device name and model number.
+- Directly beneath the header is a four‑column table. Each column is headed either “DIN” or “DC”.
+- The first two columns share the same header “DIN”, suggesting they represent related but distinct DC‑related parameters (e.g., input vs. output characteristics).
+- The last two columns share the header “DC”, indicating they likely pertain to static (zero‑frequency) characteristics such as offset voltage or bias current.
+- Values in each column appear to be ordered by frequency (Hz) or measurement point, starting from low numbers (0 Hz or 1 Hz) and increasing.
+- No graphical symbols or pin‑out diagrams are present on this page; the visual information is limited to the textual table described above.

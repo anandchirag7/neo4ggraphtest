@@ -1,0 +1,40 @@
+
+[PACKAGING DIMENSIONS - REEL]
+(Inferred from Reel Drawing)
+- Standard Reel Diameter (L): 178 ± 1.00 mm
+- Hub Diameter (L1): 60.2 ± 0.50 mm
+- Reel Width (W): 11.5 ± 0.2 mm
+- Inner Width (W1): 8 ± 0.1 mm
+- Center Hole Diameter: 13 ± 0.5 mm
+- Material rotation indicated: Counter-clockwise
+
+[PACKAGING DIMENSIONS - TAPE]
+(Inferred from Tape Drawing and Table)
+Dimensions (mm):
+- A: 1.65 ± 0.10
+- B: 3.40 ± 0.10
+- C: 2.70 ± 0.10
+- D: 4.00 ± 0.10
+- E: 8.00 ± 0.20
+- F: 4.00 ± 0.10
+- G: 1.55 ± 0.05
+- H: 1.75 ± 0.10
+
+[REFLOW PROFILE]
+(Inferred from Graph and Text)
+- Total Time: 120 seconds preheat + 60 seconds reflow (approx)
+- Preheat Stage:
+  - Temperature: Rise from room temp to 150°C - 180°C
+  - Duration: 120 sec
+- Reflow Stage (Soldering):
+  - Melting Point: 220°C ± 10°C
+  - Duration above melting point: 60 sec. Min.
+- Peak Temperature:
+  - Temp: 260°C ± 10°C
+  - Duration at Peak: 10 sec. Max.
+
+[FOOTER]
+Rev. 1.09
+Page 3
+Website: www.txccrystal.com
+

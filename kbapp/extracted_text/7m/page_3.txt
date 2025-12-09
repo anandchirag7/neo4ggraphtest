@@ -1,0 +1,45 @@
+================================================================================
+--- PAGE METADATA ---
+Part Number: TXYC MILLIT SCRYSTAL 7x7M
+Manufacturer: Not specified
+================================================================================
+
+[DESCRIPTION]
+TXYC MILLIT SCRYSTAL is a miniature crystal device with a compact 7 mm × 7 mm rectangular package. It is designed to generate an electrical signal in response to light or temperature variations.
+
+[PACKAGE]
+- Form factor: Rectangular with rounded corners  
+- Overall dimensions: 7 mm × 7 mm  
+- Crystal dimensions (inside the package): 2 mm × 1 mm × 0.5 mm  
+- Pin count: 8 pins  
+- Pin arrangement: Circular pattern surrounding the crystal
+
+[TABLE: DIMENSIONS]
+| Item                | Length (mm) | Width (mm) | Height (mm) |
+|---------------------|--------------|------------|-------------|
+| Package (overall)   | 7.0          | 7.0        | –           |
+| Crystal (inside)    | 2.0          | 1.0        | 0.5         |
+
+[RAW MATERIALS]
+- Silicon  
+- Gold  
+- Silver  
+- Additional metals (unspecified)  
+- Various chemicals used to form the crystal lattice that produces the electrical signal when exposed to light or temperature changes.
+
+[SAFETY DATA SHEET (SDS)]
+- Flash point: 1035 °F (557 °C)  
+- Fire point: 1125 °F (605 °C)  
+- Handling precautions:  
+  * Keep away from heat sources, sparks, and open flames.  
+  * Store in a cool, dry environment.  
+- Spillage response:  
+  * Use absorbent material such as sawdust or sand to contain and soak up the material.  
+  * Dispose of waste according to local regulations.  
+
+[NOTE]
+- This product is **not** intended for use in environments where temperatures exceed 1035 °F (557 °C).  
+- Avoid use in areas where flammable gases are present.
+
+[DIAGRAM INFERENCE]
+The device’s pinout consists of eight equally spaced pins forming a circle around the central crystal. Visualizing the layout: imagine a clock face with pins at roughly the 12, 1:30, 3, 4:30, 6, 7:30, 9, and 10:30 o’clock positions. The pins are likely numbered sequentially around the circle, providing electrical connections to the crystal’s electrodes. The rectangular package encloses this circular pin arrangement, with the crystal positioned centrally within the 2 mm × 1 mm × 0.5 mm area.

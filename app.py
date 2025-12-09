@@ -212,8 +212,8 @@ def chat_with_docs(question: str, doc_id: str = None) -> Dict[str, Any]:
         return {
             "success": True,
             "answer_text": data.get("answer_text", "No answer generated"),
-            "figures": data.get("figures", []),
-            "tables": data.get("tables", []),
+            # "figures": data.get("figures", []),
+            # "tables": data.get("tables", []),
             "documents": data.get("documents", [])
         }
     except requests.exceptions.Timeout:

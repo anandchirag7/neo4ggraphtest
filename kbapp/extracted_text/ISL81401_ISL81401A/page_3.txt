@@ -1,0 +1,16 @@
+================================================================================
+--- PAGE METADATA ---
+Part Number: N/A
+Manufacturer: N/A
+================================================================================
+
+[ITEM LIST]
+The table below summarizes the component listed on this page.
+
+[TABLE: COMPONENT DETAILS]
+| Item                                            | Description                                                                                                                                                                                                                                                                                                                                 | Part Number(s) | Manufacturer's Name or Model | Date Purchase Ordered | Date Received | Price (USD) | Status |
+|-------------------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|----------------|------------------------------|-----------------------|--------------|-------------|--------|
+| CORNER WAVE BLEMMAC DIGITAL SENSOR COMPONENT 1.0/25,40 mm X 17.6 mm | Sensor with a rectangular shape measuring 10 mm × 25 mm and 40 mm × 17.6 mm. This sensor is suitable for detecting changes in light intensity and can be used in various applications such as automatic doors, parking meters, and traffic control systems. Rated for operation from –30 °C to +75 °C. | DS1104A‑K 12/19 | N/A                          | N/A                   | N/A          | N/A         | N/A    |
+
+[DIAGRAM INFERENCE]
+No diagram or graphical data is provided on this page. If a physical layout were present, it would likely show a rectangular sensor footprint corresponding to the dimensions listed (10 mm × 25 mm and 40 mm × 17.6 mm).

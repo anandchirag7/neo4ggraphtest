@@ -1,0 +1,27 @@
+================================================================================
+--- PAGE METADATA ---
+Part Number: Not provided
+Manufacturer: Not provided
+================================================================================
+
+[ELECTRICAL SPECIFICATIONS]
+- ESD Rating: 450 VDC
+- Hazard Rate: 12 VAC / 5 A UPS
+- Operating Voltage: 9 V DC
+- Relative Perimeter: 2 mm
+- Comment: “Absurdly large rising edge confirmation”
+
+[ELECTRICAL CHARACTERISTICS]
+- Input Options:
+  * +5 V DC
+  * –15 V DC
+- Pin 2 (Uncorrected) Potential Voltage: 500 VDC
+- Note: The phrase “SANITAZIONE DIPLOMA, UNICO POSSIBLE INPUT” appears repeatedly and seems to be a translation artifact rather than a technical parameter.
+
+[TABLE: PIN VOLTAGE CHARACTERISTICS]
+| Pin | Description | Potential Voltage |
+|-----|-------------|-------------------|
+| 2   | Uncorrected | 500 VDC           |
+
+[DIAGRAM INFERENCE]
+No diagrammatic information (pinout drawings, mechanical dimensions, or graph data) is present on this page.

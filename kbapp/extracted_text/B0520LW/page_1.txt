@@ -1,0 +1,29 @@
+================================================================================
+--- PAGE METADATA ---
+Part Number: 45128 (7398)  
+Manufacturer: WESTERN ELECTRICAL CONTRACTORS LTD.  
+================================================================================
+
+[DIAGRAM/DESCRIPTION]
+SDBA - v2.0  
+
+[WARRANTY INFORMATION]
+- Document Title: WESTERN ELECTRICAL CONTRACTORS LTD., WARRANTY INSURANCE POLICY  
+- Section: BASIS OF WARRANTY / WARRANTY DEDUCTIONS / RESTRICTIONS  
+
+[CERTIFICATE OF WARRANTY]
+- Product: SDBA - v2.0 ELECTRONICS GADGETS  
+- Model/Series: 45128 (7398)  
+- Serial Number: A060B2141877  
+
+[DIAGRAM INFERENCE]
+The page appears to contain a header block with the company name (“WESTERN ELECTRICAL CONTRACTORS LTD.”) followed by the title “WARRANTY INSURANCE POLICY.” Directly beneath, a subsection titled “BASIS OF WARRANTY/WARRANTY DEDUCTIONS/RESTRICTIONS” is likely presented as a bold or underlined heading.  
+Below this heading, a certificate block is shown, containing:
+- The phrase “CERTIFICATE OF WARRANTY FOR SDBA - v2.0 ELECTRONICS GADGETS 45128 (7398)”.
+- A line for the serial number, displayed as “Serial Number: A060B2141877”.
+
+Visually, the layout is probably a vertical stack:
+1. Company logo/name at the top.
+2. Policy title centered.
+3. Sub‑section heading for warranty terms.
+4. Certificate block with product identification and serial number, possibly in a boxed or highlighted area.

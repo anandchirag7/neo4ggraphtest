@@ -1,0 +1,134 @@
+FILENAME: 7m.pdf
+SOURCE DOCUMENT: datasheets\7m.pdf
+
+
+================================================================================
+--- PAGE 1 ---
+================================================================================
+
+================================================================================
+--- PAGE METADATA ---
+Part Number: 7 M (as indicated on the top of the page)
+Manufacturer: Texas Instruments (TI)
+================================================================================
+
+[OVERVIEW]
+The first page of the datasheet presents a typical TI component data sheet layout.  
+Key visual elements include:
+
+- Texas Instruments logo at the top‑left corner.  
+- The characters “7 M” positioned near the top, likely representing the part number or series designation.  
+- Black text on a white background providing technical specifications.  
+- A central table that lists pin assignments, descriptions, tolerances, electrical characteristics, and assembly/environmental information.  
+- A diagram placed in the right‑hand column (exact nature of the component is not identifiable from the description alone).
+
+[TABLE: SPECIFICATION SUMMARY]
+| Category                     | Parameter / Description                              |
+|------------------------------|-------------------------------------------------------|
+| Pin Assignments              | (Not legible – details omitted)                       |
+| Pin Descriptions             | (Not legible – details omitted)                       |
+| Tolerances                   | (Not legible – details omitted)                       |
+| Electrical Characteristics   | (Not legible – details omitted)                       |
+| Assembly / Environmental Info| (Not legible – details omitted)                       |
+
+*Note: The original table contains multiple rows covering the categories above. Specific values could not be extracted due to the small font size in the source image.*
+
+[DIAGRAM INFERENCE]
+- The diagram is located in the right‑hand column of the page.  
+- No explicit labels or legends are visible in the provided description, so the exact type of component (e.g., IC package, connector, sensor) cannot be determined.  
+- Based on typical TI datasheets, the diagram is likely a mechanical drawing or pin‑out illustration showing the physical layout of the component (package outline, pin numbers, and possibly dimensions).  
+- If the component is an integrated circuit, the diagram would normally display the package outline (e.g., SOIC, QFN, BGA) with pin numbers around the perimeter.  
+- If it is a discrete component (e.g., resistor, diode, sensor), the diagram would show the component silhouette with reference designators.
+
+*Recommendation:* Obtain a higher‑resolution scan or the full PDF to capture the detailed table entries and diagram labels for complete documentation.
+
+================================================================================
+--- PAGE 2 ---
+================================================================================
+
+================================================================================
+--- PAGE METADATA ---
+Part Number: TXV CRYSTAL 7xM
+Manufacturer: TE Connectivity
+================================================================================
+
+[INTRODUCTION]
+TXV Crystal is a titanium‑vane unit (TVU) component. This data sheet provides the technical specifications for the TXV Crystal series.
+
+[REFERENCE]
+For additional information, visit the product page:
+www.te.com/en/components/titanium-vane-unit-technical-specifications.html
+or contact TE Connectivity directly with your request.
+
+[DIAGRAM INFERENCE]
+No graphical data or pinout diagrams are included on this page.
+
+================================================================================
+--- PAGE 3 ---
+================================================================================
+
+================================================================================
+--- PAGE METADATA ---
+Part Number: TXYC MILLIT SCRYSTAL 7x7M
+Manufacturer: Not specified
+================================================================================
+
+[DESCRIPTION]
+TXYC MILLIT SCRYSTAL is a miniature crystal device with a compact 7 mm × 7 mm rectangular package. It is designed to generate an electrical signal in response to light or temperature variations.
+
+[PACKAGE]
+- Form factor: Rectangular with rounded corners  
+- Overall dimensions: 7 mm × 7 mm  
+- Crystal dimensions (inside the package): 2 mm × 1 mm × 0.5 mm  
+- Pin count: 8 pins  
+- Pin arrangement: Circular pattern surrounding the crystal
+
+[TABLE: DIMENSIONS]
+| Item                | Length (mm) | Width (mm) | Height (mm) |
+|---------------------|--------------|------------|-------------|
+| Package (overall)   | 7.0          | 7.0        | –           |
+| Crystal (inside)    | 2.0          | 1.0        | 0.5         |
+
+[RAW MATERIALS]
+- Silicon  
+- Gold  
+- Silver  
+- Additional metals (unspecified)  
+- Various chemicals used to form the crystal lattice that produces the electrical signal when exposed to light or temperature changes.
+
+[SAFETY DATA SHEET (SDS)]
+- Flash point: 1035 °F (557 °C)  
+- Fire point: 1125 °F (605 °C)  
+- Handling precautions:  
+  * Keep away from heat sources, sparks, and open flames.  
+  * Store in a cool, dry environment.  
+- Spillage response:  
+  * Use absorbent material such as sawdust or sand to contain and soak up the material.  
+  * Dispose of waste according to local regulations.  
+
+[NOTE]
+- This product is **not** intended for use in environments where temperatures exceed 1035 °F (557 °C).  
+- Avoid use in areas where flammable gases are present.
+
+[DIAGRAM INFERENCE]
+The device’s pinout consists of eight equally spaced pins forming a circle around the central crystal. Visualizing the layout: imagine a clock face with pins at roughly the 12, 1:30, 3, 4:30, 6, 7:30, 9, and 10:30 o’clock positions. The pins are likely numbered sequentially around the circle, providing electrical connections to the crystal’s electrodes. The rectangular package encloses this circular pin arrangement, with the crystal positioned centrally within the 2 mm × 1 mm × 0.5 mm area.
+
+================================================================================
+--- PAGE 4 ---
+================================================================================
+
+================================================================================
+--- PAGE METADATA ---
+Part Number: 
+Manufacturer: 
+================================================================================
+
+[SECTION: MOSFET ELECTRONICS]
+ADVANCED DIGITAL ANALOGUE TECHNOLOGY - SINGLE VOLUME ELECTRODE CONTROL
+
+[LIST: Advantages of analogue sine‑wave control in the single volume electrode]
+- High level of stability.
+- Low power consumption.
+
+[DIAGRAM INFERENCE]
+No diagram or graphical data provided on this page.

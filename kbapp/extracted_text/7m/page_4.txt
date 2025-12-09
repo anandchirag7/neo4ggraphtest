@@ -1,0 +1,15 @@
+================================================================================
+--- PAGE METADATA ---
+Part Number: 
+Manufacturer: 
+================================================================================
+
+[SECTION: MOSFET ELECTRONICS]
+ADVANCED DIGITAL ANALOGUE TECHNOLOGY - SINGLE VOLUME ELECTRODE CONTROL
+
+[LIST: Advantages of analogue sine‑wave control in the single volume electrode]
+- High level of stability.
+- Low power consumption.
+
+[DIAGRAM INFERENCE]
+No diagram or graphical data provided on this page.

@@ -86,3 +86,85 @@ async def ask(payload: dict):
 
     result = rag_answer(question)
     return JSONResponse(result)
+
+
+@app.post("/evaluate")
+async def evaluate_rag(payload: dict):
+    """
+    Evaluate a QA pair using Ragas.
+    Expects: { "question": "...", "ground_truth": "..." (optional) }
+    Returns: { "answer": "...", "contexts": [...], "metrics": {...} }
+    """
+    from evaluation.rag_eval import evaluate_response
+    
+    question = payload.get("question")
+    ground_truth = payload.get("ground_truth")
+    
+    if not question:
+        raise HTTPException(status_code=400, detail="Missing 'question'")
+        
+    # 1. Get RAG answer
+    rag_result = rag_answer(question)
+    answer = rag_result["answer_text"]
+    contexts = rag_result.get("contexts", [])
+    
+    # 2. Run Evaluation
+    try:
+        eval_results = evaluate_response(question, answer, contexts, ground_truth)
+        
+        # Convert Ragas EvaluationResult to dict (it doesn't have .items() directly in some versions)
+        # using dict() wrapper usually works for the Result object
+        # Try multiple ways to extract dict from EvaluationResult
+        results_dict = None
+        
+        # 1. Try casting to dict directly
+        try:
+            results_dict = dict(eval_results)
+        except Exception:
+            pass
+            
+        # 2. Try .scores attribute
+        if not isinstance(results_dict, dict):
+            try:
+                scores = getattr(eval_results, "scores", None)
+                if isinstance(scores, dict):
+                    results_dict = scores
+            except Exception:
+                pass
+                
+        # 3. Try .to_dict()
+        if not isinstance(results_dict, dict):
+            try:
+                if hasattr(eval_results, "to_dict"):
+                    results_dict = eval_results.to_dict()
+            except Exception:
+                pass
+
+        # 4. Final Fallback: String parsing (It looks like "{'k': v}")
+        if not isinstance(results_dict, dict):
+            try:
+                import ast
+                results_dict = ast.literal_eval(str(eval_results))
+            except Exception:
+                pass
+
+        metrics = {}
+        import math
+        # Ensure results_dict is actually a dict before iterating
+        if isinstance(results_dict, dict):
+            for k, v in results_dict.items():
+                if isinstance(v, float) and (math.isnan(v) or math.isinf(v)):
+                    metrics[k] = None
+                else:
+                    metrics[k] = v
+        else:
+            metrics = {"error": f"Could not parse return type: {type(eval_results)}", "raw": str(eval_results)}
+    except Exception as e:
+        print(f"Evaluation failed: {e}")
+        metrics = {"error": str(e)}
+        
+    return {
+        "answer": answer,
+        "contexts": contexts,
+        "metrics": metrics
+    }

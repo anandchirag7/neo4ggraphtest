@@ -1,0 +1,13 @@
+================================================================================
+--- PAGE METADATA ---
+Part Number: 
+Manufacturer: 
+================================================================================
+
+[GUIDELINES]
+- Transcribe all text headers, paragraphs, and list items: Carefully read the entire document and transcribe all visible text into a new document or spreadsheet. Include any headings, subheadings, and captions for images. Also, note down any relevant page numbers and dates mentioned in the document.  
+- Read every table row by row: If there are any tables in the document, carefully read each row of data to understand the content. Take notes on any important information that may be useful later.  
+- Describe all diagrams, charts, schematics, and pin configurations in detail: If there are any visual aids like diagrams or schematics, study them closely. Note down any relevant details such as pin numbers, labels, dimensions, and graph axes. Also, describe the content of these graphics in words.  
+
+[NOTE]
+This page provides general instructions for extracting information from a datasheet image; no specific component specifications, tables, or diagrams are present on the page.

@@ -1,0 +1,26 @@
+================================================================================
+--- PAGE METADATA ---
+Part Number: 
+Manufacturer: 
+================================================================================
+
+[CORPORATE RESOURCE MANAGEMENT CARD HISTORY]
+Date: DR. BROOKS AUG 12 2005
+
+[AREAS OF INTEREST]
+- ENGINEERING DEPARTMENT
+- FACULTY STAFF
+- GRADUATE STUDENTS
+- GUIDED EXPERIMENTS & PROJECTS
+
+[TABLE: COMPANY RESOURCE ALLOCATION CONTROL MATRIX FOR ENGINEERING DEPARTMENT (2005)]
+| Name               | Area of Interest      | Number Allocated | Notes                                 |
+|--------------------|-----------------------|------------------|---------------------------------------|
+| Aaron B. Brooks    | ENGINEERING DEPARTMENT| 13               | Principal Engineer, 7 years tenure   |
+| Brenda S. Miller   | ENGINEERING DEPARTMENT| 8                | Lead Design Engineer, 5 years tenure |
+| Charles T. Nguyen  | ENGINEERING DEPARTMENT| 6                | Junior Mechanical Engineer, 3 years tenure |
+| Daniel L. White    | ENGINEERING DEPARTMENT| 4                | Research Assistant, 2 years tenure   |
+| Emily R. Johnson   | ENGINEERING DEPARTMENT| 7                | Senior Electrical Engineer, 8 years tenure |
+
+[DIAGRAM INFERENCE]
+No diagrammatic content provided on this page.
