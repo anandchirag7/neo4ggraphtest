@@ -35,10 +35,10 @@ ENV/
 .idea/
 
 # Backend specific
-# backend/input_data/
-# backend/rag_chunks.json
-# backend/__pycache__/
-# backend/evaluation/evaluation_metrics.json
+backend/input_data/
+backend/rag_chunks.json
+backend/__pycache__/
+backend/evaluation/evaluation_metrics.json
 
 # Node/Frontend
 node_modules/

@@ -1,0 +1,29 @@
+# Backend Framework
+fastapi
+uvicorn
+python-multipart
+requests
+
+# Database Drivers
+neo4j
+psycopg2-binary
+
+# PDF & Text Processing
+pymupdf
+camelot-py[cv]
+pdf2image
+beautifulsoup4
+
+# Data Analysis
+pandas
+numpy
+
+# Frontend (Streamlit)
+streamlit>=1.28.0
+streamlit-agraph>=0.0.45
+pyvis>=0.3.2
+plotly>=5.17.0
+
+# Evaluation (RAG)
+ragas
+datasets
